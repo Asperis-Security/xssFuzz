@@ -21,6 +21,10 @@ Welcome to **Asperis Security's XSS Detection Tool**! This tool is designed to h
 - **🔐 Custom Headers Support**: Use custom headers for authenticated testing or advance tests.
 - **📊 Detailed Reporting**: Generates comprehensive reports for easy management.
 
+## 📚 References
+
+This tool was built with inspiration from the **[XSS Cheatsheet](https://portswigger.net/web-security/cross-site-scripting/cheat-sheet)** provided by PortSwigger. We highly recommend reviewing this resource for further understanding on XSS payloads.
+
 ---
 
 ## 🛠️ Installation
