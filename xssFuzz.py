@@ -5,14 +5,16 @@ import requests
 from colorama import Fore, init
 import warnings
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
-from urllib.parse import urlparse
+from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
 from optparse import OptionParser
 import re
 import time
+from pathlib import Path
 
 
 warnings.simplefilter('ignore', InsecureRequestWarning)
 init(autoreset=True)
+BASE_DIR = Path(__file__).resolve().parent
 
 
 def printBanner():
@@ -55,11 +57,15 @@ def readFile(filename,read=False):
         read= True: It will return  the data as string
         read=False: It will return the data as list
         '''
+        path = Path(filename)
+        if not path.is_absolute():
+                path = BASE_DIR / path
+
         if not read:
-            with open(filename,'r') as file:
+            with open(path,'r') as file:
                     return file.readlines()
             
-        with open(filename,'r') as file:
+        with open(path,'r') as file:
                     return file.read()
         
 
@@ -78,7 +84,7 @@ def sendRequest(url,headers=None,raw=None):
                     if headers:
                     #print(headers)
                     #print(url)
-                        response = requests.get(url,headers=headers,verify=verify)
+                        response = requests.get(url,headers=headers,verify=verify,timeout=15)
                         #print(response.status_code)
                         if response.status_code == 403:
                            print(Fore.RED + "[-] Request Denied!")
@@ -86,7 +92,7 @@ def sendRequest(url,headers=None,raw=None):
                                return response
                         return response.text
                     else:
-                        response = requests.get(url,verify=verify)
+                        response = requests.get(url,verify=verify,timeout=15)
                         #print(response.status_code)
                         if raw:
                                return response
@@ -98,6 +104,7 @@ def sendRequest(url,headers=None,raw=None):
                       count +=1
                       printV(Fore.GREEN + f"Error {e} Trying Again")
                       verify = False
+        return None
 
 def parseParam(str):
         '''
@@ -112,14 +119,27 @@ def replace(param_name,value,url):
     '''
     replace the parameter_name's content with the given value and return the url
     '''
-    #print(re.sub(f"{param_name}=([^&]+)",f"{param_name}={value}",url))
-    return re.sub(f"{param_name}=([^&]+)",f"{param_name}={value}",url)
+    parsed = urlparse(url)
+    query = parse_qsl(parsed.query, keep_blank_values=True)
+    if not query:
+        return url
+
+    replaced = False
+    updated_query = []
+    for key, existing_value in query:
+        if key == param_name:
+            updated_query.append((key, value))
+            replaced = True
+        else:
+            updated_query.append((key, existing_value))
+
+    if not replaced:
+        updated_query.append((param_name, value))
+
+    return urlunparse(parsed._replace(query=urlencode(updated_query, doseq=True)))
 
 def getParameters(url):
-        parsed_url = urlparse(url).query
-        regex_pattern = r"(?<=\?|\&)[^=&]+"
-        parameters = re.findall(regex_pattern, url)
-        return parameters
+        return [key for key, _ in parse_qsl(urlparse(url).query, keep_blank_values=True)]
 
 def testParam(parameters,danger_input,url,headers=None):
         '''
@@ -141,6 +161,8 @@ def testParam(parameters,danger_input,url,headers=None):
                         #print(final_url) #works
                         #print(headers) works
                         response = sendRequest(final_url,headers=headers)
+                        if response is None:
+                                continue
                         if danger_input in response:
                                 print(Fore.BLUE + f"[+] Parameter {param} not handling dangerous characters properly!")
                                 final_output['parameters'].append(param)
@@ -153,6 +175,8 @@ def testParam(parameters,danger_input,url,headers=None):
                 print(Fore.GREEN + f"[+] Testing Parameters:{parameters}")
                 final_url = replace(parameters,danger_input,url)
                 response = sendRequest(final_url,headers=headers)
+                if response is None:
+                        return final_output
                 if danger_input in response:
                         print(Fore.BLUE + f"[+] Parameter {parameters} not handling dangerous characters properly!")
                         final_output['parameters'].append(parameters)
@@ -171,6 +195,8 @@ def validateResponse(val,url,params,dataType,headers=None,verbose=None,returnUrl
         for param in params:
                 final_url =replace(param,new_val,url)
                 response = sendRequest(final_url,headers=headers)
+                if response is None:
+                        continue
                 if new_val in response or new_val in response.upper() or new_val in response.lower():
                         printV(Fore.BLUE + f"{dataType} is reflecting {val} in the parameter: {param} ",verbose=verbose)
                         if  "<" in val and ">" in val:
@@ -300,6 +326,8 @@ def staticTesting(payload,url,data,headers=None,validate=None):
                         final_url = replace(param,payload,url)
                         #print(final_url)
                         response = sendRequest(final_url,headers=headers)
+                        if response is None:
+                                continue
                         #with open('a.html','w') as html:
                         #       html.write(response)
                         if payload in response or payload in response.lower() or payload in response.upper():
@@ -324,6 +352,7 @@ def staticTesting(payload,url,data,headers=None,validate=None):
 
 def generatePayload(url,headers=None,parameter=None,validate=None,verbose=None,save_output=None,threads=None,limit=None,tag=None):
         output = detect_characters(url,parameter,headers=headers)
+        result = []
         #print(output)
         #print(output['url'])
         #tags = []
@@ -332,7 +361,6 @@ def generatePayload(url,headers=None,parameter=None,validate=None,verbose=None,s
             final_payloads = verifyPayload(detect_char_data=output,headers=headers,verbose=verbose,threads=threads,limit=limit,tag=tag)
             if final_payloads:
                     if validate:
-                            result = []
                             from validate import validate_js_alert
                             for i in final_payloads:
                                    if i:
@@ -367,6 +395,9 @@ def generatePayload(url,headers=None,parameter=None,validate=None,verbose=None,s
                     
 def initialTest(url,headers=None):
         response = sendRequest(url,headers,raw=True)
+        if response is None:
+               print(Fore.GREEN + "[-] Could not fetch target for CSP check")
+               return
         
         try:
                 out = check_csp_vulnerabilities(response.headers['Content-Security-Policy'])
@@ -376,51 +407,52 @@ def initialTest(url,headers=None):
         else:
                 for i in out:
                         print(Fore.RED + F"[+] {i}")
-        
 
-                       
-                        
-                
 
-printBanner()
+def convert_to_dict(header_string):
+       pairs = re.findall(r'([^,:\s]+):\s*([^,]+)', header_string)
+       return {key.strip(): value.strip() for key, value in pairs}
 
-parser = OptionParser()
-#parser.add_option('-r',dest='req',help='Enter request body',default=False)
-#parser.add_option('-d',dest='domain',help='Crawl domain & scan',default=False)
-parser.add_option('-u',dest='url',help='Enter url to scan',default=None)
-#parser.add_option('-f',dest='filename',help='Enter a txt file to scan',default=None)
-parser.add_option('-p',dest="payloads",help="Enter custom payload file")
-parser.add_option('--param',dest="parameter",help="Enter custom payload file")
-parser.add_option('--verbose',dest="verbose",help="For Detailed Output",action="store_true")
-parser.add_option('-H',dest='headers',help='Add custom headers',default=None)
-parser.add_option('-V',dest="validate",help="Validate XSS",default=None,action="store_true")
-parser.add_option('-o',dest="output",help="Enter filename to save output",default=None)
-parser.add_option('-t',dest="threads",help="Number Of Concurrent Requsts(Default: 5)",default=5)
-parser.add_option('--tag',dest="tag",help="Enter custom tag to test",default=None)
-parser.add_option('--limit',dest="limit",help="Limit the scan with the given number(Example: If limit is set to 4 then only first 4 tags and events will be used)",default=None)
-val,args = parser.parse_args()
 
-val.threads = int(val.threads)
-if val.headers:
-       def convert_to_dict(header_string):
-            # Use regular expression to find key-value pairs
-            pairs = re.findall(r'([^,:\s]+):\s*([^,]+)', header_string)
-            # Convert list of tuples into a dictionary
-            header_dict = {key.strip(): value.strip() for key, value in pairs}
-            return header_dict
+def build_parser():
+        parser = OptionParser()
+        #parser.add_option('-r',dest='req',help='Enter request body',default=False)
+        #parser.add_option('-d',dest='domain',help='Crawl domain & scan',default=False)
+        parser.add_option('-u',dest='url',help='Enter url to scan',default=None)
+        #parser.add_option('-f',dest='filename',help='Enter a txt file to scan',default=None)
+        parser.add_option('-p',dest="payloads",help="Enter custom payload file")
+        parser.add_option('--param',dest="parameter",help="Enter parameter(s) to test, comma separated for multiple")
+        parser.add_option('--verbose',dest="verbose",help="For Detailed Output",action="store_true")
+        parser.add_option('-H',dest='headers',help='Add custom headers',default=None)
+        parser.add_option('-V',dest="validate",help="Validate XSS",default=None,action="store_true")
+        parser.add_option('-o',dest="output",help="Enter filename to save output",default=None)
+        parser.add_option('-t',dest="threads",help="Number Of Concurrent Requests(Default: 5)",default=5)
+        parser.add_option('--tag',dest="tag",help="Enter custom tag to test",default=None)
+        parser.add_option('--limit',dest="limit",help="Limit the scan with the given number(Example: If limit is set to 4 then only first 4 tags and events will be used)",default=None)
+        return parser
+
+
+def main():
+    printBanner()
+    parser = build_parser()
+    val,args = parser.parse_args()
+
+    if not val.url:
+           parser.error("Target URL is required. Use -u <url>.")
+
+    val.threads = int(val.threads)
+    if val.threads < 1:
+           parser.error("Threads must be 1 or greater.")
+
+    if val.headers:
        val.headers= convert_to_dict(val.headers)
 
-
-if __name__ == "__main__":
-    #print(val.headers)
     print(Fore.GREEN + f"[+] Checking CSP")
     initialTest(val.url,val.headers)
     try:
         if val.payloads:
                 print(Fore.GREEN + "[+] Going with static testing!")
-                with open(val.payloads,'r') as file:
-                        static_payloads = file.readlines()
-                        #print(static_payloads)
+                static_payloads = readFile(val.payloads)
                 detectChars = detect_characters(val.url,val.parameter,val.headers)
                 myfunc_static = partial(staticTesting,headers=val.headers,validate=val.validate,url=val.url,data=detectChars)
                 with ThreadPoolExecutor(max_workers=val.threads) as executor:
@@ -438,6 +470,10 @@ if __name__ == "__main__":
             quit()
     except Exception as e:
            print(Fore.GREEN + f"[-] Error: {e}")
+
+
+if __name__ == "__main__":
+    main()
 
 #detect_characters(url="http://testphp.vulnweb.com/hpp/?pp=test")
 #getParameters(url="http://testphp.vulnweb.com/hpp/?pp=test&test=batman")
